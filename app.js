@@ -119,12 +119,12 @@
       (count ? '<p class="source">已收藏 '+count+' 道题；取消收藏后会从此处移除。</p>'+items.map(({q,s})=>card(q,s)).join('')+extra.map(({topic,item})=>topicCard(topic,item)).join('') :
         '<div class="panel"><p>还没有收藏的题目。进入小节后，点击题目右侧的“☆ 收藏”。</p></div>');
   }
-  function focusTags(keys) {
-    const names=(keys||[]).filter(k=>examFocus[k]).map(k=>'<span class="focus-chip">'+esc(examFocus[k].label)+'</span>').join('');
+  function focusTags(keys,notes) {
+    const names=(keys||[]).filter(k=>examFocus[k]).map(k=>'<span class="focus-chip">'+esc(examFocus[k].label+(notes&&notes[k]?' · '+notes[k]:''))+'</span>').join('');
     return names?'<div class="focus-list" aria-label="本题考试重点">'+names+'</div>':'';
   }
-  function detail(title,text,tags) {
-    return '<details><summary>'+esc(title)+'</summary><div class="answer math-block">'+focusTags(tags)+esc(text)+'</div></details>';
+  function detail(title,text,tags,notes) {
+    return '<details><summary>'+esc(title)+'</summary><div class="answer math-block">'+focusTags(tags,notes)+esc(text)+'</div></details>';
   }
   function topicsPage() {
     const counts={};
@@ -171,7 +171,7 @@
     return '<article class="question '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?'<span class="kind-label">'+esc(kindLabel)+'</span> ':'')+'<span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
       '<p class="source">知识对照：'+esc(worked.reference)+'</p>' +
-      detail('常规解答',worked.solution,classification.topics) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
+      detail('常规解答',worked.solution,classification.topics,classification.topicNotes) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
       (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : '') +
       '<p class="source">'+esc(worked.solutionSource)+'</p><p class="source">'+esc(worked.verification)+'</p></article>';
   }

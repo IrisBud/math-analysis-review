@@ -210,6 +210,11 @@ window.QUESTION_CLASSIFICATION = {
     "type": "judgement",
     "topics": []
   },
+  "2.2:exercise:7": {
+    "type": "calculation",
+    "topics": ["squeeze", "stolz"],
+    "topicNotes": {"squeeze":"第（1）—（3）问", "stolz":"第（2）问后续方法"}
+  },
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
