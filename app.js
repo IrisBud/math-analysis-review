@@ -102,7 +102,7 @@
     }).join('');
     const links=map.edges.filter(e=>e.cross && (e.from===selected.id || e.to===selected.id));
     return heading('知识思维导图','点击节点查看解释')+'<div class="panel mindmap-panel"><p>'+esc(map.description)+'</p>'+
-      '<div class="map-tools"><button class="btn" data-map-zoom="down" data-chapter="'+chapter+'" aria-label="缩小导图">−</button><span>缩放 '+Math.round(zoom*100)+'%</span><button class="btn" data-map-zoom="up" data-chapter="'+chapter+'" aria-label="放大导图">＋</button><span>实线：层级　虚线：知识联系</span></div>'+
+      '<div class="map-tools"><button class="btn" data-map-zoom="down" data-chapter="'+chapter+'" aria-label="缩小导图">−</button><span>缩放 '+Math.round(zoom*100)+'%</span><button class="btn" data-map-zoom="up" data-chapter="'+chapter+'" aria-label="放大导图">＋</button><span>图内可左右滚动；实线：层级，虚线：知识联系</span></div>'+
       '<div class="map-scroll" tabindex="0" aria-label="思维导图，可滚动查看"><div class="map-canvas" style="width:'+(1000*zoom)+'px;height:'+(430*zoom)+'px"><div class="map-stage" style="transform:scale('+zoom+')"><svg class="map-edges" viewBox="0 0 1000 430" aria-hidden="true">'+edges+'</svg>'+
       nodes.map(n=>'<button class="map-node" style="left:'+n.x+'px;top:'+n.y+'px" data-map-node="'+esc(n.id)+'" data-chapter="'+chapter+'" aria-pressed="'+(selected.id===n.id)+'">'+esc(n.label)+'</button>').join('')+'</div></div></div>'+
       '<div class="map-detail"><h3>'+esc(selected.label)+'</h3><p>'+esc(selected.explanation)+'</p><div class="math-block">'+esc(selected.formula)+'</div><p class="source">'+esc(selected.reference)+'</p>'+
@@ -223,6 +223,8 @@
     content.innerHTML=found?sectionPage(found):id==='stars'?starsPage():id==='topics'?topicsPage():id.startsWith('topic:')?topicPage(id.slice(6)):/^chapter[2345]$/.test(id)?chapterPage(Number(id.slice(-1))):home();
     if(!storageAvailable) content.insertAdjacentHTML('afterbegin','<div class="notice">当前浏览器无法保存复习标记，请检查本地存储设置。</div>');
     if(typeof renderMathInElement==='function') renderMathInElement(content,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],throwOnError:false});
+    const mapScroller=content.querySelector('.map-scroll');
+    if(mapScroller) mapScroller.scrollLeft=(mapScroller.scrollWidth-mapScroller.clientWidth)/2;
     if(pendingQuestion) {
       const target=document.getElementById(pendingQuestion); pendingQuestion=null;
       if(target) requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
