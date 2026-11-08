@@ -254,6 +254,14 @@ window.QUESTION_CLASSIFICATION = {
   "3.1:example:5": {"type":"proof", "topics":["ed"]},
   "3.1:example:6": {"type":"proof", "topics":["ed"]},
   "3.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"有限点极限小问"}},
+  "4.1:example:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"连续性的 ε–δ 定义"}},
+  "4.1:example:2": {"type":"classification", "topics":["discontinuity"], "topicNotes":{"discontinuity":"单侧连续性与间断"}},
+  "4.1:example:3": {"type":"proof", "topics":["discontinuity"], "topicNotes":{"discontinuity":"有理点处不连续"}},
+  "4.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"按定义证明连续"}},
+  "4.1:exercise:2": {"type":"classification", "topics":["discontinuity"]},
+  "4.1:exercise:3": {"type":"calculation", "topics":["discontinuity"], "topicNotes":{"discontinuity":"延拓可去间断点"}},
+  "4.1:exercise:6": {"type":"proof", "topics":["discontinuity"]},
+  "4.1:exercise:7": {"type":"proof", "topics":["discontinuity"]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
