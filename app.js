@@ -5,6 +5,9 @@
   const solutions = window.REVIEW_SOLUTIONS || {};
   const notes = window.REVIEW_NOTES || {};
   const guides = window.REVIEW_GUIDES || {};
+  const examFocus = window.EXAM_FOCUS || {};
+  const questionClasses = window.QUESTION_CLASSIFICATION || {};
+  const topicBank = window.REVIEW_TOPICS || {};
   const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const storageKey = 'math-analysis-review-marks-v1';
   const starStorageKey = 'math-analysis-review-stars-v1';
@@ -41,7 +44,8 @@
   }
   function navHtml(current) {
     let html = '<div class="nav-group"><button class="nav-button" data-go="home" ' + (current==='home'?'aria-current="page"':'') + '>复习总览</button>' +
-      '<button class="nav-button" data-go="stars" aria-label="星号收藏夹" ' + (current==='stars'?'aria-current="page"':'') + '>⭐</button></div>';
+      '<button class="nav-button" data-go="stars" aria-label="星号收藏夹" ' + (current==='stars'?'aria-current="page"':'') + '>⭐</button>' +
+      '<button class="nav-button" data-go="topics" ' + (current==='topics'?'aria-current="page"':'') + '>考试重点</button></div>';
     for (const chapter of [2,3,4,5]) {
       html += '<div class="nav-group"><div class="nav-title">第 ' + chapter + ' 章</div>';
       for (const s of inventory.sections.filter(x => x.chapter === chapter)) {
@@ -106,24 +110,68 @@
     for (const s of inventory.sections) for (const q of s.items) {
       if(stars[q.id]) items.push({q,s});
     }
+    const extra=[];
+    for (const topic of Object.values(topicBank)) for (const item of topic.items) {
+      if(stars['topic:'+topic.id+':'+item.number]) extra.push({topic,item});
+    }
+    const count=items.length+extra.length;
     return hero('⭐', '星号收藏夹：在题目上点“收藏”即可加入。收藏仅保存在当前浏览器。', '★') +
-      (items.length ? '<p class="source">已收藏 '+items.length+' 道题；取消收藏后会从此处移除。</p>'+items.map(({q,s})=>card(q,s)).join('') :
+      (count ? '<p class="source">已收藏 '+count+' 道题；取消收藏后会从此处移除。</p>'+items.map(({q,s})=>card(q,s)).join('')+extra.map(({topic,item})=>topicCard(topic,item)).join('') :
         '<div class="panel"><p>还没有收藏的题目。进入小节后，点击题目右侧的“☆ 收藏”。</p></div>');
   }
-  function detail(title,text) {
-    return '<details><summary>'+esc(title)+'</summary><div class="answer math-block">'+esc(text)+'</div></details>';
+  function focusTags(keys) {
+    const names=(keys||[]).filter(k=>examFocus[k]).map(k=>'<span class="focus-chip">'+esc(examFocus[k].label)+'</span>').join('');
+    return names?'<div class="focus-list" aria-label="本题考试重点">'+names+'</div>':'';
+  }
+  function detail(title,text,tags) {
+    return '<details><summary>'+esc(title)+'</summary><div class="answer math-block">'+focusTags(tags)+esc(text)+'</div></details>';
+  }
+  function topicsPage() {
+    const counts={};
+    for(const [id,c] of Object.entries(questionClasses)) {
+      if(!solutions[id]) continue;
+      for(const key of c.topics||[]) counts[key]=(counts[key]||0)+1;
+    }
+    return hero('考试重点', '按考点查看已整理的教材题与专项练习。统计仅反映目前已标注的大题，不能代表全范围覆盖。', '∑')+
+      '<div class="notice">第二至第五章还有大量原题待整理，尚不能以当前已标注数判断教材中是否少于五题；全范围核查后再补齐所需专题。</div>'+
+      '<div class="overview">'+Object.entries(examFocus).map(([key,v])=>'<button class="tile" data-go="topic:'+esc(key)+'"><strong>'+esc(v.label)+'</strong><small>'+esc(v.hint)+' · 已标注 '+(counts[key]||0)+' 道大题'+(topicBank[key]?' · 已有五题补充专题':'')+'</small></button>').join('')+'</div>';
+  }
+  function topicCard(topic,item) {
+    const id='topic:'+topic.id+':'+item.number;
+    return '<article class="question is-calculation" id="'+esc(id)+'"><div class="qhead"><div><div class="qnum">考试重点专题 · 自编 · 第 '+item.number+' 题</div><h3>'+esc(item.title)+'</h3><div class="meta"><span class="tag">计算与讨论</span></div></div><div class="controls">'+starButton(id)+'</div></div>'+
+      '<div class="statement math-block">'+esc(item.statement)+'</div><p class="source">知识对照：'+esc(topic.boundary)+'</p>'+
+      detail('常规解答',item.solution,[topic.id])+detail('考场书写版',item.exam)+detail('思路引导',item.guidance)+
+      '<p class="source">题目来源：自编；数学内容已首轮人工检查，仍待独立复核。</p></article>';
+  }
+  function topicPage(key) {
+    const info=examFocus[key];
+    if(!info) return topicsPage();
+    const related=[];
+    for(const s of inventory.sections) for(const q of s.items) {
+      if(solutions[q.id] && (questionClasses[q.id]?.topics||[]).includes(key)) related.push({q,s});
+    }
+    const topic=topicBank[key];
+    let html=hero(info.label,info.hint,'∑')+
+      '<div class="notice">当前仅统计已整理并标注的教材大题，尚未完成全范围核查；不要将未整理题目当作不存在。</div>';
+    if(topic) html+=heading('补充专题','五题自编，循序渐进')+'<p class="source">'+esc(topic.status)+' '+esc(topic.boundary)+'</p>'+topic.items.map(item=>topicCard(topic,item)).join('');
+    html+=heading('已标注的教材题','目前 '+related.length+' 道大题');
+    html+=related.length?related.map(({q,s})=>card(q,s)).join(''):'<div class="panel">该考点的教材题尚在逐项整理与标注。</div>';
+    return html;
   }
   function card(q,s) {
     const worked=solutions[q.id];
+    const classification=questionClasses[q.id] || {};
+    const kind=classification.type || (q.question_type==='judgement'?'judgement':'');
+    const kindLabel={proof:'证明题',calculation:'计算题',mixed:'计算与证明',judgement:'判断题',classification:'分类判断'}[kind] || '';
     const parts=q.numbered_parts.length?'编号小问：'+q.numbered_parts.join('、'):'未编号的题内要求待细核';
     const location='华师大第六版上册 · '+s.id+' · 印刷第 '+q.printed_page+' 页起 · PDF 第 '+q.pdf_page+' 页';
     if (!worked) {
       return '<article class="question pending" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+esc(parts)+(q.after_printed_divider?' · 原书分隔线后':'')+'</div><span class="tag pending-label">题面与题解待整理</span></div><div class="controls">'+starButton(q.id)+'</div></div><p class="source">'+esc(sourceText(q))+'</p></article>';
     }
-    return '<article class="question" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta"><span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
+    return '<article class="question '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?'<span class="kind-label">'+esc(kindLabel)+'</span> ':'')+'<span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
       '<p class="source">知识对照：'+esc(worked.reference)+'</p>' +
-      detail('常规解答',worked.solution) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
+      detail('常规解答',worked.solution,classification.topics) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
       (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : '') +
       '<p class="source">'+esc(worked.solutionSource)+'</p><p class="source">'+esc(worked.verification)+'</p></article>';
   }
@@ -149,7 +197,7 @@
     const id=decodeURIComponent(location.hash.slice(1)||'home');
     nav.innerHTML=navHtml(id);
     const found=inventory.sections.find(s=>s.id===id);
-    content.innerHTML=found?sectionPage(found):id==='stars'?starsPage():/^chapter[2345]$/.test(id)?chapterPage(Number(id.slice(-1))):home();
+    content.innerHTML=found?sectionPage(found):id==='stars'?starsPage():id==='topics'?topicsPage():id.startsWith('topic:')?topicPage(id.slice(6)):/^chapter[2345]$/.test(id)?chapterPage(Number(id.slice(-1))):home();
     if(!storageAvailable) content.insertAdjacentHTML('afterbegin','<div class="notice">当前浏览器无法保存复习标记，请检查本地存储设置。</div>');
     if(typeof renderMathInElement==='function') renderMathInElement(content,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],throwOnError:false});
   }
