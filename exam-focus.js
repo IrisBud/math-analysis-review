@@ -223,6 +223,15 @@ window.QUESTION_CLASSIFICATION = {
     "type": "proof",
     "topics": ["squeeze"]
   },
+  "2.3:example:1": {
+    "type": "proof",
+    "topics": ["monotone"]
+  },
+  "2.3:example:2": {
+    "type": "proof",
+    "topics": ["monotone", "squeeze"],
+    "topicNotes": {"squeeze":"补充方法"}
+  },
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
