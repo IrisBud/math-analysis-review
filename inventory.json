@@ -656,10 +656,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
           "answer_section": "2.2",
@@ -670,7 +670,8 @@
           "answer_pdf_pages": [
             25,
             25
-          ]
+          ],
+          "site_note": "和差反证、积商反例、答案错号对应及自编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:5",

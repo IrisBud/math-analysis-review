@@ -186,7 +186,7 @@
     }
   });
   window.addEventListener('hashchange',render);
-  fetch('inventory.json').then(r=>{if(!r.ok) throw Error('HTTP '+r.status); return r.json();})
+  fetch('inventory.json',{cache:'no-store'}).then(r=>{if(!r.ok) throw Error('HTTP '+r.status); return r.json();})
     .then(data=>{
       inventory=data;
       for (const [id,chapter,title,page] of directoryOnly) {
