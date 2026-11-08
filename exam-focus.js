@@ -264,7 +264,7 @@ window.QUESTION_CLASSIFICATION = {
   "4.1:example:3": {"type":"proof", "topics":["discontinuity"], "topicNotes":{"discontinuity":"有理点处不连续"}},
   "4.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"按定义证明连续"}},
   "4.1:exercise:2": {"type":"classification", "topics":["discontinuity"]},
-  "4.1:exercise:3": {"type":"calculation", "topics":["discontinuity"], "topicNotes":{"discontinuity":"延拓可去间断点"}},
+  "4.1:exercise:3": {"type":"calculation", "topics":["discontinuity","squeeze","equivalent"], "topicNotes":{"discontinuity":"延拓可去间断点", "squeeze":"第（3）问", "equivalent":"第（2）问补充方法"}},
   "4.1:exercise:6": {"type":"proof", "topics":["discontinuity"]},
   "4.1:exercise:7": {"type":"proof", "topics":["discontinuity"]},
   "4.1:exercise:9": {
