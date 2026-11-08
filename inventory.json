@@ -1009,10 +1009,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
           "answer_section": "2.3",
@@ -1023,7 +1023,8 @@
           "answer_pdf_pages": [
             28,
             28
-          ]
+          ],
+          "site_note": "三个小问、单调有界及陈教材二次递推练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:4",
@@ -1777,10 +1778,11 @@
           "pdf_page": 59,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "根式极限 ε–δ 证明、陈教材同类证明及改编习题已首轮整理。"
         },
         {
           "id": "3.1:example:7",
