@@ -215,6 +215,14 @@ window.QUESTION_CLASSIFICATION = {
     "topics": ["squeeze", "stolz"],
     "topicNotes": {"squeeze":"第（1）—（3）问", "stolz":"第（2）问后续方法"}
   },
+  "2.2:exercise:8": {
+    "type": "proof",
+    "topics": ["squeeze"]
+  },
+  "2.2:exercise:9": {
+    "type": "proof",
+    "topics": ["squeeze"]
+  },
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [

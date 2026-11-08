@@ -1,0 +1,2 @@
+window.REVIEW_SOLUTIONS['2.2:exercise:8'].variantSolution = "设 \\(r=\\min\\{a_1,\\ldots,a_m\\}>0\\)。由于至少有一项等于 \\(r^{-n}\\)，且每项都不超过 \\(r^{-n}\\)，所以\n\\[\nr^{-n}\\le a_1^{-n}+\\cdots+a_m^{-n}\\le mr^{-n}.\n\\]\n各数均为正，取 n 次根再取倒数时不等号方向反转，得到\n\\[\n\\frac r{\\sqrt[n]m}\n\\le\\left(a_1^{-n}+\\cdots+a_m^{-n}\\right)^{-1/n}\n\\le r.\n\\]\n由 \\(\\sqrt[n]m\\to1\\) 及商的极限法则，左端趋于 r，右端恒为 r。由迫敛性，原式趋于 \\(\\min\\{a_1,\\ldots,a_m\\}\\)。";
+
