@@ -10,7 +10,7 @@ window.REVIEW_TOPICS = {
         "title": "直接识别 1 的无穷次方型",
         "statement": "求 \\(\\displaystyle\\lim_{n\\to\\infty}(1+2/n)^n\\)。",
         "solution": "当 \\(n\\ge1\\) 时底数为正。设 \\(y_n=(1+2/n)^n\\)，利用 \\(\\ln(1+t)/t\\to1\\)，\n\\[\n\\ln y_n\n=n\\ln(1+2/n)\n=2\\frac{\\ln(1+2/n)}{2/n}\\longrightarrow2.\n\\]\n由指数函数的连续性，\\(y_n=e^{\\ln y_n}\\to\\boxed{e^2}\\)。",
-        "exam": "底数为正，且\n\\[\n\\ln y_n=2\\frac{\\ln(1+2/n)}{2/n}\\to2,\n\\quad y_n\\to e^2.\n\\]",
+        "exam": "设 \\(y_n=(1+2/n)^n\\)。底数为正，且\n\\[\n\\ln y_n=2\\frac{\\ln(1+2/n)}{2/n}\\to2,\n\\quad y_n\\to e^2.\n\\]",
         "guidance": "先识别底数趋于 1、指数趋于无穷，再让对数中的增量出现为 2/n。不能把底数与指数分别取极限后直接得到 1。"
       },
       {
@@ -18,7 +18,7 @@ window.REVIEW_TOPICS = {
         "title": "分式底数强制凑 1",
         "statement": "求 \\(\\displaystyle\\lim_{x\\to0}\\left(\\frac{1+3x}{1+x}\\right)^{1/x}\\)。",
         "solution": "在 0 的充分小邻域中 \\(1+x\\) 和 \\(1+3x\\) 均为正。先凑出 1：\n\\[\n\\frac{1+3x}{1+x}=1+\\frac{2x}{1+x}.\n\\]\n记 \\(u=2x/(1+x)\\)，则 \\(u\\to0\\)，且 \\(u/x\\to2\\)。设原式为 \\(y\\)，对 \\(x\\ne0\\) 取对数：\n\\[\n\\ln y=\\frac{\\ln(1+u)}u\\frac ux\\longrightarrow1\\cdot2=2.\n\\]\n这里 \\(x\\ne0\\) 且充分接近 0 时 \\(u\\ne0\\)。由指数函数连续性，所求为 \\(\\boxed{e^2}\\)。",
-        "exam": "近 0 时底数为正。令 \\(u=2x/(1+x)\\)，则 \\((1+3x)/(1+x)=1+u\\)，且 \\(u/x\\to2\\)。故\n\\[\n\\ln y=\\frac{\\ln(1+u)}u\\frac ux\\to2,\\qquad y\\to e^2.\n\\]",
+        "exam": "近 0 时底数为正。设 \\(y=((1+3x)/(1+x))^{1/x}\\)，令 \\(u=2x/(1+x)\\)，则 \\((1+3x)/(1+x)=1+u\\)，且 \\(u/x\\to2\\)。故\n\\[\n\\ln y=\\frac{\\ln(1+u)}u\\frac ux\\to2,\\qquad y\\to e^2.\n\\]",
         "guidance": "分式本身不易看出 1 的无穷次方型，先算“分式减 1”，得到真正趋于 0 的增量。取对数前还要确认底数在所讨论邻域内为正。"
       },
       {
@@ -27,7 +27,7 @@ window.REVIEW_TOPICS = {
         "statement": "求 \\(\\displaystyle\\lim_{x\\to0}(\\cos x)^{1/x^2}\\)。",
         "solution": "当 x 充分接近 0 时 \\(\\cos x>0\\)。设 \\(y=(\\cos x)^{1/x^2}\\)，则\n\\[\n\\ln y=\\frac{\\ln(\\cos x)}{\\cos x-1}\n       \\frac{\\cos x-1}{x^2}.\n\\]\n在足够小的去心邻域中 \\(\\cos x-1\\ne0\\)，第一因子由 \\(\\ln(1+t)/t\\to1\\) 趋于 1。又因为\n\\[\n\\frac{\\cos x-1}{x^2}\n=-\\frac12\\left(\\frac{\\sin(x/2)}{x/2}\\right)^2\\longrightarrow-\\frac12,\n\\]\n所以 \\(\\ln y\\to-1/2\\)，由指数函数连续性得 \\(\\boxed{e^{-1/2}}\\)。",
         "exam": "近 0 时 \\(\\cos x>0\\)，令 \\(y=(\\cos x)^{1/x^2}\\)。由 \\(\\ln(1+t)/t\\to1\\) 及半角公式，\n\\[\n\\ln y=\\frac{\\ln(\\cos x)}{\\cos x-1}\\frac{\\cos x-1}{x^2}\n\\to1\\cdot\\left(-\\frac12\\right).\n\\]\n故 \\(y\\to e^{-1/2}\\)。",
-        "guidance": "这里底数与 1 的差是二次量，不能只看 (cos x\to1)。用半角公式将它和已学的 (sin t/t\to1) 联系起来，再计算对数的极限。"
+        "guidance": "这里底数与 1 的差是二次量，不能只看 \\(\\cos x\\to1\\)。用半角公式将它和已学的 \\(\\sin t/t\\to1\\) 联系起来，再计算对数的极限。"
       },
       {
         "number": 4,
@@ -41,8 +41,8 @@ window.REVIEW_TOPICS = {
         "number": 5,
         "title": "含参数：双侧极限与底数条件",
         "statement": "设 \\(a,b\\in\\mathbb R\\)。讨论 \\(\\displaystyle\\lim_{x\\to0}(1+ax+bx^2)^{1/x^2}\\) 是否存在；存在时求极限。",
-        "solution": "对固定的 a、b，当 x 充分接近 0 时 \\(1+ax+bx^2>0\\)，故实数幂有定义。设 \\(u=ax+bx^2\\)。\n\n若 \\(a=0,b=0\\)，原式恒为 1。若 \\(a=0,b\\ne0\\)，对 \\(x\\ne0\\)，\n\\[\n\\ln y=\\frac{\\ln(1+bx^2)}{bx^2}\\,b\\longrightarrow b,\n\\]\n因此 \\(y\\to e^b\\)。\n\n若 \\(a\\ne0\\)，取足够小的去心邻域使 \\(a+bx\\ne0\\)，则 \\(u=x(a+bx)\\ne0\\)，并且\n\\[\n\\ln y=\\frac{\\ln(1+u)}u\\left(\\frac a x+b\\right).\n\\]\n第一因子趋于 1，而 \\(a/x+b\\) 在 \\(x\\to0^+\\) 与 \\(x\\to0^-\\) 时分别趋于符号相反的无穷。因此原式一侧趋于 0，另一侧趋于 \\(+\\infty\\)，双侧有限极限不存在。\n\n所以恰当 \\(a=0\\) 时双侧极限存在，其值为 \\(\\boxed{e^b}\\)；\\(a\\ne0\\) 时不存在。",
-        "exam": "近 0 时底数为正。若 \\(a=0\\)，由 \\(\\ln(1+t)/t\\to1\\)，得 \\(\\ln y\\to b\\)，故 \\(y\\to e^b\\)（\\(b=0\\) 时原式恒为 1）。若 \\(a\\ne0\\)，\\(\\ln y=[\\ln(1+u)/u](a/x+b)\\)，其中 \\(u=ax+bx^2\\)，第一因子趋于 1，而第二因子在两侧趋于符号相反的无穷，故双侧极限不存在。",
+        "solution": "对固定的 a、b，当 x 充分接近 0 时 \\(1+ax+bx^2>0\\)，故实数幂有定义。设 \\(y=(1+ax+bx^2)^{1/x^2}\\)、\\(u=ax+bx^2\\)。\n\n若 \\(a=0,b=0\\)，原式恒为 1。若 \\(a=0,b\\ne0\\)，对 \\(x\\ne0\\)，\n\\[\n\\ln y=\\frac{\\ln(1+bx^2)}{bx^2}\\,b\\longrightarrow b,\n\\]\n因此 \\(y\\to e^b\\)。\n\n若 \\(a\\ne0\\)，取足够小的去心邻域使 \\(a+bx\\ne0\\)，则 \\(u=x(a+bx)\\ne0\\)，并且\n\\[\n\\ln y=\\frac{\\ln(1+u)}u\\left(\\frac a x+b\\right).\n\\]\n第一因子趋于 1，而 \\(a/x+b\\) 在 \\(x\\to0^+\\) 与 \\(x\\to0^-\\) 时分别趋于符号相反的无穷。因此原式一侧趋于 0，另一侧趋于 \\(+\\infty\\)，双侧有限极限不存在。\n\n所以当且仅当 \\(a=0\\) 时双侧有限极限存在，其值为 \\(\\boxed{e^b}\\)；\\(a\\ne0\\) 时不存在。",
+        "exam": "近 0 时底数为正，设 \\(y=(1+ax+bx^2)^{1/x^2}\\)。若 \\(a=0\\)，由 \\(\\ln(1+t)/t\\to1\\)，得 \\(\\ln y\\to b\\)，故 \\(y\\to e^b\\)（\\(b=0\\) 时原式恒为 1）。若 \\(a\\ne0\\)，\\(\\ln y=[\\ln(1+u)/u](a/x+b)\\)，其中 \\(u=ax+bx^2\\)，第一因子趋于 1，而第二因子在两侧趋于符号相反的无穷，故双侧极限不存在。",
         "guidance": "分类的关键是线性项是否消失。指数为 (1/x^2)，如果底数的增量仍有 (ax)，取对数后会留下 (a/x)，其左右两侧行为不同；只有 (a=0) 才由二次项产生有限对数极限。"
       }
     ]
