@@ -74,9 +74,9 @@
     const complete = Object.keys(solutions).length;
     const chapterNames = {'2':'数列极限','3':'函数极限','4':'函数的连续性','5':'导数和微分'};
     return hero('从定义出发，稳稳复习', '按华师大教材章节学习；先尝试，再展开题解与思路。', '∑') +
-      '<div class="notice"><strong>制作中：</strong>范围已扩展到第二章至第五章。已清点的 2.1—4.1 部分包含 ' + ex + ' 道编号例题、' + qs + ' 道习题及总练习大题；目前共 ' + complete + ' 道题完成首轮整理。第四章其余部分及第五章题数待逐页清点，未整理题目不能视为已有题解。</div>' +
+      '<div class="notice"><strong>制作中：</strong>第二章至第五章首轮清单包含 ' + ex + ' 道编号例题、' + qs + ' 道习题及总练习大题；目前共 ' + complete + ' 道题完成首轮整理。清单、未编号要求和答案对应仍待复核，未整理题目不能视为已有题解。</div>' +
       heading('按章节开始','教材印刷页与 PDF 页分别标注') +
-      '<div class="overview">' + [2,3,4,5].map(n => '<button class="tile" data-go="chapter' + n + '"><strong>第 ' + n + ' 章 · ' + chapterNames[n] + '</strong><small>' + (n>=4?'目录已核对，题目清单继续整理':'包括本章各节与总练习题') + '</small></button>').join('') + '</div>' +
+      '<div class="overview">' + [2,3,4,5].map(n => '<button class="tile" data-go="chapter' + n + '"><strong>第 ' + n + ' 章 · ' + chapterNames[n] + '</strong><small>包括本章各节与总练习题</small></button>').join('') + '</div>' +
       heading('使用说明') + '<div class="panel"><p>题目按例题、课后习题和章末总练习排列。已整理的题目可分别展开常规解答、考场书写版、思路引导与举一反三。</p><p>复习标记、星号收藏与小节复习状态保存在当前浏览器，不同浏览器、网址和设备不会自动同步。章节导图与其余题解正在制作。</p></div>';
   }
   function chapterPage(chapter) {
@@ -123,7 +123,7 @@
     return '<article class="question" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta"><span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
       '<p class="source">知识对照：'+esc(worked.reference)+'</p>' +
-      detail('常规解答',worked.solution) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
+      detail('常规解答',worked.solution) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
       (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : '') +
       '<p class="source">'+esc(worked.solutionSource)+'</p><p class="source">'+esc(worked.verification)+'</p></article>';
   }
