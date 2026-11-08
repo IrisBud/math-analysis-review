@@ -1,0 +1,3809 @@
+{
+  "title": "华东师范大学数学分析第六版上册 2.1 至 4.1 范围清单",
+  "status": "首轮逐页清点，题目与未编号小问、星号、答案对照仍须逐条复核",
+  "source": "华东师范大学数学分析第六版上册",
+  "pdf_offset": 13,
+  "counting": "大题按书上编号；小问数仅计印刷编号小问，未编号的多项要求尚需逐条拆分，不可视为完整覆盖。",
+  "answer_source": "文件名标注第五版的教材习题详解上册；缺封面，实际版本尚未独立确认",
+  "sections": [
+    {
+      "id": "2.1",
+      "chapter": 2,
+      "title": "数列极限概念",
+      "printed_pages": [
+        22,
+        27
+      ],
+      "pdf_pages": [
+        35,
+        40
+      ],
+      "numbered_examples": 9,
+      "exercise_questions": 10,
+      "explicit_exercise_parts": 24,
+      "items": [
+        {
+          "id": "2.1:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 22,
+          "pdf_page": 35,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "引入性例题与补充定义证明、陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 23,
+          "pdf_page": 36,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 23,
+          "pdf_page": 36,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 24,
+          "pdf_page": 37,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "几何数列定义证明和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 24,
+          "pdf_page": 37,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "正数 n 次根分情况证明和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:6",
+          "kind": "example",
+          "number": 6,
+          "printed_page": 24,
+          "pdf_page": 37,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "阶乘比值证明和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:7",
+          "kind": "example",
+          "number": 7,
+          "printed_page": 25,
+          "pdf_page": 38,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "两类发散证明及陈教材正文改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:8",
+          "kind": "example",
+          "number": 8,
+          "printed_page": 25,
+          "pdf_page": 38,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "交错数列充要条件及陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:example:9",
+          "kind": "example",
+          "number": 9,
+          "printed_page": 26,
+          "pdf_page": 39,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "有限项变化及陈教材正文改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 26,
+          "pdf_page": 39,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            126,
+            126
+          ],
+          "answer_pdf_pages": [
+            19,
+            19
+          ],
+          "site_note": "题面、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            126,
+            127
+          ],
+          "answer_pdf_pages": [
+            19,
+            20
+          ],
+          "site_note": "五个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            127,
+            127
+          ],
+          "answer_pdf_pages": [
+            20,
+            20
+          ],
+          "site_note": "七个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            127,
+            127
+          ],
+          "answer_pdf_pages": [
+            20,
+            20
+          ],
+          "site_note": "常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            127,
+            128
+          ],
+          "answer_pdf_pages": [
+            20,
+            21
+          ],
+          "site_note": "两个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            128,
+            128
+          ],
+          "answer_pdf_pages": [
+            21,
+            21
+          ],
+          "site_note": "定理证明、应用和陈教材改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            128,
+            128
+          ],
+          "answer_pdf_pages": [
+            21,
+            21
+          ],
+          "site_note": "四个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            128,
+            128
+          ],
+          "answer_pdf_pages": [
+            21,
+            21
+          ],
+          "site_note": "正向与逆向命题、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            128,
+            129
+          ],
+          "answer_pdf_pages": [
+            21,
+            22
+          ],
+          "reference_note": "参考答案(1)将任意 ε > 0 误印为 ε < 0；应改正并保留差异说明。",
+          "site_note": "三个小问、参考答案误印、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.1:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 27,
+          "pdf_page": 40,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 10,
+          "answer_section": "2.1",
+          "answer_printed_pages": [
+            129,
+            129
+          ],
+          "answer_pdf_pages": [
+            22,
+            22
+          ],
+          "site_note": "双向证明、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        }
+      ]
+    },
+    {
+      "id": "2.2",
+      "chapter": 2,
+      "title": "收敛数列的性质",
+      "printed_pages": [
+        28,
+        34
+      ],
+      "pdf_pages": [
+        41,
+        47
+      ],
+      "numbered_examples": 6,
+      "exercise_questions": 9,
+      "explicit_exercise_parts": 23,
+      "items": [
+        {
+          "id": "2.2:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 29,
+          "pdf_page": 42,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "根式极限的分情况证明和陈教材改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 30,
+          "pdf_page": 43,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "二项式估计及夹逼证明和陈教材推广练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 30,
+          "pdf_page": 43,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "根号阶乘的定义证明和陈教材改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 31,
+          "pdf_page": 44,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "多项式商极限和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 31,
+          "pdf_page": 44,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "参数分类极限和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:example:6",
+          "kind": "example",
+          "number": 6,
+          "printed_page": 32,
+          "pdf_page": 45,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "根式有理化极限和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            129,
+            130
+          ],
+          "answer_pdf_pages": [
+            22,
+            23
+          ],
+          "site_note": "六个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            130,
+            130
+          ],
+          "answer_pdf_pages": [
+            23,
+            23
+          ],
+          "site_note": "答案错号对应、常规解、考场版、思路和陈教材改编练习已首轮整理并人工核查。"
+        },
+        {
+          "id": "2.2:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            130,
+            132
+          ],
+          "answer_pdf_pages": [
+            23,
+            25
+          ]
+        },
+        {
+          "id": "2.2:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            132,
+            132
+          ],
+          "answer_pdf_pages": [
+            25,
+            25
+          ]
+        },
+        {
+          "id": "2.2:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            132,
+            132
+          ],
+          "answer_pdf_pages": [
+            25,
+            25
+          ]
+        },
+        {
+          "id": "2.2:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            132,
+            133
+          ],
+          "answer_pdf_pages": [
+            25,
+            26
+          ]
+        },
+        {
+          "id": "2.2:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 33,
+          "pdf_page": 46,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            133,
+            133
+          ],
+          "answer_pdf_pages": [
+            26,
+            26
+          ]
+        },
+        {
+          "id": "2.2:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 34,
+          "pdf_page": 47,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            133,
+            134
+          ],
+          "answer_pdf_pages": [
+            26,
+            27
+          ]
+        },
+        {
+          "id": "2.2:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 34,
+          "pdf_page": 47,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 10,
+          "answer_section": "2.2",
+          "answer_printed_pages": [
+            134,
+            134
+          ],
+          "answer_pdf_pages": [
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.3",
+      "chapter": 2,
+      "title": "数列极限存在的条件",
+      "printed_pages": [
+        34,
+        40
+      ],
+      "pdf_pages": [
+        47,
+        53
+      ],
+      "numbered_examples": 7,
+      "exercise_questions": 12,
+      "explicit_exercise_parts": 14,
+      "items": [
+        {
+          "id": "2.3:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 34,
+          "pdf_page": 47,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 35,
+          "pdf_page": 48,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 35,
+          "pdf_page": 48,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 36,
+          "pdf_page": 49,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 36,
+          "pdf_page": 49,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:6",
+          "kind": "example",
+          "number": 6,
+          "printed_page": 37,
+          "pdf_page": 50,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:example:7",
+          "kind": "example",
+          "number": 7,
+          "printed_page": 38,
+          "pdf_page": 51,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "2.3:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            134,
+            134
+          ],
+          "answer_pdf_pages": [
+            27,
+            27
+          ]
+        },
+        {
+          "id": "2.3:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            134,
+            135
+          ],
+          "answer_pdf_pages": [
+            27,
+            28
+          ]
+        },
+        {
+          "id": "2.3:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            135,
+            135
+          ],
+          "answer_pdf_pages": [
+            28,
+            28
+          ]
+        },
+        {
+          "id": "2.3:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            136,
+            136
+          ],
+          "answer_pdf_pages": [
+            29,
+            29
+          ]
+        },
+        {
+          "id": "2.3:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            136,
+            136
+          ],
+          "answer_pdf_pages": [
+            29,
+            29
+          ]
+        },
+        {
+          "id": "2.3:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            136,
+            137
+          ],
+          "answer_pdf_pages": [
+            29,
+            30
+          ]
+        },
+        {
+          "id": "2.3:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            137,
+            137
+          ],
+          "answer_pdf_pages": [
+            30,
+            30
+          ]
+        },
+        {
+          "id": "2.3:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 39,
+          "pdf_page": 52,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            137,
+            137
+          ],
+          "answer_pdf_pages": [
+            30,
+            30
+          ]
+        },
+        {
+          "id": "2.3:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            137,
+            138
+          ],
+          "answer_pdf_pages": [
+            30,
+            31
+          ]
+        },
+        {
+          "id": "2.3:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 10,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            138,
+            138
+          ],
+          "answer_pdf_pages": [
+            31,
+            31
+          ]
+        },
+        {
+          "id": "2.3:exercise:11",
+          "kind": "exercise",
+          "number": 11,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 11,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            138,
+            138
+          ],
+          "answer_pdf_pages": [
+            31,
+            31
+          ]
+        },
+        {
+          "id": "2.3:exercise:12",
+          "kind": "exercise",
+          "number": 12,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 12,
+          "answer_section": "2.3",
+          "answer_printed_pages": [
+            138,
+            139
+          ],
+          "answer_pdf_pages": [
+            31,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.total",
+      "chapter": 2,
+      "title": "第二章总练习题",
+      "printed_pages": [
+        40,
+        42
+      ],
+      "pdf_pages": [
+        53,
+        55
+      ],
+      "numbered_examples": 0,
+      "exercise_questions": 14,
+      "explicit_exercise_parts": 25,
+      "items": [
+        {
+          "id": "2.total:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            139,
+            139
+          ],
+          "answer_pdf_pages": [
+            32,
+            32
+          ]
+        },
+        {
+          "id": "2.total:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            139,
+            140
+          ],
+          "answer_pdf_pages": [
+            32,
+            33
+          ]
+        },
+        {
+          "id": "2.total:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 40,
+          "pdf_page": 53,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "本组未见完全对应，须继续查找或独立解答",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "not_found",
+          "reference_note": "答案资料第二章总练习未见此 Stolz 定理题；第六版题须独立解答。"
+        },
+        {
+          "id": "2.total:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "partial",
+          "answer_question_number": 3,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            140,
+            141
+          ],
+          "answer_pdf_pages": [
+            33,
+            34
+          ],
+          "reference_note": "答案资料第3题只讨论有限极限，且未要求使用 Stolz 定理；第六版另有正负无穷并要求用 Stolz。",
+          "cross_section_reference": "另见答案资料第三章总练习第9题，印刷页162–163 / PDF第55–56页，覆盖正无穷的平均值，但并非题目指定的Stolz证明。"
+        },
+        {
+          "id": "2.total:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "partial",
+          "answer_question_number": 4,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            141,
+            142
+          ],
+          "answer_pdf_pages": [
+            34,
+            35
+          ],
+          "reference_note": "答案资料第4题与第六版第5题的(1)–(8)对应；第六版新增(9)，需另解。",
+          "cross_section_reference": "另见答案资料第三章总练习第10题(2)，印刷页163 / PDF第56页，对应第六版第(9)小问。"
+        },
+        {
+          "id": "2.total:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            142,
+            142
+          ],
+          "answer_pdf_pages": [
+            35,
+            35
+          ]
+        },
+        {
+          "id": "2.total:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "相关题，题面有差异，须说明改编",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "adapted",
+          "answer_question_number": 6,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            142,
+            142
+          ],
+          "answer_pdf_pages": [
+            35,
+            35
+          ],
+          "reference_note": "答案资料第6题的 A_n 末项为 |a_n-a_{n-1}|，第六版末项为 |a_{n+1}-a_n|；重新编号后相关，不能标为题面完全相同。"
+        },
+        {
+          "id": "2.total:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            142,
+            142
+          ],
+          "answer_pdf_pages": [
+            35,
+            35
+          ]
+        },
+        {
+          "id": "2.total:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            142,
+            143
+          ],
+          "answer_pdf_pages": [
+            35,
+            36
+          ]
+        },
+        {
+          "id": "2.total:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 41,
+          "pdf_page": 54,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            143,
+            143
+          ],
+          "answer_pdf_pages": [
+            36,
+            36
+          ]
+        },
+        {
+          "id": "2.total:exercise:11",
+          "kind": "exercise",
+          "number": 11,
+          "printed_page": 42,
+          "pdf_page": 55,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 10,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            143,
+            143
+          ],
+          "answer_pdf_pages": [
+            36,
+            36
+          ]
+        },
+        {
+          "id": "2.total:exercise:12",
+          "kind": "exercise",
+          "number": 12,
+          "printed_page": 42,
+          "pdf_page": 55,
+          "numbered_parts": [
+            "i",
+            "ii",
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "partial",
+          "answer_question_number": 7,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            162,
+            162
+          ],
+          "answer_pdf_pages": [
+            55,
+            55
+          ],
+          "reference_note": "答案资料第二章总练习未见本题；需组合第三章总练习第7、8题的结果。",
+          "cross_section_reference": "在答案资料第三章总练习第7、8题找到对应条件与两个极限，印刷页162 / PDF第55页；本章总练习中未见。"
+        },
+        {
+          "id": "2.total:exercise:13",
+          "kind": "exercise",
+          "number": 13,
+          "printed_page": 42,
+          "pdf_page": 55,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 11,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            144,
+            144
+          ],
+          "answer_pdf_pages": [
+            37,
+            37
+          ]
+        },
+        {
+          "id": "2.total:exercise:14",
+          "kind": "exercise",
+          "number": 14,
+          "printed_page": 42,
+          "pdf_page": 55,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 12,
+          "answer_section": "2.total",
+          "answer_printed_pages": [
+            144,
+            144
+          ],
+          "answer_pdf_pages": [
+            37,
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.1",
+      "chapter": 3,
+      "title": "函数极限概念",
+      "printed_pages": [
+        43,
+        48
+      ],
+      "pdf_pages": [
+        56,
+        61
+      ],
+      "numbered_examples": 7,
+      "exercise_questions": 8,
+      "explicit_exercise_parts": 8,
+      "items": [
+        {
+          "id": "3.1:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 44,
+          "pdf_page": 57,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 44,
+          "pdf_page": 57,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 45,
+          "pdf_page": 58,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 45,
+          "pdf_page": 58,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 45,
+          "pdf_page": 58,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:6",
+          "kind": "example",
+          "number": 6,
+          "printed_page": 46,
+          "pdf_page": 59,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:example:7",
+          "kind": "example",
+          "number": 7,
+          "printed_page": 47,
+          "pdf_page": 60,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.1:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            144,
+            145
+          ],
+          "answer_pdf_pages": [
+            37,
+            38
+          ]
+        },
+        {
+          "id": "3.1:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            145,
+            145
+          ],
+          "answer_pdf_pages": [
+            38,
+            38
+          ]
+        },
+        {
+          "id": "3.1:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            145,
+            145
+          ],
+          "answer_pdf_pages": [
+            38,
+            38
+          ]
+        },
+        {
+          "id": "3.1:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            145,
+            145
+          ],
+          "answer_pdf_pages": [
+            38,
+            38
+          ]
+        },
+        {
+          "id": "3.1:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            145,
+            146
+          ],
+          "answer_pdf_pages": [
+            38,
+            39
+          ]
+        },
+        {
+          "id": "3.1:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            146,
+            146
+          ],
+          "answer_pdf_pages": [
+            39,
+            39
+          ]
+        },
+        {
+          "id": "3.1:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            146,
+            146
+          ],
+          "answer_pdf_pages": [
+            39,
+            39
+          ]
+        },
+        {
+          "id": "3.1:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 48,
+          "pdf_page": 61,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "3.1",
+          "answer_printed_pages": [
+            146,
+            147
+          ],
+          "answer_pdf_pages": [
+            39,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "chapter": 3,
+      "title": "函数极限的性质",
+      "printed_pages": [
+        48,
+        52
+      ],
+      "pdf_pages": [
+        61,
+        65
+      ],
+      "numbered_examples": 4,
+      "exercise_questions": 10,
+      "explicit_exercise_parts": 22,
+      "items": [
+        {
+          "id": "3.2:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 50,
+          "pdf_page": 63,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.2:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 50,
+          "pdf_page": 63,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.2:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 50,
+          "pdf_page": 63,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.2:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 51,
+          "pdf_page": 64,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.2:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 51,
+          "pdf_page": 64,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            147,
+            147
+          ],
+          "answer_pdf_pages": [
+            40,
+            40
+          ]
+        },
+        {
+          "id": "3.2:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 51,
+          "pdf_page": 64,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            147,
+            148
+          ],
+          "answer_pdf_pages": [
+            40,
+            41
+          ]
+        },
+        {
+          "id": "3.2:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 51,
+          "pdf_page": 64,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            148,
+            149
+          ],
+          "answer_pdf_pages": [
+            41,
+            42
+          ]
+        },
+        {
+          "id": "3.2:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "相关题，题面有差异，须说明改编",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "adapted",
+          "answer_question_number": 4,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            149,
+            149
+          ],
+          "answer_pdf_pages": [
+            42,
+            42
+          ],
+          "reference_note": "答案资料以 a_0、b_0 标记首项系数；第六版使用 a_m、b_n，需作符号对应。"
+        },
+        {
+          "id": "3.2:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            149,
+            149
+          ],
+          "answer_pdf_pages": [
+            42,
+            42
+          ]
+        },
+        {
+          "id": "3.2:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            149,
+            149
+          ],
+          "answer_pdf_pages": [
+            42,
+            42
+          ]
+        },
+        {
+          "id": "3.2:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            149,
+            149
+          ],
+          "answer_pdf_pages": [
+            42,
+            42
+          ]
+        },
+        {
+          "id": "3.2:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            150,
+            150
+          ],
+          "answer_pdf_pages": [
+            43,
+            43
+          ]
+        },
+        {
+          "id": "3.2:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "3.2",
+          "answer_printed_pages": [
+            150,
+            150
+          ],
+          "answer_pdf_pages": [
+            43,
+            43
+          ]
+        },
+        {
+          "id": "3.2:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 52,
+          "pdf_page": 65,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "partial",
+          "answer_question_number": 5,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            161,
+            161
+          ],
+          "answer_pdf_pages": [
+            54,
+            54
+          ],
+          "reference_note": "答案资料习题3.2未见此题；第三章总练习第5题（印刷页161，PDF第54页）的复合极限条件可作相关参考。"
+        }
+      ]
+    },
+    {
+      "id": "3.3",
+      "chapter": 3,
+      "title": "函数极限存在的条件",
+      "printed_pages": [
+        52,
+        55
+      ],
+      "pdf_pages": [
+        65,
+        68
+      ],
+      "numbered_examples": 1,
+      "exercise_questions": 8,
+      "explicit_exercise_parts": 2,
+      "items": [
+        {
+          "id": "3.3:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 53,
+          "pdf_page": 66,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.3:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            150,
+            151
+          ],
+          "answer_pdf_pages": [
+            43,
+            44
+          ]
+        },
+        {
+          "id": "3.3:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            151,
+            151
+          ],
+          "answer_pdf_pages": [
+            44,
+            44
+          ]
+        },
+        {
+          "id": "3.3:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            151,
+            151
+          ],
+          "answer_pdf_pages": [
+            44,
+            44
+          ]
+        },
+        {
+          "id": "3.3:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            151,
+            151
+          ],
+          "answer_pdf_pages": [
+            44,
+            44
+          ]
+        },
+        {
+          "id": "3.3:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            151,
+            152
+          ],
+          "answer_pdf_pages": [
+            44,
+            45
+          ]
+        },
+        {
+          "id": "3.3:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            152,
+            152
+          ],
+          "answer_pdf_pages": [
+            45,
+            45
+          ]
+        },
+        {
+          "id": "3.3:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            152,
+            152
+          ],
+          "answer_pdf_pages": [
+            45,
+            45
+          ]
+        },
+        {
+          "id": "3.3:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 55,
+          "pdf_page": 68,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "相关题，题面有差异，须说明改编",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "adapted",
+          "answer_question_number": 8,
+          "answer_section": "3.3",
+          "answer_printed_pages": [
+            152,
+            152
+          ],
+          "answer_pdf_pages": [
+            45,
+            45
+          ],
+          "reference_note": "第六版为定理3.10，答案资料对应的同一单侧归结原理编号为定理3.9。"
+        }
+      ]
+    },
+    {
+      "id": "3.4",
+      "chapter": 3,
+      "title": "两个重要的极限",
+      "printed_pages": [
+        55,
+        58
+      ],
+      "pdf_pages": [
+        68,
+        71
+      ],
+      "numbered_examples": 5,
+      "exercise_questions": 4,
+      "explicit_exercise_parts": 18,
+      "items": [
+        {
+          "id": "3.4:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 56,
+          "pdf_page": 69,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.4:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 56,
+          "pdf_page": 69,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.4:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 57,
+          "pdf_page": 70,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.4:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 57,
+          "pdf_page": 70,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.4:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 57,
+          "pdf_page": 70,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.4:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 58,
+          "pdf_page": 71,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.4",
+          "answer_printed_pages": [
+            152,
+            153
+          ],
+          "answer_pdf_pages": [
+            45,
+            46
+          ]
+        },
+        {
+          "id": "3.4:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 58,
+          "pdf_page": 71,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "3.4",
+          "answer_printed_pages": [
+            154,
+            154
+          ],
+          "answer_pdf_pages": [
+            47,
+            47
+          ]
+        },
+        {
+          "id": "3.4:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 58,
+          "pdf_page": 71,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "3.4",
+          "answer_printed_pages": [
+            154,
+            154
+          ],
+          "answer_pdf_pages": [
+            47,
+            47
+          ]
+        },
+        {
+          "id": "3.4:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 58,
+          "pdf_page": 71,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "3.4",
+          "answer_printed_pages": [
+            154,
+            155
+          ],
+          "answer_pdf_pages": [
+            47,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.5",
+      "chapter": 3,
+      "title": "无穷小量与无穷大量",
+      "printed_pages": [
+        59,
+        66
+      ],
+      "pdf_pages": [
+        72,
+        79
+      ],
+      "numbered_examples": 6,
+      "exercise_questions": 10,
+      "explicit_exercise_parts": 19,
+      "items": [
+        {
+          "id": "3.5:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 61,
+          "pdf_page": 74,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 61,
+          "pdf_page": 74,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 62,
+          "pdf_page": 75,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:example:4",
+          "kind": "example",
+          "number": 4,
+          "printed_page": 62,
+          "pdf_page": 75,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:example:5",
+          "kind": "example",
+          "number": 5,
+          "printed_page": 63,
+          "pdf_page": 76,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:example:6",
+          "kind": "example",
+          "number": 6,
+          "printed_page": 65,
+          "pdf_page": 78,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "3.5:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 65,
+          "pdf_page": 78,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            155,
+            156
+          ],
+          "answer_pdf_pages": [
+            48,
+            49
+          ]
+        },
+        {
+          "id": "3.5:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 65,
+          "pdf_page": 78,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "相关题，题面有差异，须说明改编",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "adapted",
+          "answer_question_number": 2,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            156,
+            156
+          ],
+          "answer_pdf_pages": [
+            49,
+            49
+          ],
+          "reference_note": "第六版引用定理3.13，答案资料对应定理编号3.12；题目表达式相同。"
+        },
+        {
+          "id": "3.5:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 65,
+          "pdf_page": 78,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "相关题，题面有差异，须说明改编",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "adapted",
+          "answer_question_number": 3,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            156,
+            156
+          ],
+          "answer_pdf_pages": [
+            49,
+            49
+          ],
+          "reference_note": "第六版要求证明定理3.14，答案资料将同一倒数关系称为定理3.13。"
+        },
+        {
+          "id": "3.5:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            157,
+            157
+          ],
+          "answer_pdf_pages": [
+            50,
+            50
+          ]
+        },
+        {
+          "id": "3.5:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            157,
+            158
+          ],
+          "answer_pdf_pages": [
+            50,
+            51
+          ]
+        },
+        {
+          "id": "3.5:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            158,
+            158
+          ],
+          "answer_pdf_pages": [
+            51,
+            51
+          ]
+        },
+        {
+          "id": "3.5:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            158,
+            158
+          ],
+          "answer_pdf_pages": [
+            51,
+            51
+          ]
+        },
+        {
+          "id": "3.5:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            158,
+            158
+          ],
+          "answer_pdf_pages": [
+            51,
+            51
+          ]
+        },
+        {
+          "id": "3.5:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            159,
+            159
+          ],
+          "answer_pdf_pages": [
+            52,
+            52
+          ]
+        },
+        {
+          "id": "3.5:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 10,
+          "answer_section": "3.5",
+          "answer_printed_pages": [
+            159,
+            159
+          ],
+          "answer_pdf_pages": [
+            52,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.total",
+      "chapter": 3,
+      "title": "第三章总练习题",
+      "printed_pages": [
+        66,
+        67
+      ],
+      "pdf_pages": [
+        79,
+        80
+      ],
+      "numbered_examples": 0,
+      "exercise_questions": 10,
+      "explicit_exercise_parts": 15,
+      "items": [
+        {
+          "id": "3.total:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            159,
+            160
+          ],
+          "answer_pdf_pages": [
+            52,
+            53
+          ]
+        },
+        {
+          "id": "3.total:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            160,
+            161
+          ],
+          "answer_pdf_pages": [
+            53,
+            54
+          ]
+        },
+        {
+          "id": "3.total:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            161,
+            161
+          ],
+          "answer_pdf_pages": [
+            54,
+            54
+          ]
+        },
+        {
+          "id": "3.total:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 66,
+          "pdf_page": 79,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            161,
+            161
+          ],
+          "answer_pdf_pages": [
+            54,
+            54
+          ]
+        },
+        {
+          "id": "3.total:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            161,
+            161
+          ],
+          "answer_pdf_pages": [
+            54,
+            54
+          ]
+        },
+        {
+          "id": "3.total:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            161,
+            161
+          ],
+          "answer_pdf_pages": [
+            54,
+            54
+          ]
+        },
+        {
+          "id": "3.total:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 11,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            163,
+            163
+          ],
+          "answer_pdf_pages": [
+            56,
+            56
+          ]
+        },
+        {
+          "id": "3.total:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 12,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            163,
+            163
+          ],
+          "answer_pdf_pages": [
+            56,
+            56
+          ]
+        },
+        {
+          "id": "3.total:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 13,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            163,
+            164
+          ],
+          "answer_pdf_pages": [
+            56,
+            57
+          ]
+        },
+        {
+          "id": "3.total:exercise:10",
+          "kind": "exercise",
+          "number": 10,
+          "printed_page": 67,
+          "pdf_page": 80,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 14,
+          "answer_section": "3.total",
+          "answer_printed_pages": [
+            164,
+            164
+          ],
+          "answer_pdf_pages": [
+            57,
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.1",
+      "chapter": 4,
+      "title": "连续性概念",
+      "printed_pages": [
+        68,
+        72
+      ],
+      "pdf_pages": [
+        81,
+        85
+      ],
+      "numbered_examples": 3,
+      "exercise_questions": 9,
+      "explicit_exercise_parts": 16,
+      "items": [
+        {
+          "id": "4.1:example:1",
+          "kind": "example",
+          "number": 1,
+          "printed_page": 69,
+          "pdf_page": 82,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "4.1:example:2",
+          "kind": "example",
+          "number": 2,
+          "printed_page": 69,
+          "pdf_page": 82,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "4.1:example:3",
+          "kind": "example",
+          "number": 3,
+          "printed_page": 71,
+          "pdf_page": 84,
+          "numbered_parts": [],
+          "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核"
+        },
+        {
+          "id": "4.1:exercise:1",
+          "kind": "exercise",
+          "number": 1,
+          "printed_page": 71,
+          "pdf_page": 84,
+          "numbered_parts": [
+            "1",
+            "2"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            164,
+            164
+          ],
+          "answer_pdf_pages": [
+            57,
+            57
+          ]
+        },
+        {
+          "id": "4.1:exercise:2",
+          "kind": "exercise",
+          "number": 2,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            164,
+            165
+          ],
+          "answer_pdf_pages": [
+            57,
+            58
+          ]
+        },
+        {
+          "id": "4.1:exercise:3",
+          "kind": "exercise",
+          "number": 3,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3"
+          ],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            165,
+            166
+          ],
+          "answer_pdf_pages": [
+            58,
+            59
+          ]
+        },
+        {
+          "id": "4.1:exercise:4",
+          "kind": "exercise",
+          "number": 4,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            166,
+            166
+          ],
+          "answer_pdf_pages": [
+            59,
+            59
+          ]
+        },
+        {
+          "id": "4.1:exercise:5",
+          "kind": "exercise",
+          "number": 5,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [],
+          "after_printed_divider": false,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 5,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            166,
+            166
+          ],
+          "answer_pdf_pages": [
+            59,
+            59
+          ]
+        },
+        {
+          "id": "4.1:exercise:6",
+          "kind": "exercise",
+          "number": 6,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 6,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            166,
+            166
+          ],
+          "answer_pdf_pages": [
+            59,
+            59
+          ]
+        },
+        {
+          "id": "4.1:exercise:7",
+          "kind": "exercise",
+          "number": 7,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 7,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            166,
+            167
+          ],
+          "answer_pdf_pages": [
+            59,
+            60
+          ]
+        },
+        {
+          "id": "4.1:exercise:8",
+          "kind": "exercise",
+          "number": 8,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "待录入",
+          "solution": "待整理",
+          "review": "未核验",
+          "implicit_demands": "待复核",
+          "answer_match_type": "exact",
+          "answer_question_number": 8,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            167,
+            167
+          ],
+          "answer_pdf_pages": [
+            60,
+            60
+          ]
+        },
+        {
+          "id": "4.1:exercise:9",
+          "kind": "exercise",
+          "number": 9,
+          "printed_page": 72,
+          "pdf_page": 85,
+          "numbered_parts": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "after_printed_divider": true,
+          "star": "未发现明确星号；仍需复核原题",
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 9,
+          "answer_section": "4.1",
+          "answer_printed_pages": [
+            167,
+            167
+          ],
+          "answer_pdf_pages": [
+            60,
+            60
+          ],
+          "reference_note": "答案资料(1)、(3)给出的分式在指定间断点无定义，违反题目“定义在[0,1]上”；须补定义或另行构造并证明。",
+          "site_note": "四个小问、参考答案定义域差异和陈教材练习已首轮整理并人工核查。"
+        }
+      ]
+    }
+  ]
+}
