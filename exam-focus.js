@@ -235,6 +235,7 @@ window.QUESTION_CLASSIFICATION = {
   "2.3:example:3": {"type":"proof", "topics":["squeeze"]},
   "2.3:example:4": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:1": {"type":"calculation", "topics":["oneinf"], "topicNotes":{"oneinf":"五个小问"}},
+  "2.3:exercise:2": {"type":"judgement", "topics":[]},
   "2.3:exercise:3": {"type":"mixed", "topics":["monotone"], "topicNotes":{"monotone":"第（1）、（2）问"}},
   "2.3:exercise:6": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:8": {"type":"proof", "topics":["monotone"]},
