@@ -232,6 +232,11 @@ window.QUESTION_CLASSIFICATION = {
     "topics": ["monotone", "squeeze"],
     "topicNotes": {"squeeze":"补充方法"}
   },
+  "3.1:example:3": {"type":"proof", "topics":["ed"]},
+  "3.1:example:4": {"type":"proof", "topics":["ed"]},
+  "3.1:example:5": {"type":"proof", "topics":["ed"]},
+  "3.1:example:6": {"type":"proof", "topics":["ed"]},
+  "3.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"有限点极限小问"}},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [

@@ -1732,10 +1732,11 @@
           "pdf_page": 58,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "ε–δ 定义证明、陈教材对应例题及习题已首轮整理。"
         },
         {
           "id": "3.1:example:4",

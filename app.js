@@ -8,6 +8,7 @@
   const examFocus = window.EXAM_FOCUS || {};
   const questionClasses = window.QUESTION_CLASSIFICATION || {};
   const topicBank = window.REVIEW_TOPICS || {};
+  const mindmaps = window.REVIEW_MINDMAPS || {};
   const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const storageKey = 'math-analysis-review-marks-v1';
   const starStorageKey = 'math-analysis-review-stars-v1';
@@ -16,6 +17,8 @@
   let marks = {};
   let stars = {};
   let reviewedSections = {};
+  const mapSelection = {}, mapZoom = {};
+  let pendingQuestion = null;
   const directoryOnly = [
     ['4.2',4,'连续函数的性质',73],['4.3',4,'初等函数的连续性',82],
     ['5.1',5,'导数的概念',87],['5.2',5,'求导法则',94],
@@ -87,8 +90,24 @@
     const sections = inventory.sections.filter(s=>s.chapter===chapter);
     const name = {2:'数列极限',3:'函数极限',4:'函数的连续性',5:'导数和微分'}[chapter];
     return hero('第 ' + chapter + ' 章 · ' + name, '按小节与章末总练习查找题目。', String(chapter)) +
-      '<div class="notice">章节思维导图尚未完成；题目与解答正在逐项整理。</div>' +
+      (mindmaps[chapter] ? mapHtml(chapter) : '<div class="notice">本章思维导图尚未完成；题目与解答正在逐项整理。</div>') +
       heading('小节与题目') + '<div class="overview">' + sections.map(s=>'<button class="tile" data-go="'+esc(s.id)+'"><strong>'+esc(s.id.endsWith('.total')?s.title:s.id+' '+s.title)+'</strong><small>'+(s.pending_inventory?'印刷第 '+s.printed_pages[0]+' 页起 · 例题、习题清单待逐页核对':'编号例题 '+s.numbered_examples+' · 习题大题 '+s.exercise_questions+' · 印刷页 '+s.printed_pages.join('—'))+'</small></button>').join('') + '</div>';
+  }
+  function mapHtml(chapter) {
+    const map=mindmaps[chapter], nodes=map.nodes, byId=Object.fromEntries(nodes.map(n=>[n.id,n]));
+    const selected=byId[mapSelection[chapter]] || nodes[0], zoom=mapZoom[chapter] || 1;
+    const edges=map.edges.map(e=>{
+      const a=byId[e.from], b=byId[e.to];
+      return '<line x1="'+(a.x+75)+'" y1="'+(a.y+28)+'" x2="'+(b.x+75)+'" y2="'+(b.y+28)+'" class="'+(e.cross?'cross':'branch')+'" />';
+    }).join('');
+    const links=map.edges.filter(e=>e.cross && (e.from===selected.id || e.to===selected.id));
+    return heading('知识思维导图','点击节点查看解释')+'<div class="panel mindmap-panel"><p>'+esc(map.description)+'</p>'+
+      '<div class="map-tools"><button class="btn" data-map-zoom="down" data-chapter="'+chapter+'" aria-label="缩小导图">−</button><span>缩放 '+Math.round(zoom*100)+'%</span><button class="btn" data-map-zoom="up" data-chapter="'+chapter+'" aria-label="放大导图">＋</button><span>实线：层级　虚线：知识联系</span></div>'+
+      '<div class="map-scroll" tabindex="0" aria-label="思维导图，可滚动查看"><div class="map-canvas" style="width:'+(1000*zoom)+'px;height:'+(430*zoom)+'px"><div class="map-stage" style="transform:scale('+zoom+')"><svg class="map-edges" viewBox="0 0 1000 430" aria-hidden="true">'+edges+'</svg>'+
+      nodes.map(n=>'<button class="map-node" style="left:'+n.x+'px;top:'+n.y+'px" data-map-node="'+esc(n.id)+'" data-chapter="'+chapter+'" aria-pressed="'+(selected.id===n.id)+'">'+esc(n.label)+'</button>').join('')+'</div></div></div>'+
+      '<div class="map-detail"><h3>'+esc(selected.label)+'</h3><p>'+esc(selected.explanation)+'</p><div class="math-block">'+esc(selected.formula)+'</div><p class="source">'+esc(selected.reference)+'</p>'+
+      (links.length?'<p><strong>与其他知识的联系</strong></p><ul>'+links.map(e=>'<li><strong>'+esc(byId[e.from].label)+' → '+esc(byId[e.to].label)+'：</strong> '+esc(e.text)+'</li>').join('')+'</ul>':'')+
+      '<button class="btn" data-map-question="'+esc(selected.question)+'">查看相关题目</button></div></div>';
   }
   function sourceText(q) {
     let text = q.reference_match || '参考答案待对照';
@@ -127,14 +146,18 @@
     return '<details><summary>'+esc(title)+'</summary><div class="answer math-block">'+focusTags(tags,notes)+esc(text)+'</div></details>';
   }
   function topicsPage() {
-    const counts={};
+    const counts={}, doneCounts={};
+    const knownIds=new Set(inventory.sections.flatMap(s=>s.items.map(q=>q.id)));
     for(const [id,c] of Object.entries(questionClasses)) {
-      if(!solutions[id]) continue;
-      for(const key of c.topics||[]) counts[key]=(counts[key]||0)+1;
+      if(!knownIds.has(id)) continue;
+      for(const key of c.topics||[]) {
+        counts[key]=(counts[key]||0)+1;
+        if(solutions[id]) doneCounts[key]=(doneCounts[key]||0)+1;
+      }
     }
-    return hero('考试重点', '按考点查看已整理的教材题与专项练习。统计仅反映目前已标注的大题，不能代表全范围覆盖。', '∑')+
-      '<div class="notice">第二至第五章还有大量原题待整理，尚不能以当前已标注数判断教材中是否少于五题；全范围核查后再补齐所需专题。</div>'+
-      '<div class="overview">'+Object.entries(examFocus).map(([key,v])=>'<button class="tile" data-go="topic:'+esc(key)+'"><strong>'+esc(v.label)+'</strong><small>'+esc(v.hint)+' · 已标注 '+(counts[key]||0)+' 道大题'+(topicBank[key]?' · 已有五题补充专题':'')+'</small></button>').join('')+'</div>';
+    return hero('考试重点', '按考点查看已核对的教材题与专项练习；题解整理状态单独显示。', '∑')+
+      '<div class="notice">统计含已核对考点但题解待整理的大题；尚未检查的原题没有计入。各考点的全范围覆盖情况仍需逐题核查。</div>'+
+      '<div class="overview">'+Object.entries(examFocus).map(([key,v])=>'<button class="tile" data-go="topic:'+esc(key)+'"><strong>'+esc(v.label)+'</strong><small>'+esc(v.hint)+' · 已标注 '+(counts[key]||0)+' 道大题，其中 '+(doneCounts[key]||0)+' 道已首轮整理'+(topicBank[key]?' · 已有五题补充专题':'')+'</small></button>').join('')+'</div>';
   }
   function topicCard(topic,item) {
     const id='topic:'+topic.id+':'+item.number;
@@ -148,11 +171,11 @@
     if(!info) return topicsPage();
     const related=[];
     for(const s of inventory.sections) for(const q of s.items) {
-      if(solutions[q.id] && (questionClasses[q.id]?.topics||[]).includes(key)) related.push({q,s});
+      if((questionClasses[q.id]?.topics||[]).includes(key)) related.push({q,s});
     }
     const topic=topicBank[key];
     let html=hero(info.label,info.hint,'∑')+
-      '<div class="notice">当前仅统计已整理并标注的教材大题，尚未完成全范围核查；不要将未整理题目当作不存在。</div>';
+      '<div class="notice">这里包含已核对考点、但题解仍待整理的教材大题；全范围尚未核查完成。</div>';
     if(topic) html+=heading('补充专题','五题自编，循序渐进')+'<p class="source">'+esc(topic.status)+' '+esc(topic.boundary)+'</p>'+topic.items.map(item=>topicCard(topic,item)).join('');
     html+=heading('已标注的教材题','目前 '+related.length+' 道大题');
     html+=related.length?related.map(({q,s})=>card(q,s)).join(''):'<div class="panel">该考点的教材题尚在逐项整理与标注。</div>';
@@ -166,7 +189,7 @@
     const parts=q.numbered_parts.length?'编号小问：'+q.numbered_parts.join('、'):'未编号的题内要求待细核';
     const location='华师大第六版上册 · '+s.id+' · 印刷第 '+q.printed_page+' 页起 · PDF 第 '+q.pdf_page+' 页';
     if (!worked) {
-      return '<article class="question pending" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+esc(parts)+(q.after_printed_divider?' · 原书分隔线后':'')+'</div><span class="tag pending-label">题面与题解待整理</span></div><div class="controls">'+starButton(q.id)+'</div></div><p class="source">'+esc(sourceText(q))+'</p></article>';
+      return '<article class="question pending '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?esc(kindLabel)+' · ':'')+esc(parts)+(q.after_printed_divider?' · 原书分隔线后':'')+'</div><span class="tag pending-label">题面与题解待整理</span></div><div class="controls">'+starButton(q.id)+'</div></div>'+focusTags(classification.topics,classification.topicNotes)+'<p class="source">'+esc(sourceText(q))+'</p></article>';
     }
     return '<article class="question '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?'<span class="kind-label">'+esc(kindLabel)+'</span> ':'')+'<span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
@@ -200,10 +223,23 @@
     content.innerHTML=found?sectionPage(found):id==='stars'?starsPage():id==='topics'?topicsPage():id.startsWith('topic:')?topicPage(id.slice(6)):/^chapter[2345]$/.test(id)?chapterPage(Number(id.slice(-1))):home();
     if(!storageAvailable) content.insertAdjacentHTML('afterbegin','<div class="notice">当前浏览器无法保存复习标记，请检查本地存储设置。</div>');
     if(typeof renderMathInElement==='function') renderMathInElement(content,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],throwOnError:false});
+    if(pendingQuestion) {
+      const target=document.getElementById(pendingQuestion); pendingQuestion=null;
+      if(target) requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));
+    }
   }
   document.addEventListener('click', event => {
     const button=event.target.closest('button');
     if(!button) return;
+    if(button.dataset.mapNode || button.dataset.mapZoom) {
+      const chapter=button.dataset.chapter, scroller=content.querySelector('.map-scroll');
+      const left=scroller?.scrollLeft || 0, top=scroller?.scrollTop || 0;
+      if(button.dataset.mapNode) mapSelection[chapter]=button.dataset.mapNode;
+      else mapZoom[chapter]=Math.min(1.5,Math.max(.75,(mapZoom[chapter]||1)+(button.dataset.mapZoom==='up'?.25:-.25)));
+      render();
+      const next=content.querySelector('.map-scroll'); if(next) {next.scrollLeft=left;next.scrollTop=top;}
+    }
+    if(button.dataset.mapQuestion) {pendingQuestion=button.dataset.mapQuestion;go(pendingQuestion.split(':')[0]);}
     if(button.dataset.go) go(button.dataset.go);
     if(button.dataset.star) {
       const id=button.dataset.star;
