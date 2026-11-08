@@ -232,6 +232,12 @@ window.QUESTION_CLASSIFICATION = {
     "topics": ["monotone", "squeeze"],
     "topicNotes": {"squeeze":"补充方法"}
   },
+  "2.3:example:3": {"type":"proof", "topics":["squeeze"]},
+  "2.3:example:4": {"type":"proof", "topics":["monotone"]},
+  "2.3:exercise:1": {"type":"calculation", "topics":["oneinf"], "topicNotes":{"oneinf":"五个小问"}},
+  "2.3:exercise:3": {"type":"mixed", "topics":["monotone"], "topicNotes":{"monotone":"第（1）、（2）问"}},
+  "2.3:exercise:6": {"type":"proof", "topics":["monotone"]},
+  "2.3:exercise:8": {"type":"proof", "topics":["monotone"]},
   "3.1:example:3": {"type":"proof", "topics":["ed"]},
   "3.1:example:4": {"type":"proof", "topics":["ed"]},
   "3.1:example:5": {"type":"proof", "topics":["ed"]},
