@@ -3141,10 +3141,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
           "answer_section": "3.5",
@@ -3155,7 +3155,8 @@
           "answer_pdf_pages": [
             50,
             51
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:6",
@@ -3171,10 +3172,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
           "answer_section": "3.5",
@@ -3185,7 +3186,8 @@
           "answer_pdf_pages": [
             51,
             51
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:7",
@@ -3197,10 +3199,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
           "answer_section": "3.5",
@@ -3211,7 +3213,8 @@
           "answer_pdf_pages": [
             51,
             51
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:8",
@@ -3223,10 +3226,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
           "answer_section": "3.5",
@@ -3237,7 +3240,8 @@
           "answer_pdf_pages": [
             51,
             51
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:9",
@@ -3249,10 +3253,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
           "answer_section": "3.5",
@@ -3263,7 +3267,8 @@
           "answer_pdf_pages": [
             52,
             52
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:10",
@@ -3275,10 +3280,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
           "answer_section": "3.5",
@@ -3289,7 +3294,8 @@
           "answer_pdf_pages": [
             52,
             52
-          ]
+          ],
+          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         }
       ]
     },
