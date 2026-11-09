@@ -2708,10 +2708,11 @@
           "pdf_page": 69,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:2",
@@ -2721,10 +2722,11 @@
           "pdf_page": 69,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:3",
@@ -2734,10 +2736,11 @@
           "pdf_page": 70,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:4",
@@ -2747,10 +2750,11 @@
           "pdf_page": 70,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:5",
@@ -2760,10 +2764,11 @@
           "pdf_page": 70,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:1",
@@ -2786,10 +2791,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
           "answer_section": "3.4",
@@ -2800,7 +2805,8 @@
           "answer_pdf_pages": [
             45,
             46
-          ]
+          ],
+          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:2",
@@ -2819,10 +2825,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
           "answer_section": "3.4",
@@ -2833,7 +2839,8 @@
           "answer_pdf_pages": [
             47,
             47
-          ]
+          ],
+          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:3",
@@ -2845,10 +2852,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
           "answer_section": "3.4",
@@ -2859,7 +2866,8 @@
           "answer_pdf_pages": [
             47,
             47
-          ]
+          ],
+          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:4",
@@ -2874,10 +2882,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
           "answer_section": "3.4",
@@ -2888,7 +2896,8 @@
           "answer_pdf_pages": [
             47,
             48
-          ]
+          ],
+          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         }
       ]
     },
