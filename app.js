@@ -84,7 +84,7 @@
       '<div class="notice"><strong>制作中：</strong>第二章至第五章首轮清单包含 ' + ex + ' 道编号例题、' + qs + ' 道习题及总练习大题；目前共 ' + complete + ' 道题完成首轮整理。清单、未编号要求和答案对应仍待复核，未整理题目不能视为已有题解。</div>' +
       heading('按章节开始','教材印刷页与 PDF 页分别标注') +
       '<div class="overview">' + [2,3,4,5].map(n => '<button class="tile" data-go="chapter' + n + '"><strong>第 ' + n + ' 章 · ' + chapterNames[n] + '</strong><small>包括本章各节与总练习题</small></button>').join('') + '</div>' +
-      heading('使用说明') + '<div class="panel"><p>题目按例题、课后习题和章末总练习排列。已整理的题目可分别展开常规解答、考场书写版、思路引导与举一反三。</p><p>复习标记、星号收藏与小节复习状态保存在当前浏览器，不同浏览器、网址和设备不会自动同步。章节导图与其余题解正在制作。</p></div>';
+      heading('使用说明') + '<div class="panel"><p>题目按例题、课后习题和章末总练习排列。已整理的题目可分别展开常规解答、考场书写版与思路引导；举一反三分批补充，暂缺的题目会注明。</p><p>复习标记、星号收藏与小节复习状态保存在当前浏览器，不同浏览器、网址和设备不会自动同步。章节导图与其余题解正在制作。</p></div>';
   }
   function chapterPage(chapter) {
     const sections = inventory.sections.filter(s=>s.chapter===chapter);

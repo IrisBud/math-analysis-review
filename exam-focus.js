@@ -346,6 +346,7 @@ window.QUESTION_CLASSIFICATION = {
   "4.1:exercise:5": {"type":"proof", "topics":[]},
   "4.1:exercise:6": {"type":"proof", "topics":["discontinuity"]},
   "4.1:exercise:7": {"type":"proof", "topics":["discontinuity"]},
+  "4.1:exercise:8": {"type":"proof", "topics":["discontinuity"]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
