@@ -359,6 +359,10 @@ window.QUESTION_CLASSIFICATION = {
   "4.2:example:10": {"type":"proof", "topics":[]},
   "4.2:example:11": {"type":"proof", "topics":[]},
   "4.2:example:12": {"type":"proof", "topics":[]},
+  "4.2:exercise:1": {"type":"classification", "topics":["discontinuity"]},
+  "4.2:exercise:2": {"type":"proof", "topics":[]},
+  "4.2:exercise:3": {"type":"proof", "topics":[]},
+  "4.2:exercise:4": {"type":"proof", "topics":[]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [

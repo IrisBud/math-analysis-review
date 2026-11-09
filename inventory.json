@@ -4129,11 +4129,23 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "待逐题对照",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 1,
+          "answer_section": "4.2",
+          "answer_printed_pages": [
+            167,
+            168
+          ],
+          "answer_pdf_pages": [
+            60,
+            61
+          ],
+          "site_note": "原题与标注五版答案首轮对照；举一反三暂缓。"
         },
         {
           "id": "4.2:exercise:2",
@@ -4147,11 +4159,23 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "待逐题对照",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 2,
+          "answer_section": "4.2",
+          "answer_printed_pages": [
+            168,
+            168
+          ],
+          "answer_pdf_pages": [
+            61,
+            61
+          ],
+          "site_note": "原题与标注五版答案首轮对照；举一反三暂缓。"
         },
         {
           "id": "4.2:exercise:3",
@@ -4162,11 +4186,23 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "待逐题对照",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 3,
+          "answer_section": "4.2",
+          "answer_printed_pages": [
+            168,
+            168
+          ],
+          "answer_pdf_pages": [
+            61,
+            61
+          ],
+          "site_note": "原题与标注五版答案首轮对照；举一反三暂缓。"
         },
         {
           "id": "4.2:exercise:4",
@@ -4177,11 +4213,23 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "待逐题对照",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "answer_match_type": "exact",
+          "answer_question_number": 4,
+          "answer_section": "4.2",
+          "answer_printed_pages": [
+            168,
+            168
+          ],
+          "answer_pdf_pages": [
+            61,
+            61
+          ],
+          "site_note": "原题与标注五版答案首轮对照；举一反三暂缓。"
         },
         {
           "id": "4.2:exercise:5",
