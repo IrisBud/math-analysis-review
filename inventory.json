@@ -1371,12 +1371,13 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "本组未见完全对应，须继续查找或独立解答",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "not_found",
-          "reference_note": "答案资料第二章总练习未见此 Stolz 定理题；第六版题须独立解答。"
+          "reference_note": "答案资料第二章总练习未见此 Stolz 定理题；第六版题须独立解答。",
+          "site_note": "Stolz 定理有限与正负无穷证明、陈教材对照与逆向练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:4",
