@@ -2096,10 +2096,11 @@
           "pdf_page": 63,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "三角函数四则极限、陈教材商法则证明及练习已首轮整理。"
         },
         {
           "id": "3.2:example:3",
@@ -2109,10 +2110,11 @@
           "pdf_page": 63,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "有限幂差求和及陈教材二项式练习已首轮整理。"
         },
         {
           "id": "3.2:example:4",
