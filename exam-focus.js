@@ -237,6 +237,7 @@ window.QUESTION_CLASSIFICATION = {
   "2.3:exercise:1": {"type":"calculation", "topics":["oneinf"], "topicNotes":{"oneinf":"五个小问"}},
   "2.3:exercise:2": {"type":"judgement", "topics":[]},
   "2.3:exercise:3": {"type":"mixed", "topics":["monotone","squeeze"], "topicNotes":{"monotone":"第（1）、（2）问", "squeeze":"第（3）问及补充方法"}},
+  "2.3:exercise:4": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:5": {"type":"proof", "topics":["monotone"], "topicNotes":{"monotone":"第（2）问补充方法"}},
   "2.3:exercise:6": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:7": {"type":"proof", "topics":["squeeze"], "topicNotes":{"squeeze":"几何上界与迫敛"}},
