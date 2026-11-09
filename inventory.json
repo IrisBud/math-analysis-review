@@ -1734,10 +1734,11 @@
           "pdf_page": 57,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "无穷远倒数定义证明、陈教材相关例及自编练习已首轮整理。"
         },
         {
           "id": "3.1:example:2",
@@ -1750,10 +1751,11 @@
             "2"
           ],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "反正切两侧无穷极限、陈教材相关例及自编练习已首轮整理。"
         },
         {
           "id": "3.1:example:3",
@@ -1822,10 +1824,11 @@
           "pdf_page": 60,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "根式两端点单侧极限、陈教材相关证明及自编练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:1",
