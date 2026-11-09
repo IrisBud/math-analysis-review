@@ -215,6 +215,14 @@
     if(exercises.length) html+=heading(s.id.endsWith('.total')?'章末总练习':'课后习题','保留原书题号与小问')+exercises.map(q=>card(q,s)).join('');
     return html;
   }
+  // Only unambiguous standalone quotients are reformatted automatically.
+  // Larger expressions must be rewritten individually after checking grouping.
+  const simpleMathAtom=String.raw`(?:\d+|[A-Za-z]|\\(?:pi|varepsilon|epsilon|delta|alpha|beta|theta))(?:\^\d+|_[A-Za-z0-9])?`;
+  const simpleFractionPattern=new RegExp('^\\s*('+simpleMathAtom+')\\s*/\\s*('+simpleMathAtom+')\\s*$');
+  function formatSimpleFraction(tex) {
+    const m=tex.match(simpleFractionPattern);
+    return m?'\\frac{'+m[1]+'}{'+m[2]+'}':tex;
+  }
   function render() {
     if(!inventory) return;
     const id=decodeURIComponent(location.hash.slice(1)||'home');
@@ -222,7 +230,7 @@
     const found=inventory.sections.find(s=>s.id===id);
     content.innerHTML=found?sectionPage(found):id==='stars'?starsPage():id==='topics'?topicsPage():id.startsWith('topic:')?topicPage(id.slice(6)):/^chapter[2345]$/.test(id)?chapterPage(Number(id.slice(-1))):home();
     if(!storageAvailable) content.insertAdjacentHTML('afterbegin','<div class="notice">当前浏览器无法保存复习标记，请检查本地存储设置。</div>');
-    if(typeof renderMathInElement==='function') renderMathInElement(content,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],throwOnError:false});
+    if(typeof renderMathInElement==='function') renderMathInElement(content,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}],preProcess:formatSimpleFraction,throwOnError:false});
     const mapScroller=content.querySelector('.map-scroll');
     if(mapScroller) mapScroller.scrollLeft=(mapScroller.scrollWidth-mapScroller.clientWidth)/2;
     if(pendingQuestion) {
