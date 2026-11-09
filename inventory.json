@@ -1897,10 +1897,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
           "answer_section": "3.1",
@@ -1911,7 +1911,8 @@
           "answer_pdf_pages": [
             38,
             38
-          ]
+          ],
+          "site_note": "去心邻域变量平移证明及平方代换练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:4",
@@ -1923,10 +1924,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
           "answer_section": "3.1",
@@ -1937,7 +1938,8 @@
           "answer_pdf_pages": [
             38,
             38
-          ]
+          ],
+          "site_note": "绝对值极限与逆命题边界、平方练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:5",
