@@ -1653,10 +1653,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 11,
           "answer_section": "2.total",
@@ -1667,7 +1667,8 @@
           "answer_pdf_pages": [
             37,
             37
-          ]
+          ],
+          "site_note": "无界列与无穷大量乘积及陈教材乘商练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:14",
@@ -1679,10 +1680,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 12,
           "answer_section": "2.total",
@@ -1693,7 +1694,8 @@
           "answer_pdf_pages": [
             37,
             37
-          ]
+          ],
+          "site_note": "两个无界列的乘积判断与共同子列判断练习已首轮整理。"
         }
       ]
     },
