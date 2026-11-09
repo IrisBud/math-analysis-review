@@ -4055,10 +4055,11 @@
           "pdf_page": 91,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关例题证明已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:9",
@@ -4068,10 +4069,11 @@
           "pdf_page": 91,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关例题证明已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:10",
@@ -4081,10 +4083,11 @@
           "pdf_page": 91,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关定理已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:11",
@@ -4094,10 +4097,11 @@
           "pdf_page": 92,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关定理已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:12",
@@ -4107,10 +4111,11 @@
           "pdf_page": 93,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材对应待查；举一反三暂缓。"
         },
         {
           "id": "4.2:exercise:1",

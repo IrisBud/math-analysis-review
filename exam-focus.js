@@ -354,6 +354,11 @@ window.QUESTION_CLASSIFICATION = {
   "4.2:example:5": {"type":"proof", "topics":[]},
   "4.2:example:6": {"type":"proof", "topics":[]},
   "4.2:example:7": {"type":"proof", "topics":[]},
+  "4.2:example:8": {"type":"proof", "topics":[]},
+  "4.2:example:9": {"type":"proof", "topics":[]},
+  "4.2:example:10": {"type":"proof", "topics":[]},
+  "4.2:example:11": {"type":"proof", "topics":[]},
+  "4.2:example:12": {"type":"proof", "topics":[]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
