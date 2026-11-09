@@ -184,7 +184,7 @@
   function card(q,s) {
     const worked=solutions[q.id];
     const classification=questionClasses[q.id] || {};
-    const kind=classification.type || (q.question_type==='judgement'?'judgement':'');
+    const kind=classification.type || (q.question_type==='judgement'?'judgement':(worked?.type || ''));
     const kindLabel={proof:'证明题',calculation:'计算题',mixed:'计算与证明',judgement:'判断题',classification:'分类判断'}[kind] || '';
     const parts=q.numbered_parts.length?'编号小问：'+q.numbered_parts.join('、'):'未编号的题内要求待细核';
     const location='华师大第六版上册 · '+s.id+' · 印刷第 '+q.printed_page+' 页起 · PDF 第 '+q.pdf_page+' 页';

@@ -1392,10 +1392,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 3,
           "answer_section": "2.total",
@@ -1408,7 +1408,8 @@
             34
           ],
           "reference_note": "答案资料第3题只讨论有限极限，且未要求使用 Stolz 定理；第六版另有正负无穷并要求用 Stolz。",
-          "cross_section_reference": "另见答案资料第三章总练习第9题，印刷页162–163 / PDF第55–56页，覆盖正无穷的平均值，但并非题目指定的Stolz证明。"
+          "cross_section_reference": "另见答案资料第三章总练习第9题，印刷页162–163 / PDF第55–56页，覆盖正无穷的平均值，但并非题目指定的Stolz证明。",
+          "site_note": "Stolz 算术与几何平均、扩展实极限及陈教材加权练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:5",
