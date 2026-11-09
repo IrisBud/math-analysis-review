@@ -270,6 +270,8 @@ window.QUESTION_CLASSIFICATION = {
   "3.1:exercise:2": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"极限定义的否定与量词"}},
   "3.1:exercise:3": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"去心邻域和变量平移"}},
   "3.1:exercise:4": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"反三角不等式和定义证明"}},
+  "3.1:exercise:5": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"左右极限与定义证明"}},
+  "3.1:exercise:6": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"左右极限与去心邻域"}},
   "3.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"有限点极限小问"}},
   "3.4:example:3": {"type":"calculation", "topics":["oneinf"]},
   "3.4:example:4": {"type":"calculation", "topics":["oneinf"]},
