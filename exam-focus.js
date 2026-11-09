@@ -272,6 +272,8 @@ window.QUESTION_CLASSIFICATION = {
   "3.1:exercise:4": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"反三角不等式和定义证明"}},
   "3.1:exercise:5": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"左右极限与定义证明"}},
   "3.1:exercise:6": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"左右极限与去心邻域"}},
+  "3.1:exercise:7": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"右邻域与正无穷之间的倒数代换"}},
+  "3.1:exercise:8": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"有限个特殊点与去心邻域"}},
   "3.1:exercise:1": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"有限点极限小问"}},
   "3.4:example:3": {"type":"calculation", "topics":["oneinf"]},
   "3.4:example:4": {"type":"calculation", "topics":["oneinf"]},
