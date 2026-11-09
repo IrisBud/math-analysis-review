@@ -1630,10 +1630,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 7,
           "answer_section": "3.total",
@@ -1646,7 +1646,8 @@
             55
           ],
           "reference_note": "答案资料第二章总练习未见本题；需组合第三章总练习第7、8题的结果。",
-          "cross_section_reference": "在答案资料第三章总练习第7、8题找到对应条件与两个极限，印刷页162 / PDF第55页；本章总练习中未见。"
+          "cross_section_reference": "在答案资料第三章总练习第7、8题找到对应条件与两个极限，印刷页162 / PDF第55页；本章总练习中未见。",
+          "site_note": "根式比值无穷大量判别与两道应用、临界练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:13",
