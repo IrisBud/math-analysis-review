@@ -246,6 +246,7 @@ window.QUESTION_CLASSIFICATION = {
   "2.3:exercise:10": {"type":"proof", "topics":["monotone","squeeze"], "topicNotes":{"squeeze":"夹住 e 的误差"}},
   "2.3:exercise:11": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:12": {"type":"proof", "topics":["monotone","squeeze"], "topicNotes":{"squeeze":"第（4）问的反方向"}},
+  "2.total:exercise:6": {"type":"proof", "topics":["monotone"]},
   "2.total:exercise:3": {"type":"proof", "topics":["stolz"], "topicNotes":{"stolz":"证明定理"}},
   "2.total:exercise:4": {"type":"proof", "topics":["stolz"], "topicNotes":{"stolz":"题目要求运用 Stolz 定理"}},
   "2.total:exercise:5": {"type":"proof", "topics":["stolz"], "topicNotes":{"stolz":"应用上一题以 Stolz 定理证明的结论"}},
