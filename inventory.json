@@ -2054,7 +2054,7 @@
             39,
             40
           ],
-          "site_note": "黎曼函数有限例外点证明及陈教材狄利克雷函数练习已首轮整理。"
+          "site_note": "黎曼函数有限例外点证明已首轮整理；原练习与 §3.3 习题 6 重复，暂缓替换。"
         }
       ]
     },
@@ -2456,10 +2456,11 @@
           "pdf_page": 66,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
+          "site_note": "归结原则与陈教材同题证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:1",
@@ -2471,10 +2472,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
           "answer_section": "3.3",
@@ -2485,7 +2486,8 @@
           "answer_pdf_pages": [
             43,
             44
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:2",
@@ -2497,10 +2499,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
           "answer_section": "3.3",
@@ -2511,7 +2513,8 @@
           "answer_pdf_pages": [
             44,
             44
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:3",
@@ -2526,10 +2529,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
           "answer_section": "3.3",
@@ -2540,7 +2543,8 @@
           "answer_pdf_pages": [
             44,
             44
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:4",
@@ -2552,10 +2556,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
           "answer_section": "3.3",
@@ -2566,7 +2570,8 @@
           "answer_pdf_pages": [
             44,
             44
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:5",
@@ -2578,10 +2583,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
           "answer_section": "3.3",
@@ -2592,7 +2597,8 @@
           "answer_pdf_pages": [
             44,
             45
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:6",
@@ -2604,10 +2610,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
           "answer_section": "3.3",
@@ -2618,7 +2624,8 @@
           "answer_pdf_pages": [
             45,
             45
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:7",
@@ -2630,10 +2637,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
           "answer_section": "3.3",
@@ -2644,7 +2651,8 @@
           "answer_pdf_pages": [
             45,
             45
-          ]
+          ],
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:8",
@@ -2656,10 +2664,10 @@
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "相关题，题面有差异，须说明改编",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 8,
           "answer_section": "3.3",
@@ -2671,7 +2679,8 @@
             45,
             45
           ],
-          "reference_note": "第六版为定理3.10，答案资料对应的同一单侧归结原理编号为定理3.9。"
+          "reference_note": "第六版为定理3.10，答案资料对应的同一单侧归结原理编号为定理3.9。",
+          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
         }
       ]
     },
