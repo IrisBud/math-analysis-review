@@ -220,6 +220,7 @@
   const simpleMathAtom=String.raw`(?:\d+|[A-Za-z]|\\(?:pi|varepsilon|epsilon|delta|alpha|beta|theta))(?:\^\d+|_[A-Za-z0-9])?`;
   const simpleFractionPattern=new RegExp('^\\s*('+simpleMathAtom+')\\s*/\\s*('+simpleMathAtom+')\\s*$');
   function formatSimpleFraction(tex) {
+    if (window.MATH_FRACTION_OVERRIDES && Object.hasOwn(window.MATH_FRACTION_OVERRIDES,tex)) return window.MATH_FRACTION_OVERRIDES[tex];
     const m=tex.match(simpleFractionPattern);
     return m?'\\frac{'+m[1]+'}{'+m[2]+'}':tex;
   }
