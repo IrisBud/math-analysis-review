@@ -243,6 +243,7 @@ window.QUESTION_CLASSIFICATION = {
   "2.3:exercise:7": {"type":"proof", "topics":["squeeze"], "topicNotes":{"squeeze":"几何上界与迫敛"}},
   "2.3:exercise:8": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:9": {"type":"proof", "topics":["monotone"]},
+  "2.3:exercise:10": {"type":"proof", "topics":["monotone","squeeze"], "topicNotes":{"squeeze":"夹住 e 的误差"}},
   "2.3:exercise:11": {"type":"proof", "topics":["monotone"]},
   "2.3:exercise:12": {"type":"proof", "topics":["monotone","squeeze"], "topicNotes":{"squeeze":"第（4）问的反方向"}},
   "2.total:exercise:3": {"type":"proof", "topics":["stolz"], "topicNotes":{"stolz":"证明定理"}},
