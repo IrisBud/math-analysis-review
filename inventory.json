@@ -1482,10 +1482,10 @@
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
           "reference_match": "相关题，题面有差异，须说明改编",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核",
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "已人工核查，仍可复核",
+          "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 6,
           "answer_section": "2.total",
@@ -1497,7 +1497,8 @@
             35,
             35
           ],
-          "reference_note": "答案资料第6题的 A_n 末项为 |a_n-a_{n-1}|，第六版末项为 |a_{n+1}-a_n|；重新编号后相关，不能标为题面完全相同。"
+          "reference_note": "答案资料第6题的 A_n 末项为 |a_n-a_{n-1}|，第六版末项为 |a_{n+1}-a_n|；重新编号后相关，不能标为题面完全相同。",
+          "site_note": "相邻差绝对值部分和与五版下标区别、交错调和练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:8",
