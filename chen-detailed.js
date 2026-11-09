@@ -270,6 +270,85 @@ s_n=1+\frac1{2^2}+\cdots+\frac1{n^2}.
 任给 \(\varepsilon>0\)，取正整数 \(N>\frac1\varepsilon\)。当 \(n>m>N\) 时，\(|s_n-s_m|<\frac1m<\varepsilon\)；交换大小也得到对任意 \(m,n>N\) 的同一结论。由柯西准则，\(\{s_n\}\) 收敛。
 
 华师大本例不是同一个数列：陈例靠裂项控制尾和，华师大例用相应的有限等比和控制尾部。`;
+  notes['2.2:example:4']=String.raw`陈教材例 2.3.3 设 \(k,l\) 为正整数，\(a_0b_0\ne0\)，讨论
+\[
+R_n=\frac{a_0n^k+a_1n^{k-1}+\cdots+a_k}
+{b_0n^l+b_1n^{l-1}+\cdots+b_l}.
+\]
+分别从分子、分母提出最高次幂：
+\[
+R_n=n^{k-l}
+\frac{a_0+\frac{a_1}{n}+\cdots+\frac{a_k}{n^k}}
+{b_0+\frac{b_1}{n}+\cdots+\frac{b_l}{n^l}}.
+\]
+由于 \(\frac1{n^j}\to0\)（\(j\ge1\)），且 \(b_0\ne0\)，后面的商在充分大 \(n\) 时有定义，并有
+\[
+\frac{a_0+\frac{a_1}{n}+\cdots+\frac{a_k}{n^k}}
+{b_0+\frac{b_1}{n}+\cdots+\frac{b_l}{n^l}}
+\longrightarrow\frac{a_0}{b_0}\ne0.
+\]
+因此分三种情况：
+\[
+\begin{cases}
+k<l:&R_n\to0,\\
+k=l:&R_n\to\frac{a_0}{b_0},\\
+k>l:&|R_n|\to+\infty.
+\end{cases}
+\]
+第三种情况下，后一个商最终与 \(\frac{a_0}{b_0}\) 同号：该比值为正时 \(R_n\to+\infty\)，为负时 \(R_n\to-\infty\)。陈教材把这一情形记为无穷大量。
+
+华师大本例只用到分子次数不大于分母次数的部分；两书记号不同，不应仅凭下标相同就对应系数。`;
+  notes['2.2:exercise:8']=String.raw`陈教材例 2.2.8 利用有限个数的最大值估计正幂和。按华师大题设，设 \(a_1,\ldots,a_m>0\)，记
+\[
+M=\max\{a_1,\ldots,a_m\}>0.
+\]
+可把某个取到最大值的下标重新编号为 1，使 \(a_1=M\)。这是因为有限和与最大值都不因重新排列而改变；有多个最大值时任选一个。
+
+对每个 \(i\) 有 \(0<a_i\le M\)，因此
+\[
+M^n\le\sum_{i=1}^m a_i^n\le mM^n.
+\]
+各项非负，取 \(n\) 次根得
+\[
+M\le\left(\sum_{i=1}^m a_i^n\right)^{\frac1n}\le M\sqrt[n]{m}.
+\]
+这里 \(m\) 是固定正整数，已知 \(\sqrt[n]{m}\to1\)，由迫敛性得到
+\[
+\lim_{n\to\infty}\left(\sum_{i=1}^m a_i^n\right)^{\frac1n}=M.
+\]
+陈例还允许非负数；这里保留华师大题目中所有 \(a_i>0\) 的条件。`;
+  notes['2.3:example:6']=String.raw`陈教材定理 2.4.6 设 \(\{x_n\}\) 无界，证明存在绝对值趋于无穷的子列。先说明：对任意 \(M>0\)，集合
+\[
+E_M=\{n\in\mathbb N:|x_n|>M\}
+\]
+必为无限集。否则只有有限个例外下标 \(n_1,\ldots,n_j\)；取
+\[
+C=\max\{M,|x_{n_1}|,\ldots,|x_{n_j}|\}
+\]
+便有所有 \(n\) 均满足 \(|x_n|\le C\)，与无界矛盾；若没有例外则直接以 \(M\) 为界。
+
+由此可选 \(n_1\) 使 \(|x_{n_1}|>1\)；若已选 \(n_k\)，集合 \(E_{k+1}\) 无限，故可选 \(n_{k+1}>n_k\)，使
+\[
+|x_{n_{k+1}}|>k+1.
+\]
+这样得到严格递增的下标和 \(|x_{n_k}|>k\)。任给 \(G>0\)，当 \(k>G\) 时 \(|x_{n_k}|>G\)，所以 \(|x_{n_k}|\to+\infty\)。
+
+陈定理的结论不保证子列趋于正无穷；华师大例题假设更强的无上界，故可直接选择 \(a_{n_k}>k\)，得到正无穷。`;
+  notes['3.2:example:4']=String.raw`陈教材例 3.1.1 证明 \(\lim_{x\to0}e^x=1\)。任给 \(\varepsilon>0\)，先令
+\[
+\eta=\min\left\{\varepsilon,\frac12\right\},\qquad
+\delta=\min\{-\ln(1-\eta),\ln(1+\eta)\}>0.
+\]
+因为 \(0<\eta<1\)，两个对数端点均有意义。若 \(0<|x|<\delta\)，则
+\[
+\ln(1-\eta)<x<\ln(1+\eta).
+\]
+指数函数严格递增，故
+\[
+1-\eta<e^x<1+\eta,
+\qquad |e^x-1|<\eta\le\varepsilon.
+\]
+由定义得到陈例结论。这里用 \(\eta\) 补齐任意正误差的情形；陈例的底数是 \(e\)，华师大本例讨论任意给定的 \(a>1\)，并用其他已学结论证明。`;
   for(const [id,text] of Object.entries(notes)) {
     if(!q[id] || !q[id].chenSource) { console.error('缺少陈教材来源：'+id); continue; }
     q[id].chenSolution=text;
@@ -359,5 +438,29 @@ s_n=1+\frac1{2^2}+\cdots+\frac1{n^2}.
 \qquad y\to e^{\alpha\beta}.
 \]
 这同样包含 \(\beta=0\)。该方法使用本节之后的对数等价无穷小与指数连续性，主解仍按本节基本极限处理。`;
+  }
+  const topic=window.REVIEW_TOPICS?.oneinf?.items;
+  if(topic?.[2]?.solution) {
+    topic[2].solution=topic[2].solution.replace('因此 \\(\\ln y=\\ln(\\cos x)/x^2\\to-1/2\\)，故 \\(y\\to e^{-1/2}\\)。替换发生在乘除结构中，且相关量在充分小的去心邻域内非零。',String.raw`在充分小的去心邻域内 \(\cos x-1\ne0\)，故
+\[
+\ln y=\frac{\ln(\cos x)}{x^2}
+=\frac{\ln(\cos x)}{\cos x-1}\cdot\frac{\cos x-1}{x^2}
+\longrightarrow1\cdot\left(-\frac12\right)=-\frac12.
+\]
+由指数函数连续性，\(y=e^{\ln y}\to e^{-\frac12}\)。替换发生在乘除结构中。`);
+  }
+  if(topic?.[4]?.solution) {
+    topic[4].solution=topic[4].solution.replace('对固定 \\(a,b\\)，当 \\(x\\to0\\) 时，\n\\[\n\\ln(1+ax+bx^2)\n=ax+\\left(b-\\frac{a^2}{2}\\right)x^2+o(x^2).\n\\]',String.raw`对固定 \(a,b\)，令 \(u=ax+bx^2\)。当 \(x\to0\) 时，\(u=O(x)\)，且
+\[
+u^2=a^2x^2+2abx^3+b^2x^4=a^2x^2+o(x^2).
+\]
+由 \(\ln(1+u)=u-\frac{u^2}{2}+o(u^2)\)，可得
+\[
+\begin{aligned}
+\ln(1+ax+bx^2)
+&=ax+bx^2-\frac12\bigl(a^2x^2+o(x^2)\bigr)+o(x^2)\\
+&=ax+\left(b-\frac{a^2}{2}\right)x^2+o(x^2).
+\end{aligned}
+\]`);
   }
 })();
