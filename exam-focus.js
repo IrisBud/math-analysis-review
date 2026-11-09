@@ -367,6 +367,10 @@ window.QUESTION_CLASSIFICATION = {
   "4.2:exercise:6": {"type":"proof", "topics":[]},
   "4.2:exercise:7": {"type":"proof", "topics":[]},
   "4.2:exercise:8": {"type":"calculation", "topics":[]},
+  "4.2:exercise:9": {"type":"proof", "topics":[]},
+  "4.2:exercise:10": {"type":"proof", "topics":[]},
+  "4.2:exercise:11": {"type":"proof", "topics":[]},
+  "4.2:exercise:12": {"type":"proof", "topics":[]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
