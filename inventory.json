@@ -3985,10 +3985,11 @@
           "pdf_page": 89,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关定理或同题证明已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:4",
@@ -3998,10 +3999,11 @@
           "pdf_page": 89,
           "numbered_parts": [],
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
-          "statement": "待录入",
-          "solution": "待整理",
-          "review": "未核验",
-          "implicit_demands": "待复核"
+          "statement": "已录入",
+          "solution": "首轮已整理",
+          "review": "首轮对照，独立二审待补",
+          "implicit_demands": "已按原题首轮检查",
+          "site_note": "陈教材相关定理或同题证明已核对；举一反三暂缓。"
         },
         {
           "id": "4.2:example:5",

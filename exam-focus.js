@@ -349,6 +349,8 @@ window.QUESTION_CLASSIFICATION = {
   "4.1:exercise:8": {"type":"proof", "topics":["discontinuity"]},
   "4.2:example:1": {"type":"calculation", "topics":[]},
   "4.2:example:2": {"type":"calculation", "topics":["squeeze"], "topicNotes":{"squeeze":"第（2）问用夹逼证明正弦商趋于零"}},
+  "4.2:example:3": {"type":"proof", "topics":[]},
+  "4.2:example:4": {"type":"proof", "topics":[]},
   "4.1:exercise:9": {
     "type": "proof",
     "topics": [
