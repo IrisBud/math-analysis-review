@@ -20,10 +20,10 @@ window.REVIEW_SOLUTIONS["2.2:example:2"] = {
   "solution": "当 \\(n>1\\) 时，令 \\(h_n=\\sqrt[n]{n}-1>0\\)。由二项式展开，\n\\[\nn=(1+h_n)^n\\ge1+\\frac{n(n-1)}2h_n^2,\n\\qquad 0<h_n<\\sqrt{\\frac2{n-1}}.\n\\]\n因此\n\\[\n1<\\sqrt[n]{n}<1+\\sqrt{\\frac2{n-1}}.\n\\]\n任给 \\(\\varepsilon>0\\)，取 \\(N>1+2/\\varepsilon^2\\)，则 \\(n>N\\) 时 \\(\\sqrt{2/(n-1)}<\\varepsilon\\)，故右端趋于 1。由夹逼性，所求极限为 1。",
   "exam": "当 \\(n>1\\) 时令 \\(h_n=\\sqrt[n]{n}-1>0\\)。由 \\(n=(1+h_n)^n\\ge1+n(n-1)h_n^2/2\\)，得\n\\[\n1<\\sqrt[n]{n}<1+\\sqrt{2/(n-1)}.\n\\]\n右端趋于 1，故由夹逼性 \\(\\displaystyle\\lim\\sqrt[n]{n}=1\\)。",
   "guidance": "设 \\(h_n\\) 为根式与目标 1 的差，再展开 \\(n=(1+h_n)^n\\)。只用一次项只能得到 \\(h_n\\) 的常数上界；二次项含 \\(n(n-1)\\)，与左边的 n 比较后才能留下一个趋于 0 的 \\(1/(n-1)\\)。最后使用本节刚介绍的夹逼性。",
-  "variantSource": "陈纪修等《数学分析》第三版上册，第二章 §2 例 2.2.4 后的无编号推广，印刷第 31 页（PDF 第 50 页）。取该推广中的 k=2。",
-  "variant": "证明：\\(\\displaystyle\\lim_{n\\to\\infty}\\sqrt[n]{n^2}=1\\)。",
-  "variantSolution": "当 \\(n\\ge3\\) 时，令 \\(h_n=\\sqrt[n]{n^2}-1>0\\)。由二项式定理，\n\\[\nn^2=(1+h_n)^n\\ge {n\\choose3}h_n^3,\n\\qquad\n0<h_n^3\\le\\frac{6n}{(n-1)(n-2)}\\le\\frac{12}{n-2}.\n\\]\n任给 \\(\\varepsilon>0\\)，取 \\(N>2+12/\\varepsilon^3\\)，当 \\(n>N\\) 时 \\(h_n<\\varepsilon\\)。按定义，\\(\\sqrt[n]{n^2}\\to1\\)。",
-  "verification": "二次项夹逼与练习的三次项估计、n 的范围已人工检查。"
+  "variantSource": "陈纪修等《数学分析》第三版上册第二章 §2 习题 9(9)，印刷第 38 页（PDF 第 57 页）。原题求该极限；这里增加不直接引用本例结论、使用二项式估计的要求。",
+  "variant": "不直接引用 \\(\\sqrt[n]n\\to1\\)，利用二项式估计求\n\\[\n\\lim_{n\\to\\infty}\\sqrt[n]{n\\lg n}.\n\\]\n这里 \\(\\lg\\) 为以 10 为底的对数。",
+  "variantSolution": "对 \\(n\\ge10\\)，有 \\(1\\le n\\lg n\\le n^2\\)：前一不等式由 \\(\\lg n\\ge1\\) 得到；后一不等式由 \\(10^n\\ge n\\)，即 \\(\\lg n\\le n\\) 得到。\n\n令 \\(h_n=\\sqrt[n]{n\\lg n}-1\\ge0\\)。由于底数上界为 \\(n^2\\)，保留二项式展开的三次项：\n\\[\nn^2\\ge n\\lg n=(1+h_n)^n\n\\ge\\binom n3 h_n^3.\n\\]\n当 \\(n\\ge10\\) 时，\n\\[\n0\\le h_n^3\\le\\frac{6n}{(n-1)(n-2)}\\le\\frac{24}{n}\\to0.\n\\]\n任给 \\(\\varepsilon>0\\)，取 \\(N>\\max\\{10,24/\\varepsilon^3\\}\\)，则 \\(n>N\\) 时 \\(h_n<\\varepsilon\\)。因此由定义，原极限为 \\(\\boxed1\\)。",
+  "verification": "华师大原例与陈教材对应证明已首轮对照。原先练习仅将 n 换为 n²、实质过近；已替换为陈教材 n lg n 的开方题，并同步更换来源和完整解答。全站语义去重与独立二审仍未完成。"
 };
 
 window.REVIEW_SOLUTIONS["2.2:example:3"] = {
