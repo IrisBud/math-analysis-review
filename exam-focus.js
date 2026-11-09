@@ -268,6 +268,7 @@ window.QUESTION_CLASSIFICATION = {
   "3.1:example:7": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"定义域端点的单侧极限"}},
   "3.2:example:2": {"type":"calculation", "topics":[]},
   "3.2:example:3": {"type":"calculation", "topics":[]},
+  "3.2:exercise:1": {"type":"calculation", "topics":[]},
   "3.2:example:1": {"type":"calculation", "topics":["squeeze"], "topicNotes":{"squeeze":"取整不等式的左右夹逼"}},
   "3.2:example:4": {"type":"proof", "topics":["ed"], "topicNotes":{"ed":"数列根式与单调性构造 δ"}},
   "3.1:example:3": {"type":"proof", "topics":["ed"]},

@@ -195,7 +195,7 @@
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
       '<p class="source">知识对照：'+esc(worked.reference)+'</p>' +
       detail('常规解答',worked.solution,classification.topics,classification.topicNotes) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
-      (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : '') +
+      (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : (worked.variantDeferred ? '<p class="source">举一反三待补充。</p>' : '')) +
       '<p class="source">'+esc(worked.solutionSource)+'</p><p class="source">'+esc(worked.verification)+'</p></article>';
   }
   function sectionPage(s) {
