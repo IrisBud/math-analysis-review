@@ -108,6 +108,13 @@ window.MIDTERM_REFERENCES['2.2:exercise:2'] = [
 window.MIDTERM_REFERENCES['2.1:exercise:4'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
 ];
+window.MIDTERM_REFERENCES['2.1:exercise:3'] = [{
+  label:'24-25期中考试T1改编题（选择题；教材第2、6小问）',
+  statement:String.raw`求数列极限 \(\displaystyle\lim_{n\to\infty}\sqrt[n]n\)：A. \(1\)；B. \(\pi\)；C. \(\frac12\)；D. \(0\)。`,
+  solution:String.raw`令 \(u_n=\sqrt[n]n-1\ge0\)。当 \(n\ge2\) 时，由二项式展开
+\[n=(1+u_n)^n\ge1+\frac{n(n-1)}2u_n^2,\]
+从而 \(0\le u_n^2\le\frac2n\to0\)。故 \(u_n\to0\)，所求极限为 1，选 A。教材对应小问的根号内是固定正数，这里改为随 n 增大的 n，不能直接把固定底数结论当成证明。`
+}];
 window.MIDTERM_REFERENCES['2.2:exercise:6'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第④项）'},
   {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；B项）'}
