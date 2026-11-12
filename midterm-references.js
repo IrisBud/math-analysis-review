@@ -115,9 +115,21 @@ window.MIDTERM_REFERENCES['2.2:exercise:6'] = [
 window.MIDTERM_REFERENCES['2.total:exercise:14'] = [
   {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；C项）'}
 ];
+window.MIDTERM_REFERENCES['2.3:example:4'] = [
+  {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移）'}
+];
+window.MIDTERM_REFERENCES['2.3:exercise:4'] = [
+  {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移，改问极限）'}
+];
+window.MIDTERM_REFERENCES['2.total:exercise:5'] = [
+  {label:'24-25期中考试T1原题（选择题；教材第3小问）'}
+];
+window.MIDTERM_REFERENCES['3.1:exercise:2'] = [
+  {...window.MIDTERM_REFERENCES['3.3:exercise:6'][0], label:'24-25期中考试T17改编题（证明题；增加对所有候选极限的否定与实例）'}
+];
 
 (window.MIDTERM_REFERENCES['3.3:example:1'] ||= []).push({
-  label: '23-24期中考试T2考点练习（选择题）',
+  label: '23-24期中考试T2改编题（选择题）',
   statement: '当 \\(x\\to0\\) 时，\\(\\displaystyle f(x)=\\frac1{x^3}\\sin\\frac1x\\) 是：A. 无穷小；B. 无穷大；C. 有界但不是无穷小；D. 无界但不是无穷大。',
   solution: '取 \\(x_n=(2n\\pi+\\frac\\pi2)^{-1}\\to0\\)，则 \\(f(x_n)=x_n^{-3}\\to+\\infty\\)，故函数在每个去心邻域内无界。另取 \\(y_n=\\frac1{n\\pi}\\to0\\)，则 \\(f(y_n)=0\\)，所以它不满足无穷大要求 \\(|f(x)|\\to+\\infty\\)。故选 D。'
 });
