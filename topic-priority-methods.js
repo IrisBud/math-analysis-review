@@ -34,6 +34,12 @@ window.REVIEW_TOPICS.oneinf.items.forEach((item, i) => {
   item.exam = priorityOneinf[i].exam;
   item.guidance = priorityOneinfGuidance[i];
 });
+window.REVIEW_TOPICS.oneinf.items[0].examVariant = {
+  label: '23-24期中考试T6改编题',
+  content: String.raw`试卷题面：求 \(\displaystyle\lim_{n\to\infty}\left(\frac{n+2024}{n+2023}\right)^n\)。
+
+解：底数可写为 \(1+\frac1{n+2023}\)。令 \(u_n=\frac1{n+2023}\)，则 \(u_n\to0\)，且 \(nu_n=\frac n{n+2023}\to1\)。由第二个基本极限的推广，原极限为 \(\boxed{e}\)。`
+};
 window.REVIEW_TOPICS.oneinf.items[2].examVariant = {
   label: '25-26期中考试T11改编题',
   content: String.raw`试卷题面：计算 \(\displaystyle\lim_{x\to\infty}\left(\cos\frac1x\right)^{x^2}\)。
