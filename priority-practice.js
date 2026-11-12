@@ -151,6 +151,34 @@ Object.assign(window.REVIEW_SOLUTIONS['3.1:exercise:4'], {
 于是 \(t(x)\to0\)，即 \(f(x)\to A\)。分母始终至少为 1，故该变换在原函数有定义处均有定义。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['3.2:exercise:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.2 习题 1 的代数极限，利用二项式展开区分奇偶项。',
+  variant:String.raw`设 \(m\) 为正整数，求
+\[\lim_{x\to0}\frac{(1+x)^m-(1-x)^m-2mx}{x^3}.\]`,
+  variantSolution:String.raw`由二项式定理，\((1+x)^m-(1-x)^m\) 的偶次项相消，常数项为 0、一次项为 \(2mx\)。当 \(m\ge3\) 时，再减去一次项并除以 \(x^3\) 得
+\[\frac{(1+x)^m-(1-x)^m-2mx}{x^3}
+=2\binom m3+\sum_{\substack{5\le k\le m\\k\text{ 为奇数}}}2\binom mk x^{k-3}.\]
+有限和中的各项均趋于 0，极限为
+\[2\binom m3=\frac{m(m-1)(m-2)}3.\]
+当 \(m=1\) 或 \(m=2\) 时，分子恒为 0，上式也给出 0。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.2:example:2'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.2 例 2 的三角函数四则极限，增加抵消与平方差变形。',
+  variant:String.raw`求极限
+\[\lim_{x\to\frac\pi4}\frac{\sin x+\cos x-\sqrt2}{(\sin x-\cos x)^2}.\]`,
+  variantSolution:String.raw`由于
+\[(\sin x+\cos x)^2=1+\sin2x,\qquad
+(\sin x-\cos x)^2=1-\sin2x,\]
+在 \(\frac\pi4\) 的充分小去心邻域中，平方差分解给出
+\[\sin x+\cos x-\sqrt2
+=-\frac{(\sin x-\cos x)^2}{\sin x+\cos x+\sqrt2}.\]
+该邻域中 \(\sin x-\cos x\ne0\)，因此原式等于上式除去平方因子后的结果。分母趋于 \(2\sqrt2\)，故极限为
+\[-\frac1{2\sqrt2}=\boxed{-\frac{\sqrt2}{4}}.\]`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
