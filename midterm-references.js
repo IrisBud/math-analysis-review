@@ -176,6 +176,10 @@ window.MIDTERM_REFERENCES['3.1:exercise:6'] = [
     solution: '当 \\(x\\to0^-\\) 时 \\(3^{\\frac1x}\\to0\\)，故左极限为 1。当 \\(x\\to0^+\\) 时 \\(3^{\\frac1x}\\to+\\infty\\)，分子、分母同除以该正数，得右极限为 −1。左右极限不同，所以双侧有限极限不存在；同时 \\(|f(x)|<1\\)，它也不是无穷大。选 C。'
   }
 ];
+window.MIDTERM_REFERENCES['3.1:exercise:6'].push(
+  {...window.MIDTERM_REFERENCES['4.1:exercise:2'][0], label:'25-26期中考试T3改编题（选择题；教材第1小问的符号项）'},
+  {...window.MIDTERM_REFERENCES['4.1:exercise:2'][1], label:'24-25期中考试T5改编题（填空题；教材第1小问的符号项）'}
+);
 
 window.MIDTERM_REFERENCES['3.5:example:2'] = [
   {
@@ -321,12 +325,12 @@ window.MIDTERM_REFERENCES['3.4:example:3'].push({
 
 window.MIDTERM_REFERENCES['3.1:exercise:6'].push(
   {
-    label: '23-24期中考试T15考点练习（计算题；§4.3 对数极限）',
+    label: '23-24期中考试T15改编题（教材第2小问；§4.3 对数极限）',
     statement: '确定常数 \\(a\\) 使 \\(\\displaystyle\\lim_{x\\to0}\\left(\\frac{\\ln(1+e^{\\frac3x})}{\\ln(1+e^{\\frac1x})}+a[x]\\right)\\) 存在，并求该极限。\\([x]\\) 表示不超过 \\(x\\) 的最大整数。',
     solution: '使用华师大 §4.3 后续的 \\(\\ln(1+t)\\sim t\\) 和对数、指数极限。当 \\(x\\to0^+\\) 时 \\([x]=0\\)，且 \\(\\ln(1+e^{\\frac3x})=\\frac3x+\\ln(1+e^{-\\frac3x})\\)，同理分母为 \\(\\frac1x+\\ln(1+e^{-\\frac1x})\\)，其比趋于 3，故右极限为 3。当 \\(x\\to0^-\\)，令 \\(t=e^{\\frac1x}\\to0^+\\)，对数比为 \\(\\frac{\\ln(1+t^3)}{\\ln(1+t)}\\sim t^2\\to0\\)，且 \\([x]=-1\\)，左极限为 \\(-a\\)。要使双侧极限存在，须且只须 \\(-a=3\\)，故 \\(a=-3\\)，极限为 3。'
   },
   {
-    label: '24-25期中考试T15考点练习（计算题；§4.3 对数极限）',
+    label: '24-25期中考试T15改编题（教材第2小问；§4.3 对数极限）',
     statement: '确定参数 \\(\\lambda\\) 使 \\(\\displaystyle\\lim_{x\\to0}\\left(\\frac{\\ln(1+e^{\\frac2x})}{\\ln(1+e^{\\frac1x})}+\\lambda[x]\\right)\\) 存在，并求极限。',
     solution: '使用华师大 §4.3 后续的 \\(\\ln(1+t)\\sim t\\) 和对数、指数极限。\\(x\\to0^+\\) 时，\\([x]=0\\)，把两对数分别写成 \\(\\frac2x+\\ln(1+e^{-\\frac2x})\\) 与 \\(\\frac1x+\\ln(1+e^{-\\frac1x})\\)，比值趋于 2，右极限为 2。\\(x\\to0^-\\) 时令 \\(t=e^{\\frac1x}\\to0^+\\)，对数比 \\(\\frac{\\ln(1+t^2)}{\\ln(1+t)}\\sim t\\to0\\)，而 \\([x]=-1\\)，左极限为 \\(-\\lambda\\)。左右相等当且仅当 \\(\\lambda=-2\\)，此时极限为 2。'
   }
