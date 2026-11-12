@@ -323,6 +323,13 @@ window.MIDTERM_REFERENCES['2.2:example:2'].push({
   statement: '求 \\(\\displaystyle\\lim_{n\\to\\infty}\\left(1+\\frac13+\\frac15+\\cdots+\\frac1{2n+1}\\right)^{\\frac1n}\\)。',
   solution: '令括号内和为 \\(S_n\\)。它共有 \\(n+1\\) 项，每项正且不超过 1，所以 \\(1\\le S_n\\le n+1\\)。取 \\(n\\) 次根，\\(1\\le S_n^{\\frac1n}\\le(n+1)^{\\frac1n}\\)。而 \\((n+1)^{\\frac1n}=(1+\\frac1n)^{\\frac1n}n^{\\frac1n}\\to1\\)，最后一个因子是本例的结论，第一个因子也由夹逼趋于 1。故原极限为 1。'
 });
+window.MIDTERM_REFERENCES['2.2:example:2'].push({
+  ...window.MIDTERM_REFERENCES['2.2:exercise:8'][1],
+  label:'25-26期中考试T12改编题（n次根n的应用）',
+  solution:String.raw`由本例 \(n^{\frac1n}\to1\)，有 \(\sqrt[n]{n^3}=(n^{\frac1n})^3\to1\)。因此充分大 n 时 \(\sqrt[n]{n^3}<3\)，即 \(n^3<3^n\)。于是
+\[3\le\sqrt[n]{n^3+3^n}\le3\sqrt[n]2\longrightarrow3.\]
+试卷在本例的多项式底数基础上加入 \(3^n\)，再利用两项的增长比较与夹逼求极限。`
+});
 
 window.MIDTERM_REFERENCES['2.1:exercise:5'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；A项对应举一反三）'}
