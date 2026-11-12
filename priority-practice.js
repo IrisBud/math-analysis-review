@@ -83,6 +83,21 @@ Object.assign(window.REVIEW_SOLUTIONS['2.3:exercise:1'], {
 令 \(m=n^2\)。当 \(n\to\infty\) 时 \(m\to\infty\)，所求数列是已知收敛数列沿平方下标的子列，故极限为 \(\boxed e\)。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.total:exercise:11'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册第二章总练习 11 的最大值极限，改为项数随 n 增长的移动窗口。',
+  variant:String.raw`设 \(a_n\to a\)、\(b_n\to b\)。令
+\[M_n=\max\{a_k,b_k:n\le k\le2n\}.\]
+证明 \(M_n\to\max\{a,b\}\)。`,
+  variantSolution:String.raw`记 \(L=\max\{a,b\}\)。任给 \(\varepsilon>0\)，由两列分别收敛，可取正整数 N，使得当 \(k>N\) 时，
+\[|a_k-a|<\varepsilon,\qquad |b_k-b|<\varepsilon.\]
+当 \(n>N\) 时，窗口中每个下标 \(k\ge n\) 都满足这两个不等式，所以窗口的每个值小于 \(L+\varepsilon\)，从而 \(M_n<L+\varepsilon\)。
+
+另一方面，窗口包含下标 \(n\)，故
+\[M_n\ge\max\{a_n,b_n\}>L-\varepsilon.\]
+因此 \(|M_n-L|<\varepsilon\)。尽管窗口的项数随 n 增大，所有下标均处在同一个充分靠后的尾部，故 \(M_n\to L\)。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
