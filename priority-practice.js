@@ -125,6 +125,32 @@ Object.assign(window.REVIEW_SOLUTIONS['3.1:example:5'], {
 这就按定义证明了所求极限。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['3.1:exercise:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.1 习题 1 的定义证明，结合整数部分的不等式。',
+  variant:String.raw`设 \(\lfloor t\rfloor\) 为不超过 \(t\) 的最大整数。按 \(\varepsilon\)–\(\delta\) 定义证明
+\[\lim_{x\to0}x\left\lfloor\frac1x\right\rfloor=1.\]`,
+  variantSolution:String.raw`当 \(x\ne0\) 时，令 \(r=\frac1x-\lfloor\frac1x\rfloor\)，则 \(0\le r<1\)，并且
+\[x\left\lfloor\frac1x\right\rfloor-1=-xr.\]
+因此对正、负 x 均有
+\[\left|x\left\lfloor\frac1x\right\rfloor-1\right|\le|x|.\]
+任给 \(\varepsilon>0\)，取 \(\delta=\varepsilon\)。当 \(0<|x|<\delta\) 时，误差小于 \(\varepsilon\)，故所求极限为 1。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.1:exercise:4'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.1 习题 4 的零误差判别，改为研究有界的非线性误差变换。',
+  variant:String.raw`设函数 \(f\) 在 \(x_0\) 的某个去心邻域内有定义，\(A\in\mathbb R\)。证明
+\[\lim_{x\to x_0}f(x)=A
+\quad\Longleftrightarrow\quad
+\lim_{x\to x_0}\frac{(f(x)-A)^2}{1+(f(x)-A)^2}=0.\]`,
+  variantSolution:String.raw`记 \(t(x)=|f(x)-A|\)，\(z(x)=\frac{t(x)^2}{1+t(x)^2}\)。如果 \(f(x)\to A\)，则 \(t(x)\to0\)，且 \(0\le z(x)\le t(x)^2\)，所以 \(z(x)\to0\)。
+
+反之，若 \(z(x)\to0\)，则充分靠近 \(x_0\) 时 \(0\le z(x)<\frac12\)。由定义解出
+\[t(x)^2=\frac{z(x)}{1-z(x)}\le2z(x)\longrightarrow0.\]
+于是 \(t(x)\to0\)，即 \(f(x)\to A\)。分母始终至少为 1，故该变换在原函数有定义处均有定义。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
