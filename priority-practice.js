@@ -842,3 +842,18 @@ v_n=(-1)^{\lfloor\sqrt n\rfloor}.
 因此两列都发散；\(u_n\) 无界，\(v_n\) 有界。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.1:exercise:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.1 习题 1 的 ε–N 定义训练，用阶梯型数列练习显式选择 N。',
+  variant:String.raw`对 \(n\ge2\)，令
+\[m_n=\max\{k\in\mathbb N_+:2^k\le n\},\qquad a_n=\frac1{m_n},\]
+另设 \(a_1=1\)。按数列极限定义证明 \(a_n\to0\)，并对给定的 \(\varepsilon>0\) 写出一个可用的 \(N\)。`,
+  variantSolution:String.raw`当 \(n\ge2\) 时，集合含有 \(k=1\)，且由 \(2^k\ge k+1\) 知它只含有限个正整数，所以 \(m_n\) 存在且至少为 1。
+
+任给 \(\varepsilon>0\)，取正整数 \(M>\frac1\varepsilon\)，例如 \(M=\lfloor\frac1\varepsilon\rfloor+1\)，再取 \(N=2^M\)。当 \(n>N\) 时，\(2^M\le n\)，于是 \(m_n\ge M\)，从而
+\[
+|a_n-0|=\frac1{m_n}\le\frac1M<\varepsilon.
+\]
+这对每个正的 \(\varepsilon\) 都成立，故按定义 \(a_n\to0\)。单独指定的第一项不影响结论。`
+});
+
