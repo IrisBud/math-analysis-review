@@ -129,12 +129,12 @@ Object.assign(window.REVIEW_SOLUTIONS['3.1:exercise:1'], {
   variantDeferred:false,
   variantSource:'自编。参照华师大第六版上册 §3.1 习题 1 的定义证明，结合整数部分的不等式。',
   variant:String.raw`设 \(\lfloor t\rfloor\) 为不超过 \(t\) 的最大整数。按 \(\varepsilon\)–\(\delta\) 定义证明
-\[\lim_{x\to0}x\left\lfloor\frac1x\right\rfloor=1.\]`,
-  variantSolution:String.raw`当 \(x\ne0\) 时，令 \(r=\frac1x-\lfloor\frac1x\rfloor\)，则 \(0\le r<1\)，并且
-\[x\left\lfloor\frac1x\right\rfloor-1=-xr.\]
-因此对正、负 x 均有
-\[\left|x\left\lfloor\frac1x\right\rfloor-1\right|\le|x|.\]
-任给 \(\varepsilon>0\)，取 \(\delta=\varepsilon\)。当 \(0<|x|<\delta\) 时，误差小于 \(\varepsilon\)，故所求极限为 1。`
+\[\lim_{x\to0}x\left(\left\lfloor\frac1x\right\rfloor+\left\lfloor-\frac1x\right\rfloor\right)=0.\]`,
+  variantSolution:String.raw`对任意实数 t，令 \(m=\lfloor t\rfloor\)。若 t 为整数，则 \(\lfloor t\rfloor+\lfloor-t\rfloor=0\)；否则 \(m<t<m+1\)，所以 \(-m-1<-t<-m\)，从而两项之和为 −1。故总有
+\[\left|\lfloor t\rfloor+\lfloor-t\rfloor\right|\le1.\]
+代入 \(t=1/x\)，对所有 \(x\ne0\) 得
+\[\left|x\left(\left\lfloor\frac1x\right\rfloor+\left\lfloor-\frac1x\right\rfloor\right)\right|\le|x|.\]
+任给 \(\varepsilon>0\)，取 \(\delta=\varepsilon\)。当 \(0<|x|<\delta\) 时，误差小于 \(\varepsilon\)，故所求极限为 0。`
 });
 
 Object.assign(window.REVIEW_SOLUTIONS['3.1:exercise:4'], {
