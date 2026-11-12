@@ -872,3 +872,20 @@ Object.assign(window.REVIEW_SOLUTIONS['2.2:example:1'], {
 例如取 \(x_n=n+\frac1n\)、\(y_n=n\)，则差趋于 0，而两列都不收敛。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.2:example:6'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.2 例 6 的根式有理化，增加前导项抵消，需要连续两次有理化。',
+  variant:String.raw`求极限：
+\[\lim_{n\to\infty}n^2\left(\sqrt{n^2+2n}-\sqrt{n^2-2n}-2\right).\]`,
+  variantSolution:String.raw`对 \(n\ge2\)，令
+\[a_n=\sqrt{1+\frac2n},\qquad b_n=\sqrt{1-\frac2n},\qquad s_n=a_n+b_n.\]
+则 \(s_n\to2\)，第一次有理化得到
+\[\sqrt{n^2+2n}-\sqrt{n^2-2n}=\frac4{s_n}.\]
+再由 \(s_n^2=2+2\sqrt{1-\frac4{n^2}}\) 有
+\[2-s_n=\frac{4-s_n^2}{2+s_n}
+=\frac{8}{n^2\left(1+\sqrt{1-\frac4{n^2}}\right)(2+s_n)}.\]
+故原式等于
+\[\frac{16}{s_n\left(1+\sqrt{1-\frac4{n^2}}\right)(2+s_n)}
+\longrightarrow\frac{16}{2\cdot2\cdot4}=\boxed1.\]`
+});
+
