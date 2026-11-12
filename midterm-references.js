@@ -168,6 +168,9 @@ window.MIDTERM_REFERENCES['3.3:exercise:6'].push({
   statement: '分析讨论狄利克雷函数 \\(D(x)=1\\)（\\(x\\) 有理），\\(D(x)=0\\)（\\(x\\) 无理）的有界性、单调性、奇偶性、周期性，以及它在任意 \\(x_0\\in\\mathbb R\\) 处极限的存在性。',
   solution: '它只取 0、1，故有界。每个非退化区间中有理数与无理数都稠密；在任一区间内可以按任意先后次序取到函数值 0、1，因此既不递增也不递减。\\(x\\) 与 \\(-x\\) 同为有理数或同为无理数，所以 \\(D(-x)=D(x)\\)，它是偶函数。任何正有理数 \\(T\\) 都是周期，因为加有理数保留有理性与无理性；若 \\(T\\) 为无理数，则 \\(D(0)=1\\)、\\(D(T)=0\\)，故它不是周期。最后任意去心邻域都有有理数和无理数，函数值分别为 1、0，故在每个 \\(x_0\\) 处有限极限均不存在。'
 });
+window.MIDTERM_REFERENCES['4.1:example:1'] = [
+  {...window.MIDTERM_REFERENCES['3.3:exercise:6'].find(x=>x.label.includes('23-24期中考试T17')), label:'23-24期中考试T17改编题（计算分析题；去掉因子 x）'}
+];
 
 window.MIDTERM_REFERENCES['3.1:exercise:6'] = [
   {
@@ -365,7 +368,7 @@ window.MIDTERM_REFERENCES['4.1:exercise:1'].push({
 });
 
 (window.MIDTERM_REFERENCES['4.1:example:2'] ||= []).push({
-  label: '24-25期中考试T1考点练习（填空题；§4.2 复合连续）',
+  label: '24-25期中考试T1改编题（填空题；分段函数与复合）',
   statement: '设 \\(f(x)=\\sin x\\)，\\(g(x)=\\begin{cases}x-\\pi,&x\\le0,\\\\x+\\pi,&x>0.\\end{cases}\\) 问复合函数 \\(f(g(x))\\) 在 \\(x=0\\) 处是否连续。',
   solution: '对 \\(x\\le0\\)，\\(\\sin(x-\\pi)=-\\sin x\\)；对 \\(x>0\\)，\\(\\sin(x+\\pi)=-\\sin x\\)。因此对所有实数 \\(f(g(x))=-\\sin x\\)，在 0 处连续。注意 \\(g\\) 在 0 的左、右极限分别为 \\(-\\pi,\\pi\\)，自身不连续。华师大 §4.2 习题 5 使用同一组函数，还要求证明内层不连续；该教材题属于后续小节，本处保留试卷问法。'
 });
