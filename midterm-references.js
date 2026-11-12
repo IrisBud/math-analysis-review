@@ -339,6 +339,11 @@ window.MIDTERM_REFERENCES['3.4:example:2'].push({
   ...window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')),
   label:'25-26期中考试T11改编题（余弦二次极限与幂式）'
 });
+window.MIDTERM_REFERENCES['4.1:exercise:3'].push(
+  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('24-25期中考试T3')), label:'24-25期中考试T3改编题（填空题；教材第2小问）'},
+  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T2')), label:'25-26期中考试T2改编题（选择题；教材第2小问与C项）'},
+  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T11')), label:'25-26期中考试T11改编题（教材第2小问的余弦二次极限）'}
+);
 
 (window.MIDTERM_REFERENCES['3.5:exercise:2'] ||= []).push({
   label: '23-24期中考试T12考点练习（计算题；§4.3 对数极限）',
