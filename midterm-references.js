@@ -209,7 +209,12 @@ window.MIDTERM_REFERENCES['3.5:example:2'] = [
 ];
 
 window.MIDTERM_REFERENCES['3.4:exercise:1'] = [
-  {...window.MIDTERM_REFERENCES['3.5:example:2'][0], label:'25-26期中考试T2改编题（选择题；教材第5小问）'}
+  {...window.MIDTERM_REFERENCES['3.5:example:2'][0], label:'25-26期中考试T2改编题（选择题；教材第5小问）'},
+  {
+    label:'23-24期中考试T7改编题（教材第6、7小问）',
+    statement:String.raw`求 \(\displaystyle\lim_{x\to\infty}\frac{x\arctan(\frac1x)}{x-\cos x}\)。`,
+    solution:String.raw`令 \(t=\frac1x\to0\)。由本题第（6）问的 \(\frac{\arctan t}{t}\to1\)，得 \(x\arctan(\frac1x)\to1\)；它与第（7）问的 \(x\sin(\frac1x)\to1\) 只在内层函数上不同。由于 \(|x-\cos x|\ge|x|-1\to+\infty\)，故所求极限为 \(\boxed{0}\)，正、负无穷两侧均成立。`
+  }
 ];
 
 window.MIDTERM_REFERENCES['4.1:exercise:2'].push(
@@ -254,6 +259,9 @@ window.MIDTERM_REFERENCES['3.3:exercise:5'] = [
   statement: '当 \\(x\\to0\\) 时，\\((1+a x^2)^{\\frac15}-1\\) 与 \\(\\cos x-1\\) 为等价无穷小，求常数 \\(a\\)。',
   solution: '当 \\(x\\) 充分接近 0 时 \\(1+a x^2>0\\)。令 \\(t=(1+a x^2)^{\\frac15}\\)，则 \\(t\\to1\\)，且\n\\[\nt-1=\\frac{a x^2}{t^4+t^3+t^2+t+1}.\n\\]\n因此 \\(\\frac{t-1}{\\cos x-1}\\to\\frac{\\frac{a}{5}}{-\\frac12}=-\\frac{2a}{5}\\)。等价要求该比值为 1，故 \\(a=-\\frac52\\)；代回可验证分母及两函数在充分小的去心邻域内非零。'
 });
+window.MIDTERM_REFERENCES['3.2:exercise:8'] = [
+  {...window.MIDTERM_REFERENCES['3.5:exercise:5'].find(x=>x.label.includes('23-24期中考试T8')), label:'23-24期中考试T8改编题（填空题；教材第4小问）'}
+];
 
 window.MIDTERM_REFERENCES['2.2:exercise:3'] = [
   {
@@ -326,6 +334,10 @@ window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
   label: '25-26期中考试T11考点练习（计算题）',
   statement: '求 \\(\\displaystyle\\lim_{x\\to\\infty}\\left(\\cos\\frac1x\\right)^{x^2}\\)。',
   solution: '当 \\(x\\) 的绝对值充分大时 \\(\\cos\\frac1x>0\\)。令 \\(u=\\cos\\frac1x-1\\)，则 \\(u\\to0\\)，并由 \\(\\frac{1-\\cos t}{t^2}\\to\\frac12\\) 得 \\(x^2u\\to-\\frac12\\)。按照本节的 \\(1^\\infty\\) 型极限定理：若 \\(u\\to0\\)、\\(v u\\to L\\) 且底数最终为正，则 \\((1+u)^v\\to e^L\\)。这里取 \\(v=x^2\\)、\\(L=-\\frac12\\)，故极限为 \\(e^{-\\frac12}\\)。'
+});
+window.MIDTERM_REFERENCES['3.4:example:2'].push({
+  ...window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')),
+  label:'25-26期中考试T11改编题（余弦二次极限与幂式）'
 });
 
 (window.MIDTERM_REFERENCES['3.5:exercise:2'] ||= []).push({
