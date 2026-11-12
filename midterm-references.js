@@ -85,12 +85,12 @@ window.MIDTERM_REFERENCES = {
 
 window.MIDTERM_REFERENCES['2.1:example:8'] = [
   {
-    label: '23-24期中考试T1考点练习（选择题）',
+    label: '23-24期中考试T1改编题（选择题；第②项）',
     statement: '设数列 \\(\\{x_n\\}\\) 有以下命题：①有界当且仅当收敛；② \\(x_n\\to a\\) 当且仅当 \\(x_{2n+1}\\to a\\) 且 \\(x_{2n}\\to a\\)；③ \\(x_n\\to a\\) 当且仅当 \\(x_{n+2023}\\to a\\)；④ \\(x_n\\to a\\) 当且仅当 \\(x_{3n+1}\\to a\\) 且 \\(x_{3n+2}\\to a\\)。正确的命题有几个？A. 1；B. 2；C. 3；D. 4。',
     solution: '①错误：\\(x_n=(-1)^n\\) 有界但不收敛。②正确：两个奇偶子列都趋于同一极限，合起来覆盖除有限项外所有下标。③正确：平移只去掉有限项，有限项不影响极限。④错误：取 \\(x_{3n}=1\\)、\\(x_{3n+1}=x_{3n+2}=0\\)，后两列均趋于 0，原列不收敛。因此正确的有 2 个，选 B。'
   },
   {
-    label: '25-26期中考试T1考点练习（选择题）',
+    label: '25-26期中考试T1改编题（选择题；B项）',
     statement: '下列命题正确的是：A. 对任意 \\(\\varepsilon>0\\)，\\((a-\\varepsilon,a+\\varepsilon)\\) 内有无穷多项 \\(a_n\\)，则 \\(a_n\\) 收敛；B. 奇、偶子列都收敛，则原列收敛；C. \\(b_n,c_n\\) 都收敛且最终 \\(b_n<a_n<c_n\\)，则 \\(a_n\\) 收敛；D. \\(a_n+b_n\\) 收敛、\\(a_n\\) 单调且 \\(b_n\\) 有界，则 \\(a_n\\) 收敛。',
     solution: 'A 错：取 \\(a=0\\)、\\(a_{2n}=0\\)、\\(a_{2n-1}=1\\)。B 错：取 \\(a_n=(-1)^n\\)，两子列分别趋于 1 和 −1。C 错：取 \\(b_n=-2,c_n=2,a_n=(-1)^n\\)，两侧极限不同，不能使用迫敛性。D 对：收敛数列 \\(a_n+b_n\\) 有界，\\(b_n\\) 有界，故其差 \\(a_n\\) 有界；再由单调有界定理，\\(a_n\\) 收敛。选 D。'
   }
@@ -102,6 +102,18 @@ window.MIDTERM_REFERENCES['2.2:exercise:2'] = [
     statement: '下列说法正确的是：A. \\(a_n\\) 有界且 \\(b_n\\) 收敛，则 \\(a_nb_n\\) 收敛；B. \\(a_n\\) 有界且 \\(b_n\\to0\\)，则 \\(a_nb_n\\to0\\)；C. \\(a_n,b_n\\) 均无界，则 \\(a_nb_n\\) 无界；D. \\(a_n\\to0\\) 且 \\(b_n\\) 无界，则 \\(a_nb_n\\to0\\)。',
     solution: 'B 是教材的有界数列与无穷小乘积结论。A 错：取 \\(a_n=(-1)^n,b_n=1\\)。C 错：令偶数 \\(n\\) 时 \\(a_n=n,b_n=\\frac1n\\)，奇数 \\(n\\) 时 \\(a_n=\\frac1n,b_n=n\\)；两列均无界，乘积恒为 1。D 错：取 \\(a_n=\\frac1n,b_n=n\\)，乘积恒为 1。故选 B。'
   }
+];
+
+// 试卷选择题可同时关联其中直接使用或改变条件的教材命题。
+window.MIDTERM_REFERENCES['2.1:exercise:4'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
+];
+window.MIDTERM_REFERENCES['2.2:exercise:6'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第④项）'},
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；B项）'}
+];
+window.MIDTERM_REFERENCES['2.total:exercise:14'] = [
+  {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；C项）'}
 ];
 
 (window.MIDTERM_REFERENCES['3.3:example:1'] ||= []).push({
