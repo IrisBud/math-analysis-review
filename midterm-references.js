@@ -151,6 +151,13 @@ window.MIDTERM_REFERENCES['2.2:exercise:4'] = [
 window.MIDTERM_REFERENCES['2.3:example:4'] = [
   {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移）'}
 ];
+window.MIDTERM_REFERENCES['3.4:exercise:2'] = [
+  {
+    ...window.MIDTERM_REFERENCES['2.3:exercise:1'][0],
+    label:'23-24期中考试T6改编题（教材第6小问）',
+    solution:window.MIDTERM_REFERENCES['2.3:exercise:1'][0].solution + String.raw` 教材第（6）问给出 \((1+\frac\alpha x)^{\beta x}\)；本题令 \(x=n+2023\)、\(\alpha=\beta=1\)，再把指数由 \(x\) 改为 \(x-2023\)。`
+  }
+];
 window.MIDTERM_REFERENCES['2.3:exercise:4'] = [
   {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移，改问极限）'}
 ];
