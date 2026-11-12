@@ -312,7 +312,8 @@ window.MIDTERM_REFERENCES['2.1:exercise:5'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；A项对应举一反三）'}
 ];
 window.MIDTERM_REFERENCES['2.2:exercise:1'] = [
-  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][0], label:'23-24期中考试T11改编题（对应举一反三）'}
+  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][0], label:'23-24期中考试T11改编题（对应举一反三）'},
+  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][1], label:'25-26期中考试T9改编题（对应举一反三）'}
 ];
 
 (window.MIDTERM_REFERENCES['3.4:example:2'] ||= []).push({
