@@ -34,6 +34,19 @@ window.REVIEW_TOPICS.oneinf.items.forEach((item, i) => {
   item.exam = priorityOneinf[i].exam;
   item.guidance = priorityOneinfGuidance[i];
 });
+// 原 (1+2/n)^n 是教材 3.4 习题 2(6) 的直接特例；加入底数、指数扰动。
+Object.assign(window.REVIEW_TOPICS.oneinf.items[0], {
+  title:'底数和指数同时扰动',
+  statement:String.raw`求 \(\displaystyle\lim_{n\to\infty}\left(1+\frac1{n+\sqrt n}\right)^{n+(-1)^n\sqrt n}\)。`,
+  solution:String.raw`令 \(u_n=\frac1{n+\sqrt n}\)，\(v_n=n+(-1)^n\sqrt n\)。底数始终为正，且 \(u_n\to0\)。因为
+\[
+v_nu_n=\frac{n+(-1)^n\sqrt n}{n+\sqrt n}
+=\frac{1+\frac{(-1)^n}{\sqrt n}}{1+\frac1{\sqrt n}}\longrightarrow1,
+\]
+又 \(v_n\ge n-\sqrt n\to+\infty\)，由第二个基本极限的推广，所求为 \(\boxed e\)。交替项除以 n 后趋于 0，故不会产生不同的奇偶子列极限。`,
+  exam:String.raw`取 \(u_n=\frac1{n+\sqrt n}\)、\(v_n=n+(-1)^n\sqrt n\)，则 \(u_n\to0\)、\(v_nu_n\to1\)，底数为正。由第二个基本极限的推广，原极限为 \(e\)。`,
+  guidance:'先把底数写成 1 加增量，再把增量乘以完整指数；把分子、分母同时除以 n，检查交替扰动是否消失。'
+});
 // 原一次式比值与教材习题 3.4 第 2 题（4）仅系数不同，改为根式底数。
 Object.assign(window.REVIEW_TOPICS.oneinf.items[1], {
   title:'根式底数的二次增量',
