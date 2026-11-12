@@ -857,3 +857,18 @@ Object.assign(window.REVIEW_SOLUTIONS['2.1:exercise:1'], {
 这对每个正的 \(\varepsilon\) 都成立，故按定义 \(a_n\to0\)。单独指定的第一项不影响结论。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.2:example:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.2 例 1 的根式极限，改为比较两个不一定收敛的实数列。',
+  variant:String.raw`设实数列 \(\{x_n\}\)、\(\{y_n\}\) 满足 \(x_n-y_n\to0\)。证明
+\[\sqrt[3]{x_n}-\sqrt[3]{y_n}\longrightarrow0.\]
+这里立方根取实数值。再举例说明：上述条件并不要求两列各自收敛。`,
+  variantSolution:String.raw`对任意实数 \(u,v\)，有
+\[u^2+uv+v^2=\frac{(u-v)^2}{4}+\frac{3(u+v)^2}{4}\ge\frac{(u-v)^2}{4}.\]
+令 \(u=\sqrt[3]{x_n}\)、\(v=\sqrt[3]{y_n}\)，由立方差分解得
+\[|x_n-y_n|=|u-v|(u^2+uv+v^2)\ge\frac{|u-v|^3}{4}.\]
+因此
+\[\left|\sqrt[3]{x_n}-\sqrt[3]{y_n}\right|\le(4|x_n-y_n|)^{\frac13}\longrightarrow0.\]
+例如取 \(x_n=n+\frac1n\)、\(y_n=n\)，则差趋于 0，而两列都不收敛。`
+});
+
