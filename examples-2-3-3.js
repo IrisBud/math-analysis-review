@@ -1,6 +1,6 @@
 window.REVIEW_SOLUTIONS['2.3:example:3'] = {
   "type": "proof",
-  "statement": "设 \\(S\\) 为有上界数集。证明：若 \\(\\sup S=a\\notin S\\)，则存在严格递增数列 \\(\\{x_n\\}\\subset S\\)，使得 \\(\\lim_{n\\to\\infty}x_n=a\\)。",
+  "statement": "设 \\(S\\) 为有界数集。证明：若 \\(\\sup S=a\\notin S\\)，则存在严格递增数列 \\(\\{x_n\\}\\subset S\\)，使得 \\(\\lim_{n\\to\\infty}x_n=a\\)。",
   "focus": "上确界逼近性质与递推构造；同时控制与 a 的距离和相邻两项的严格大小。",
   "reference": "华师大《数学分析》第六版上册 §2.3 例 3，印刷第 35—36 页（PDF 第 48—49 页）；上确界的逼近性质见第一章确界内容。",
   "solutionSource": "依据华师大第六版 §2.3 例 3，补出每次所需正数及不等式缘由。陈教材相关定理的证明另列对应讲解；陈定理并非该构造的同一题面。",

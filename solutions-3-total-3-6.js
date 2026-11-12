@@ -6,9 +6,9 @@ window.REVIEW_SOLUTIONS['3.total:exercise:3'] = {
   "guidance": "第一问保持去心邻域的公式简单，再单独改变点值；第二问让两侧采用不同常数，从而直接得到不同的单侧极限。",
   "type": "calculation",
   "reference": "华师大《数学分析》第六版上册第三章总练习第 3 题，印刷第 66 页（PDF 第 79 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版第三章总练习第 3 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）第三章总练习第 3 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
   "variantDeferred": true,
-  "verification": "教材题面及五版答案首轮对照；独立数学二审、举一反三待补。"
+  "verification": "教材题面及答案资料首轮对照；独立数学二审、举一反三待补。"
 };
 window.REVIEW_SOLUTIONS['3.total:exercise:4'] = {
   "statement": "举出函数 f，使 \\(f(x)>0\\) 恒成立，而在某点 \\(x_0\\) 有 \\(\\lim_{x\\to x_0}f(x)=0\\)。这与极限的局部保号性有矛盾吗？",
@@ -18,9 +18,9 @@ window.REVIEW_SOLUTIONS['3.total:exercise:4'] = {
   "guidance": "令去心邻域内的正值逐渐缩小到 0，再把点值单独设为正。定理“极限正推出局部正”不能倒过来认为“局部正推出极限正”。",
   "type": "proof",
   "reference": "华师大《数学分析》第六版上册第三章总练习第 4 题，印刷第 66 页（PDF 第 79 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版第三章总练习第 4 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）第三章总练习第 4 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
   "variantDeferred": true,
-  "verification": "教材题面及五版答案首轮对照；独立数学二审、举一反三待补。"
+  "verification": "教材题面及答案资料首轮对照；独立数学二审、举一反三待补。"
 };
 window.REVIEW_SOLUTIONS['3.total:exercise:5'] = {
   "statement": "设 \\(\\lim_{x\\to a}f(x)=A\\)、\\(\\lim_{u\\to A}g(u)=B\\)，在何种条件下能由此推出 \\(\\lim_{x\\to a}g(f(x))=B\\)？",
@@ -30,9 +30,9 @@ window.REVIEW_SOLUTIONS['3.total:exercise:5'] = {
   "guidance": "外层极限只控制接近 A 但不等于 A 的自变量。内层可能反复恰好取到 A，所以要么排除这些点，要么保证外层在 A 的点值也恰好是 B。",
   "type": "proof",
   "reference": "华师大《数学分析》第六版上册第三章总练习第 5 题，印刷第 67 页（PDF 第 80 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版第三章总练习第 5 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）第三章总练习第 5 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
   "variantDeferred": true,
-  "verification": "教材题面及五版答案首轮对照；独立数学二审、举一反三待补。"
+  "verification": "教材题面及答案资料首轮对照；独立数学二审、举一反三待补。"
 };
 window.REVIEW_SOLUTIONS['3.total:exercise:6'] = {
   "statement": "设 \\(f(x)=x\\cos x\\)。试作数列：\n（1）\\(x_n\\to\\infty\\)，使 \\(f(x_n)\\to0\\)；\n（2）\\(y_n\\to\\infty\\)，使 \\(f(y_n)\\to+\\infty\\)；\n（3）\\(z_n\\to\\infty\\)，使 \\(f(z_n)\\to-\\infty\\)。",
@@ -42,7 +42,7 @@ window.REVIEW_SOLUTIONS['3.total:exercise:6'] = {
   "guidance": "先控制余弦：选零点使乘积为 0，选最大值 1 和最小值 −1 的点，再利用前面的 x 不断增长。",
   "type": "calculation",
   "reference": "华师大《数学分析》第六版上册第三章总练习第 6 题，印刷第 67 页（PDF 第 80 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版第三章总练习第 6 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）第三章总练习第 6 题，印刷第 161 页（PDF 第 54 页）；题面对应，补足定义域和条件。",
   "variantDeferred": true,
-  "verification": "教材题面及五版答案首轮对照；独立数学二审、举一反三待补。"
+  "verification": "教材题面及答案资料首轮对照；独立数学二审、举一反三待补。"
 };

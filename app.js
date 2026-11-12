@@ -9,6 +9,7 @@
   const questionClasses = window.QUESTION_CLASSIFICATION || {};
   const topicBank = window.REVIEW_TOPICS || {};
   const mindmaps = window.REVIEW_MINDMAPS || {};
+  const midtermReferences = window.MIDTERM_REFERENCES || {};
   const esc = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const storageKey = 'math-analysis-review-marks-v1';
   const starStorageKey = 'math-analysis-review-stars-v1';
@@ -191,11 +192,15 @@
     if (!worked) {
       return '<article class="question pending '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?esc(kindLabel)+' · ':'')+esc(parts)+(q.after_printed_divider?' · 原书分隔线后':'')+'</div><span class="tag pending-label">题面与题解待整理</span></div><div class="controls">'+starButton(q.id)+'</div></div>'+focusTags(classification.topics,classification.topicNotes)+'<p class="source">'+esc(sourceText(q))+'</p></article>';
     }
-    return '<article class="question '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?'<span class="kind-label">'+esc(kindLabel)+'</span> ':'')+'<span class="tag">'+esc(worked.focus)+'</span></div></div>'+markButtons(q.id)+'</div>' +
+    const exams=midtermReferences[q.id] || [];
+    const examTags=exams.map(e=>'<span class="exam-tag">'+esc(e.label)+'</span>').join('');
+    const examDetails=exams.filter(e=>e.statement && e.solution).map(e=>'<details class="exam-detail"><summary>举一反三 · '+esc(e.label)+' · 查看试卷题</summary><div class="answer"><div class="statement math-block">'+esc(e.statement)+'</div>'+detail('查看试卷题解答',e.solution)+'</div></details>').join('');
+    return '<article class="question '+(kind?'is-'+esc(kind):'')+'" id="'+esc(q.id)+'"><div class="qhead"><div><div class="qnum">'+esc(location)+'</div><h3>'+esc(label(q))+'</h3><div class="meta">'+(kindLabel?'<span class="kind-label">'+esc(kindLabel)+'</span> ':'')+'<span class="tag">'+esc(worked.focus)+'</span></div>'+ (examTags?'<div class="exam-tags">'+examTags+'</div>':'') +'</div>'+markButtons(q.id)+'</div>' +
       '<div class="statement math-block">'+esc(worked.statement)+'</div>' +
       '<p class="source">知识对照：'+esc(worked.reference)+'</p>' +
       detail('常规解答',worked.solution,classification.topics,classification.topicNotes) + (worked.chenSolution ? detail('陈纪修版对应讲解', worked.chenSource + '\n\n' + worked.chenSolution) : '') + (worked.type==='judgement'||q.question_type==='judgement'?'':detail('考场书写版',worked.exam)) + detail('思路引导',worked.guidance) +
       (worked.variant && !worked.otherHomework ? '<details><summary>举一反三</summary><div class="answer"><p class="source">'+esc(worked.variantSource)+'</p><div class="statement math-block">'+esc(worked.variant)+'</div>'+detail('查看练习解答',worked.variantSolution)+'</div></details>' : (worked.variantDeferred ? '<p class="source">举一反三待补充。</p>' : '')) +
+      examDetails +
       '<p class="source">'+esc(worked.solutionSource)+'</p><p class="source">'+esc(worked.verification)+'</p></article>';
   }
   function sectionPage(s) {

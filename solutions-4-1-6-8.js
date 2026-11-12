@@ -8,9 +8,9 @@ window.REVIEW_SOLUTIONS['4.1:exercise:6'] = {
   "chenSolution": "陈例对递增 f 取左侧值集的上确界 \\(A=\\sup_{x<x_0}f(x)\\)。任给 ε>0，找左侧点 s 使 \\(f(s)>A-\\varepsilon\\)；若 \\(s<x<x_0\\)，则 \\(A-\\varepsilon<f(s)\\le f(x)\\le A\\)，所以左极限为 A。右侧类似用下确界。华师大本题还需要考虑区间端点的单侧约定。",
   "type": "proof",
   "reference": "华师大《数学分析》第六版上册 §4.1 习题第 6 题，印刷第 72 页（PDF 第 85 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版习题 4.1 第 6 题，印刷第 166 页（PDF 第 59 页）；题面对应，补全端点或两层邻域条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）习题 4.1 第 6 题，印刷第 166 页（PDF 第 59 页）；题面对应，补全端点或两层邻域条件。",
   "variantDeferred": true,
-  "verification": "第六版原题和五版答案已首轮对照；独立数学二审与举一反三待补。"
+  "verification": "第六版原题和答案资料已首轮对照；独立数学二审与举一反三待补。"
 };
 window.REVIEW_SOLUTIONS['4.1:exercise:7'] = {
   "statement": "设函数 f 只有可去间断点，定义 \\(g(x)=\\lim_{y\\to x}f(y)\\)。证明：g 为连续函数。",
@@ -20,9 +20,9 @@ window.REVIEW_SOLUTIONS['4.1:exercise:7'] = {
   "guidance": "不能直接把两个极限交换。先固定目标点 x₀，用 f 在 x₀ 的极限控制一整片去心邻域；再让 y 趋向附近的 x，把这个统一估计传递给 g(x)。取 ε/2 是为了取极限后仍有严格小于 ε。",
   "type": "proof",
   "reference": "华师大《数学分析》第六版上册 §4.1 习题第 7 题，印刷第 72 页（PDF 第 85 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版习题 4.1 第 7 题，印刷第 166—167 页（PDF 第 59—60 页）；题面对应，补全端点或两层邻域条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）习题 4.1 第 7 题，印刷第 166—167 页（PDF 第 59—60 页）；题面对应，补全端点或两层邻域条件。",
   "variantDeferred": true,
-  "verification": "第六版原题和五版答案已首轮对照；独立数学二审与举一反三待补。"
+  "verification": "第六版原题和答案资料已首轮对照；独立数学二审与举一反三待补。"
 };
 window.REVIEW_SOLUTIONS['4.1:exercise:8'] = {
   "statement": "设 f 为 \\(\\mathbb R\\) 上的单调函数，定义 \\(g(x)=f(x+0)\\)。证明：g 在 \\(\\mathbb R\\) 上每一点都右连续。",
@@ -32,7 +32,7 @@ window.REVIEW_SOLUTIONS['4.1:exercise:8'] = {
   "guidance": "先确认每个右极限有意义，再利用 x₀ 右侧的一段统一估计。x 在这段内部时，趋近 x 的右侧点仍留在同一段内，故可以取极限得到 g(x) 的估计。",
   "type": "proof",
   "reference": "华师大《数学分析》第六版上册 §4.1 习题第 8 题，印刷第 72 页（PDF 第 85 页）。",
-  "solutionSource": "参考《教材习题详解》上册第五版习题 4.1 第 8 题，印刷第 167 页（PDF 第 60 页）；题面对应，补全端点或两层邻域条件。",
+  "solutionSource": "参考文件名标注第五版的《教材习题详解》上册（扫描件封面版次未独立确认）习题 4.1 第 8 题，印刷第 167 页（PDF 第 60 页）；题面对应，补全端点或两层邻域条件。",
   "variantDeferred": true,
-  "verification": "第六版原题和五版答案已首轮对照；独立数学二审与举一反三待补。"
+  "verification": "第六版原题和答案资料已首轮对照；独立数学二审与举一反三待补。"
 };
