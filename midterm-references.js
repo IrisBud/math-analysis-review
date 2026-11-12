@@ -245,7 +245,8 @@ window.MIDTERM_REFERENCES['3.1:exercise:6'] = [
   }
 ];
 window.MIDTERM_REFERENCES['3.1:exercise:6'].push(
-  {...window.MIDTERM_REFERENCES['4.1:exercise:2'][0], label:'25-26期中考试T3改编题（选择题；教材第1小问的符号项）'},
+  {...window.MIDTERM_REFERENCES['4.1:exercise:2'][0], label:'25-26期中考试T3改编题（选择题；符号项；§3.5 指数极限）',
+   solution:'本题使用华师大 §3.5 的指数函数无穷远极限。' + window.MIDTERM_REFERENCES['4.1:exercise:2'][0].solution},
   {...window.MIDTERM_REFERENCES['4.1:exercise:2'][1], label:'24-25期中考试T5改编题（填空题；教材第1小问的符号项）'}
 );
 
@@ -428,12 +429,14 @@ window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
 });
 window.MIDTERM_REFERENCES['3.4:example:2'].push({
   ...window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')),
-  label:'25-26期中考试T11考点练习（余弦二次极限与幂式）'
+  label:'25-26期中考试T11考点练习（余弦二次极限；本节后续幂式）',
+  solution:window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')).solution + ' 此处使用的第二个重要极限及幂式推广在本节后续内容中给出。'
 });
 window.MIDTERM_REFERENCES['4.1:exercise:3'].push(
   {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('24-25期中考试T3')), label:'24-25期中考试T3改编题（填空题；教材第2小问）'},
   {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T2')), label:'25-26期中考试T2改编题（选择题；教材第2小问与C项）'},
-  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T11')), label:'25-26期中考试T11考点练习（教材第2小问的余弦二次极限）'}
+  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T11')), label:'25-26期中考试T11考点练习（教材第2小问的余弦二次极限）',
+   solution:window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')).solution}
 );
 
 (window.MIDTERM_REFERENCES['3.5:exercise:2'] ||= []).push({
