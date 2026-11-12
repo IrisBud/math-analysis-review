@@ -889,3 +889,20 @@ Object.assign(window.REVIEW_SOLUTIONS['2.2:example:6'], {
 \longrightarrow\frac{16}{2\cdot2\cdot4}=\boxed1.\]`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:5'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.2 习题 5 的子列判别，改为研究根式的小数部分。',
+  variant:String.raw`设 \(\lfloor t\rfloor\) 是不超过 \(t\) 的最大整数。判断数列
+\[a_n=\sqrt n-\lfloor\sqrt n\rfloor\]
+是否有界、是否收敛，并说明理由。`,
+  variantSolution:String.raw`由整数部分的定义，所有 \(n\) 均满足 \(0\le a_n<1\)，因此数列有界。
+
+取 \(n=k^2\)，得到 \(a_{k^2}=0\)。另一方面，当 \(k\ge1\) 时，
+\[k^2\le k^2+k<(k+1)^2,\]
+故 \(\lfloor\sqrt{k^2+k}\rfloor=k\)，并且
+\[a_{k^2+k}=\sqrt{k^2+k}-k
+=\frac{k}{\sqrt{k^2+k}+k}
+=\frac1{\sqrt{1+\frac1k}+1}\longrightarrow\frac12.\]
+两条子列分别趋于 0 和 \(\frac12\)，所以原数列发散。`
+});
+
