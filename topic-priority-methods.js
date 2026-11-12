@@ -52,6 +52,6 @@ window.REVIEW_TOPICS.oneinf.items[2].examVariant = {
   label: '25-26期中考试T11改编题',
   content: String.raw`试卷题面：计算 \(\displaystyle\lim_{x\to\infty}\left(\cos\frac1x\right)^{x^2}\)。
 
-解：令 \(t=\frac1x\)，则 \(t\to0^+\)，原式化为 \((\cos t)^{\frac1{t^2}}\)。本专题题目的双侧极限已存在，故这个右极限也为 \(\boxed{e^{-1/2}}\)。`
+解：令 \(t=\frac1x\)。当 \(x\to\infty\)（即 \(|x|\to\infty\)）时，\(t\to0\)，原式化为 \((\cos t)^{\frac1{t^2}}\)。本专题题目的双侧极限已存在，所以无论 \(x\) 趋于正无穷还是负无穷，原极限均为 \(\boxed{e^{-1/2}}\)。`
 };
 
