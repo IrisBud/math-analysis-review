@@ -109,13 +109,13 @@ window.MIDTERM_REFERENCES['2.1:exercise:4'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
 ];
 window.MIDTERM_REFERENCES['2.1:example:7'] = [
-  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第①项的反例）'}
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1考点练习（选择题；第①项的反例）'}
 ];
 window.MIDTERM_REFERENCES['2.1:example:9'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
 ];
 window.MIDTERM_REFERENCES['2.3:exercise:6'] = [
-  {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；D项与举一反三）'}
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1考点练习（选择题；D项与举一反三）'}
 ];
 window.MIDTERM_REFERENCES['2.1:exercise:3'] = [{
   label:'24-25期中考试T1改编题（选择题；教材第2、6小问）',
@@ -132,7 +132,7 @@ window.MIDTERM_REFERENCES['2.total:exercise:14'] = [
   {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；C项）'}
 ];
 window.MIDTERM_REFERENCES['2.2:exercise:4'] = [
-  {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；A项与积的收敛性）'}
+  {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4考点练习（选择题；A项与积的收敛性）'}
 ];
 window.MIDTERM_REFERENCES['2.3:example:4'] = [
   {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移）'}
@@ -340,12 +340,12 @@ window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
 });
 window.MIDTERM_REFERENCES['3.4:example:2'].push({
   ...window.MIDTERM_REFERENCES['3.4:example:3'].find(x=>x.label.includes('25-26期中考试T11')),
-  label:'25-26期中考试T11改编题（余弦二次极限与幂式）'
+  label:'25-26期中考试T11考点练习（余弦二次极限与幂式）'
 });
 window.MIDTERM_REFERENCES['4.1:exercise:3'].push(
   {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('24-25期中考试T3')), label:'24-25期中考试T3改编题（填空题；教材第2小问）'},
   {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T2')), label:'25-26期中考试T2改编题（选择题；教材第2小问与C项）'},
-  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T11')), label:'25-26期中考试T11改编题（教材第2小问的余弦二次极限）'}
+  {...window.MIDTERM_REFERENCES['3.4:example:2'].find(x=>x.label.includes('25-26期中考试T11')), label:'25-26期中考试T11考点练习（教材第2小问的余弦二次极限）'}
 );
 
 (window.MIDTERM_REFERENCES['3.5:exercise:2'] ||= []).push({
