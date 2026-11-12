@@ -46,3 +46,37 @@ window.REVIEW_TOPICS['continuousParam'] = {
     }
   ]
 };
+
+// 与 §3.3 例 1 的幂次振荡练习区分：改为自变量幂次导致的三种右侧行为。
+Object.assign(window.REVIEW_TOPICS.continuousParam.items[4], {
+  title:'自变量幂次与连续性分类',
+  statement:String.raw`设 \(a,b,\alpha\in\mathbb R\)，
+\[
+f(x)=\begin{cases}
+a+x,&x<0,\\
+b,&x=0,\\
+\sin(x^\alpha),&x>0.
+\end{cases}
+\]
+求所有参数，使 \(f\) 在 0 处连续。`,
+  solution:String.raw`左极限为 \(a\)，点值为 \(b\)。对右极限按 \(\alpha\) 分类：
+
+若 \(\alpha>0\)，则 \(x^\alpha\to0\)，由 \(|\sin t|\le|t|\) 得右极限为 0，连续当且仅当 \(a=b=0\)。
+
+若 \(\alpha=0\)，对 \(x>0\) 有 \(x^\alpha=1\)，右侧函数恒为 \(\sin1\)，连续当且仅当 \(a=b=\sin1\)。
+
+若 \(\alpha<0\)，取
+\[
+x_n=(2n\pi+\tfrac\pi2)^{\frac1\alpha},\qquad
+y_n=(2n\pi+\tfrac{3\pi}2)^{\frac1\alpha}.
+\]
+因为 \(\frac1\alpha<0\)，两列均从右侧趋于 0，而对应函数值分别为 1 与 \(-1\)，故右极限不存在，不能连续。
+
+综上，全部参数是
+\[
+\boxed{\alpha>0,\ a=b=0\quad\text{或}\quad
+\alpha=0,\ a=b=\sin1}.
+\]`,
+  exam:String.raw`左极限为 \(a\)、点值为 \(b\)。当 \(\alpha>0\) 时，右极限为 0，故 \(a=b=0\)；当 \(\alpha=0\) 时，右极限为 \(\sin1\)，故 \(a=b=\sin1\)。当 \(\alpha<0\) 时，取 \((2n\pi+\frac\pi2)^{\frac1\alpha}\) 和 \((2n\pi+\frac{3\pi}2)^{\frac1\alpha}\) 分别使右支取值为 1 和 \(-1\)，右极限不存在。上述两种参数情况即为全部答案。`,
+  guidance:'先求左极限和点值，再按 α 正、零、负分类。α 为负时，右支中的自变量趋于正无穷，构造两列让正弦分别取 1 和 −1。'
+});
