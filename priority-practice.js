@@ -310,18 +310,21 @@ Object.assign(window.REVIEW_SOLUTIONS['3.4:exercise:1'], {
 
 Object.assign(window.REVIEW_SOLUTIONS['3.4:exercise:3'], {
   variantDeferred: false,
-  variantSource: '自编。参照华师大第六版上册习题 3.4 第 3 题（印刷第 58 页，PDF 第 71 页）中将有限乘积化为商的思路，这里使用平方差恒等式。',
-  variant: String.raw`设 \(|x|<1\)，求 \(\displaystyle\lim_{n\to\infty}\prod_{k=0}^{n}(1+x^{2^k})\)。`,
-  variantSolution: String.raw`固定 \(|x|<1\)。反复利用 \((1-t)(1+t)=1-t^2\)，得到
+  variantSource: '自编。参照华师大第六版上册习题 3.4 第 3 题（印刷第 58 页，PDF 第 71 页）中将有限乘积化为商的思路，改用正弦三倍角公式。',
+  variant: String.raw`设 \(|x|<\pi\)，求 \(\displaystyle\lim_{n\to\infty}\prod_{k=1}^{n}\frac{1+2\cos(\frac{2x}{3^k})}3\)。`,
+  variantSolution: String.raw`由三倍角公式 \(\sin3t=\sin t\,(1+2\cos2t)\)，依次取 \(t=\frac{x}{3^k}\) 并相乘，得
 \[
-(1-x)\prod_{k=0}^{n}(1+x^{2^k})=1-x^{2^{n+1}}.
+\sin x=3^n\sin\frac{x}{3^n}\prod_{k=1}^n\frac{1+2\cos(\frac{2x}{3^k})}{3}.
 \]
-因为 \(1-x\ne0\)，且 \(x^{2^{n+1}}\to0\)，所以
+若 \(0<|x|<\pi\)，对每个 \(n\ge1\) 均有 \(0<|\frac{x}{3^n}|<\pi\)，所以分母中的正弦不为零。由正弦基本极限，
 \[
-\prod_{k=0}^{n}(1+x^{2^k})=\frac{1-x^{2^{n+1}}}{1-x}\longrightarrow\frac1{1-x}.
+3^n\sin\frac{x}{3^n}=x\,\frac{\sin(\frac{x}{3^n})}{\frac{x}{3^n}}\longrightarrow x,
+\qquad
+\prod_{k=1}^{n}\frac{1+2\cos(\frac{2x}{3^k})}{3}
+\longrightarrow\frac{\sin x}{x}.
 \]
-这一式子也包括 \(x=0\) 和负的 \(x\)。`,
-  verification: '已对照华师大第六版印刷第 58 页；检查原题乘积包含 cos x、内外极限次序。新练习的平方差望远镜乘积及负 x、x=0 均经复核。'
+当 \(x=0\) 时，每个因子都等于 1，因此极限为 1。这也等于 \(\frac{\sin x}{x}\) 在 0 处的连续延拓值。`,
+  verification: '已对照华师大第六版印刷第 58 页；检查原题乘积包含 cos x、内外极限次序。练习使用三倍角有限乘积，分开核对非零 x 的分母与 x=0 的值。'
 });
 
 Object.assign(window.REVIEW_SOLUTIONS['3.4:exercise:4'], {
