@@ -40,6 +40,14 @@ window.REVIEW_TOPICS.oneinf.items[0].examVariant = {
 
 解：底数可写为 \(1+\frac1{n+2023}\)。令 \(u_n=\frac1{n+2023}\)，则 \(u_n\to0\)，且 \(nu_n=\frac n{n+2023}\to1\)。由第二个基本极限的推广，原极限为 \(\boxed{e}\)。`
 };
+window.REVIEW_TOPICS.oneinf.items[1].examVariant = {
+  label: '23-24期中考试T6改编题',
+  content: String.raw`试卷题面：求 \(\displaystyle\lim_{n\to\infty}\left(\frac{n+2024}{n+2023}\right)^n\)。
+
+与本专题题对照：令 \(x=\frac1n\)，试卷底数可写成 \(\frac{1+2024x}{1+2023x}\)，指数为 \(\frac1x=n\)。它与本题同为一次式比值的 \(\frac1x\) 次幂，系数与取极限的方式有所改变。
+
+解：将底数写为 \(1+\frac1{n+2023}\)。令 \(u_n=\frac1{n+2023}\)，则 \(u_n\to0\)，且 \(nu_n=\frac n{n+2023}\to1\)。由第二个基本极限的推广，原极限为 \(\boxed{e}\)。`
+};
 window.REVIEW_TOPICS.oneinf.items[2].examVariant = {
   label: '25-26期中考试T11改编题',
   content: String.raw`试卷题面：计算 \(\displaystyle\lim_{x\to\infty}\left(\cos\frac1x\right)^{x^2}\)。
