@@ -1097,3 +1097,8 @@ Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
 \]
 分母趋于 2，故所求极限为 \(\boxed{\frac12}\)。`
 });
+
+// Add chapter notes after all question-specific practice replacements.
+for (const id of ['2.2:example:2', '2.3:exercise:10', '3.1:exercise:7', '3.total:exercise:8']) {
+  window.REVIEW_SOLUTIONS[id].variantSource += ' 本练习涉及对数函数的性质，可参见华师大后续 §4.3。';
+}
