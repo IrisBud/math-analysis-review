@@ -465,16 +465,16 @@ Object.assign(window.REVIEW_SOLUTIONS['3.4:exercise:4'], {
 
 Object.assign(window.REVIEW_SOLUTIONS['3.5:example:1'], {
   variantDeferred: false,
-  variantSource: '自编。参照华师大第六版上册 §3.5 例 1（印刷第 61 页，PDF 第 74 页），将正弦函数嵌入反正切，并检查复合后的去心条件。',
-  variant: String.raw`求 \(\displaystyle\lim_{x\to0}\frac{\arctan(\sin x)}{\sin(2x)}\)。`,
-  variantSolution: String.raw`当 \(x\) 在充分小的去心邻域内时，\(\sin x\ne0\)、\(\sin(2x)\ne0\)。令 \(u=\sin x\)，则 \(u\to0\) 且 \(u\ne0\)。由基本极限，
+  variantSource: '自编。参照华师大第六版上册 §3.5 例 1（印刷第 61 页，PDF 第 74 页），组合反正切复合、正弦因子与余弦二次差。',
+  variant: String.raw`求 \(\displaystyle\lim_{x\to0}\frac{\arctan(x^2)\sin x}{x(1-\cos x)}\)。`,
+  variantSolution: String.raw`当 \(x\) 充分接近 0 且 \(x\ne0\) 时，\(x^2\ne0\)、\(1-\cos x\ne0\)。令 \(u=x^2\)，则 \(u\to0\)。把原式分成乘除因子：
 \[
-\frac{\arctan(\sin x)}{\sin(2x)}
-=\frac{\arctan u}{u}\,\frac{\sin x}{x}\,\frac{x}{\sin(2x)}
-\longrightarrow1\cdot1\cdot\frac12=\frac12.
+\frac{\arctan(x^2)\sin x}{x(1-\cos x)}
+=\frac{\arctan u}{u}\cdot\frac{\sin x}{x}\cdot\frac{x^2}{1-\cos x}
+\longrightarrow1\cdot1\cdot2=\boxed2.
 \]
-这里分别处理复合函数的内层以及每个乘除因子。`,
-  verification: '已对照华师大第六版印刷第 61 页例 1；旧练习仅改变系数，现检查复合内层、去心条件和极限。'
+这里分别使用反正切、正弦和余弦的基本极限，且只在乘除因子中替换等价无穷小。`,
+  verification: '已对照华师大第六版印刷第 61 页例 1；旧练习与原题同属两个一阶因子之比，现增加余弦二次尺度并检查内层和各分母非零。'
 });
 
 Object.assign(window.REVIEW_SOLUTIONS['3.5:example:2'], {
