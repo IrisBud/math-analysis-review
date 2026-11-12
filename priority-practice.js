@@ -98,6 +98,33 @@ Object.assign(window.REVIEW_SOLUTIONS['2.total:exercise:11'], {
 因此 \(|M_n-L|<\varepsilon\)。尽管窗口的项数随 n 增大，所有下标均处在同一个充分靠后的尾部，故 \(M_n\to L\)。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['3.1:example:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.1 例 1 的双向无穷远极限定义，加入整数部分的不连续性。',
+  variant:String.raw`设 \(\lfloor x\rfloor\) 是不超过 \(x\) 的最大整数。按照双向无穷远处极限的定义证明
+\[\lim_{x\to\infty}\frac{\lfloor x\rfloor}{x^2}=0.\]`,
+  variantSolution:String.raw`由 \(x-1<\lfloor x\rfloor\le x\)，对任意实数 x 有
+\[|\lfloor x\rfloor|\le|x|+1.\]
+任给 \(\varepsilon>0\)，取 \(X=\max\{1,\frac2\varepsilon\}\)。当 \(|x|>X\) 时，
+\[\left|\frac{\lfloor x\rfloor}{x^2}\right|
+\le\frac1{|x|}+\frac1{x^2}<\frac2{|x|}<\varepsilon.\]
+因此按无穷远处极限定义，极限为 0；绝对值估计同时适用于 \(x\to+\infty\) 和 \(x\to-\infty\)。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.1:example:5'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.1 例 5 的去心邻域定义证明，改为根式差商并使用有理化。',
+  variant:String.raw`按 \(\varepsilon\)–\(\delta\) 定义证明
+\[\lim_{x\to1}\frac{\sqrt{x+3}-2}{x-1}=\frac14.\]`,
+  variantSolution:String.raw`当 \(x\ne1\)、\(x+3\ge0\) 时，有理化得
+\[\frac{\sqrt{x+3}-2}{x-1}=\frac1{\sqrt{x+3}+2}.\]
+任给 \(\varepsilon>0\)，取 \(\delta=\min\{1,16\varepsilon\}\)。若 \(0<|x-1|<\delta\)，则 \(x>0\)，原式有定义，并且
+\[\left|\frac1{\sqrt{x+3}+2}-\frac14\right|
+=\frac{|x-1|}{4(\sqrt{x+3}+2)^2}
+\le\frac{|x-1|}{16}<\varepsilon.\]
+这就按定义证明了所求极限。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
