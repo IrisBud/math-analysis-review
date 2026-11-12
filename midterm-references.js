@@ -331,7 +331,7 @@ window.MIDTERM_REFERENCES['3.2:example:4'] = [
 
 window.MIDTERM_REFERENCES['2.2:exercise:3'] = [
   {
-    label: '23-24期中考试T11考点练习（计算题）',
+    label: '23-24期中考试T11改编题（教材第6小问；改变分子和分母）',
     statement: '求 \\(\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac1{n^2+n+1}+\\frac2{n^2+n+2}+\\cdots+\\frac n{n^2+n+n}\\right)\\)。',
     solution: '对于 \\(1\\le k\\le n\\)，分母满足 \\(n^2+n+1\\le n^2+n+k\\le n^2+2n\\)。各项均为正，所以\n\\[\n\\frac{\\sum_{k=1}^n k}{n^2+2n}\\le\\sum_{k=1}^n\\frac{k}{n^2+n+k}\\le\\frac{\\sum_{k=1}^n k}{n^2+n+1}.\n\\]\n利用 \\(\\sum_{k=1}^n k=\\frac{n(n+1)}2\\)，两端均趋于 \\(\\frac12\\)。由迫敛性，原极限为 \\(\\frac12\\)。'
   },
@@ -509,3 +509,6 @@ window.MIDTERM_REFERENCES['4.1:exercise:1'].push(
     solution: '使用华师大 §4.2 后续的介值定理。因为 \\(p,q>0\\)，\\[\\frac{p f(a)+q f(b)}{p+q}=\\frac p{p+q}f(a)+\\frac q{p+q}f(b)\\] 是两个端点函数值的凸组合，因而介于 \\(f(a)\\) 与 \\(f(b)\\) 之间。若两端点函数值相等，取任一端点；否则由介值定理存在 \\(\\xi\\in[a,b]\\) 取到该值。两边乘以 \\(p+q>0\\) 即得结论。'
   }
 );
+
+// Add the page-specific comparison after shared exam entries have been copied.
+window.MIDTERM_REFERENCES['2.2:exercise:3'][0].solution += String.raw` 教材第（6）问的第 \(k\) 项为 \(\frac1{\sqrt{n^2+k}}\)；试卷将分子改为 \(k\)，并将分母改为 \(n^2+n+k\)。`;
