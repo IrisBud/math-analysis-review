@@ -542,6 +542,25 @@ Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
   verification: '已对照华师大第六版印刷第 65 页第 2 题两个小问；旧练习只改变系数，新题检查复合内层及分母非零。'
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:3'], {
+  variantDeferred:false,
+  verification:'六个编号小问的题面、参考答案错号及解答已有逐题复核记录；自编练习的有理化、夹逼方向与误差尺度已另行核算。',
+  variantSource:'自编。以华师大第六版上册 §2.2 习题 3 第（6）问的和式为基础，进一步求其与极限值之差的尺度。',
+  variant:String.raw`记
+\[S_n=\sum_{k=1}^n\frac1{\sqrt{n^2+k}}.\]
+已知教材第（6）问证明了 \(S_n\to1\)。进一步求
+\[\lim_{n\to\infty}n(1-S_n).\]`,
+  variantSolution:String.raw`把 \(1\) 写成 \(n\) 个 \(1/n\) 之和。对每项有理化，得到
+\[n(1-S_n)=\sum_{k=1}^n
+\frac{\frac{k}{n^2}}{\sqrt{1+\frac{k}{n^2}}\left(1+\sqrt{1+\frac{k}{n^2}}\right)}.\]
+对 \(1\le k\le n\)，有 \(1\le\sqrt{1+\frac{k}{n^2}}\le\sqrt{1+\frac1n}\)。记
+\[c_n=\frac1{\sqrt{1+\frac1n}\left(1+\sqrt{1+\frac1n}\right)}.\]
+因此逐项夹逼并用 \(\sum_{k=1}^n k=n(n+1)/2\)，可得
+\[c_n\frac{n(n+1)}{2n^2}\le n(1-S_n)
+\le\frac12\frac{n(n+1)}{2n^2}.\]
+由于 \(c_n\to\frac12\)，两端都趋于 \(\frac14\)，故所求极限为 \(\boxed{\frac14}\)。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:3'], {
   variantDeferred: false,
   variantSource: '自编。参照华师大第六版定理 3.14 与习题 3.5 第 3 题（印刷第 63、65 页，PDF 第 76、78 页），检查有无限多个零点时倒数的定义域。',
