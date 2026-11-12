@@ -356,6 +356,13 @@ window.MIDTERM_REFERENCES['2.2:example:2'].push({
   statement: '求 \\(\\displaystyle\\lim_{n\\to\\infty}\\left(1+\\frac13+\\frac15+\\cdots+\\frac1{2n+1}\\right)^{\\frac1n}\\)。',
   solution: '令括号内和为 \\(S_n\\)。它共有 \\(n+1\\) 项，每项正且不超过 1，所以 \\(1\\le S_n\\le n+1\\)。取 \\(n\\) 次根，\\(1\\le S_n^{\\frac1n}\\le(n+1)^{\\frac1n}\\)。而 \\((n+1)^{\\frac1n}=(1+\\frac1n)^{\\frac1n}n^{\\frac1n}\\to1\\)，最后一个因子是本例的结论，第一个因子也由夹逼趋于 1。故原极限为 1。'
 });
+window.MIDTERM_REFERENCES['2.total:exercise:10'] = [
+  {
+    ...window.MIDTERM_REFERENCES['2.2:example:2'].find(x=>x.label.includes('24-25期中考试T11')),
+    label:'24-25期中考试T11改编题（教材第3小问；奇数项开n次根）',
+    solution:window.MIDTERM_REFERENCES['2.2:example:2'].find(x=>x.label.includes('24-25期中考试T11')).solution + ' 教材第（3）问考查调和部分和本身的发散；试卷改取奇数分母的项，并对和取 n 次根，故需重新求极限。'
+  }
+];
 window.MIDTERM_REFERENCES['2.2:example:2'].push({
   ...window.MIDTERM_REFERENCES['2.2:exercise:8'][1],
   label:'25-26期中考试T12改编题（n次根n的应用）',
