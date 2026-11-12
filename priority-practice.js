@@ -179,6 +179,25 @@ Object.assign(window.REVIEW_SOLUTIONS['3.2:example:2'], {
 \[-\frac1{2\sqrt2}=\boxed{-\frac{\sqrt2}{4}}.\]`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['3.4:example:5'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.4 例 5 的夹逼方法，将正负增量的幂相乘并比较指数扰动。',
+  variant:String.raw`利用夹逼法求
+\[\lim_{n\to\infty}
+\left(1+\frac1n\right)^{n-\lfloor\sqrt n\rfloor}
+\left(1-\frac1n\right)^{n+\lfloor\sqrt n\rfloor}.\]`,
+  variantSolution:String.raw`对 \(n\ge2\)，记 \(m_n=\lfloor\sqrt n\rfloor\)。将原式拆成
+\[\left(1-\frac1{n^2}\right)^n
+\left(\frac{1-\frac1n}{1+\frac1n}\right)^{m_n}.
+\]
+由 Bernoulli 不等式，第一个因子满足
+\[1-\frac1n\le\left(1-\frac1{n^2}\right)^n\le1,\]
+所以趋于 1。第二个因子的底数是 \(1-\frac2{n+1}\in[0,1]\)，同样有
+\[1-\frac{2m_n}{n+1}\le
+\left(1-\frac2{n+1}\right)^{m_n}\le1.\]
+由于 \(0\le m_n\le\sqrt n\)，两端均趋于 1；两因子的乘积因而趋于 \(\boxed1\)。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
