@@ -360,15 +360,18 @@ Object.assign(window.REVIEW_SOLUTIONS['3.5:example:2'], {
 Object.assign(window.REVIEW_SOLUTIONS['3.5:example:3'], {
   variantDeferred: false,
   variantSource: '自编。参照华师大第六版上册 §3.5 例 3 及印刷第 63 页关于无界函数的说明（PDF 第 75—76 页），比较局部无界和无穷大量。',
-  variant: String.raw`设 \(f(x)=\dfrac{1+\sin(\frac1x)}{x^2}\)。证明 f 在 0 的每个去心邻域内无界，并判断它在 \(x\to0\) 时是否为无穷大量。`,
-  variantSolution: String.raw`取
+  variant: String.raw`对 \(x\ne0\)，设
 \[
-x_n=\frac1{2n\pi+\frac\pi2},\qquad y_n=\frac1{2n\pi+\frac{3\pi}2}.
+f(x)=\begin{cases}
+\dfrac1x,&x\in\mathbb Q,\\
+0,&x\notin\mathbb Q.
+\end{cases}
 \]
-两列均为正且趋于 0。沿第一列，\(f(x_n)=\frac2{x_n^2}\to+\infty\)，所以任意去心邻域内的函数值都无界。沿第二列，\(f(y_n)=0\)，因此无论邻域多小，都有函数值的绝对值不大于 1 的点，不满足无穷大量的定义。
+证明 f 在 0 的每个去心邻域内无界，并判断它在 \(x\to0\) 时是否为无穷大量。`,
+  variantSolution: String.raw`取有理数列 \(x_n=\frac1n\to0\)，有 \(f(x_n)=n\to+\infty\)，因此每个去心邻域内的函数值都无界。
 
-故 f 虽然局部无界，且函数值始终非负，却不是 \(x\to0\) 时的无穷大量。`,
-  verification: '已对照华师大第六版印刷第 62—63 页；旧练习只是平移并取负，现比较去心邻域无界与无穷大量，检查两个数列的函数值。'
+另取无理数列 \(y_n=\frac{\sqrt2}{n}\to0\)，则对每个 n 有 \(f(y_n)=0\)。因而无论邻域多小，都存在函数值绝对值不大于 1 的点，f 不满足无穷大量的定义。故它局部无界，却不是 \(x\to0\) 时的无穷大量。`,
+  verification: '已对照华师大第六版印刷第 62—63 页；现用有理数和无理数分支比较局部无界与无穷大量，分别检查两列的定义和函数值。'
 });
 
 Object.assign(window.REVIEW_SOLUTIONS['3.5:example:4'], {

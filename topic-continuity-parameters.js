@@ -47,6 +47,31 @@ window.REVIEW_TOPICS['continuousParam'] = {
   ]
 };
 
+// 区分 §4.1 例 2 的线性／二次分段练习，加入约分和自由参数关系。
+Object.assign(window.REVIEW_TOPICS.continuousParam.items[2], {
+  title:'分段消去与参数关系',
+  statement:String.raw`设 \(a,b,c\in\mathbb R\)，
+\[
+f(x)=\begin{cases}
+\dfrac{x^2-1}{x-1},&x<1,\\
+c,&x=1,\\
+ax+b,&x>1.
+\end{cases}
+\]
+求所有参数，使 \(f\) 在 \(x=1\) 处连续。`,
+  solution:String.raw`当 \(x<1\) 时 \(x\ne1\)，故可约去非零因子 \(x-1\)：
+\[
+\frac{x^2-1}{x-1}=x+1\longrightarrow2\qquad(x\to1^-).
+\]
+右支为 \(ax+b\)，右极限为 \(a+b\)，点值为 \(c\)。连续当且仅当三者相等，即
+\[
+2=a+b=c.
+\]
+因此 \(a\) 可任取实数，其余参数必须为 \(b=2-a\)、\(c=2\)。反过来代入这些值，两侧极限和点值均为 2，确实连续。`,
+  exam:String.raw`左侧约分得 \(x+1\to2\)，右极限为 \(a+b\)，点值为 \(c\)。连续当且仅当 \(a+b=c=2\)，即 \(\boxed{a\in\mathbb R,\ b=2-a,\ c=2}\)。`,
+  guidance:'先在左分支约去非零因子，求出确定的左极限；再令右极限和单独给出的点值都等于它。注意一个参数可以自由取值。'
+});
+
 // 与 §3.3 例 1 的幂次振荡练习区分：改为自变量幂次导致的三种右侧行为。
 Object.assign(window.REVIEW_TOPICS.continuousParam.items[4], {
   title:'自变量幂次与连续性分类',

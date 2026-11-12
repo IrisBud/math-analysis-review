@@ -281,7 +281,7 @@ window.MIDTERM_REFERENCES['2.2:exercise:1'] = [
 });
 
 window.MIDTERM_REFERENCES['3.5:example:3'] = [
-  {...window.MIDTERM_REFERENCES['3.3:example:1'][0], label:'23-24期中考试T2改编题（选择题；对应举一反三）'}
+  {...window.MIDTERM_REFERENCES['3.3:example:1'][0], label:'23-24期中考试T2考点练习（选择题；辨析无界和无穷大）'}
 ];
 window.MIDTERM_REFERENCES['3.1:exercise:8'] = [{
   label:'25-26期中考试T18改编题（由极限判断连续性）',
