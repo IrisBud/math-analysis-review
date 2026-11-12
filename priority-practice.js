@@ -801,3 +801,26 @@ s_n\le\frac52+\frac16\sum_{j=0}^{n-3}\frac1{4^j}
 令 \(n\to\infty\)，由本例已证 \(s_n\to e\)，得 \(\frac83\le e\le\frac{49}{18}\)，从而 \(\boxed{\frac52<e<\frac{11}4}\)。使用较紧的上下界保证取极限后仍为严格不等式。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['4.1:exercise:9'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §4.1 习题 9 的连续点与间断点构造，加入具有聚集点的无限集合，并使用第二章的下确界。',
+  variant:String.raw`构造定义在 \([0,1]\) 上的函数，使它恰好在集合
+\[E=\{0\}\cup\left\{\frac1n:n=1,2,\ldots\right\}\]
+中的点连续，在其余点不连续；并说明这些间断点的类型。`,
+  variantSolution:String.raw`先定义
+\[d(x)=\inf_{n\ge1}\left|x-\frac1n\right|,\qquad x\in[0,1],\]
+并令
+\[
+f(x)=\begin{cases}d(x),&x\in\mathbb Q,\\0,&x\notin\mathbb Q.\end{cases}
+\]
+下确界存在，因为取下确界的集合非空且下有界。对任意 \(x,y\in[0,1]\)，由三角不等式及下确界的性质，
+\[|d(x)-d(y)|\le|x-y|.\]
+此外 \(d(\frac1n)=0\)；又 \(0\le d(0)\le\frac1n\) 对所有 n 成立，故 \(d(0)=0\)。于是当 \(c\in E\) 时，
+\[|f(x)-f(c)|\le d(x)=|d(x)-d(c)|\le|x-c|\to0,\]
+其中端点按区间内单侧趋近，因此 f 在 E 的每一点连续。
+
+若 \(c\notin E\)，则 \(c\in(0,1)\)。取正整数 N 使 \(\frac1N<\frac c2\)。对 \(n\ge N\)，有 \(|c-\frac1n|>\frac c2\)；对有限个 \(1\le n<N\)，由于 \(c\ne\frac1n\)，其距离的最小值为正。故所有这些距离有共同正下界，从而 \(d(c)>0\)。
+
+在 c 两侧分别取趋于 c 的有理数列和无理数列。由 d 的上述不等式，有理数列上的函数值趋于 \(d(c)>0\)，无理数列上的函数值恒为 0。故左右单侧极限均不存在，c 是第二类间断点。所构造函数恰好在 E 连续，在其余点不连续。`
+});
+
