@@ -295,6 +295,19 @@ window.MIDTERM_REFERENCES['3.2:exercise:8'] = [
 因此试卷极限为 \(\boxed1\)。`
   }
 ];
+window.MIDTERM_REFERENCES['3.2:example:4'] = [
+  {
+    ...window.MIDTERM_REFERENCES['3.1:exercise:1'][0],
+    label:'25-26期中考试T7改编题（对应举一反三的指数）',
+    solution:String.raw`对 \(x\ne0\)，设 \(r=\frac1x-\lfloor\frac1x\rfloor\)，则 \(0\le r<1\)。于是
+\[x\left\lfloor\frac1x\right\rfloor=1-xr\longrightarrow1,\]
+其中 \(|xr|\le|x|\to0\)，适用于两侧趋近。因而试卷答案为 \(\boxed1\)。
+
+本页练习的指数是在试卷式上再乘 \(x\)：
+\[x^2\left\lfloor\frac1x\right\rfloor=x\left(x\left\lfloor\frac1x\right\rfloor\right)\longrightarrow0.\]
+接着利用本例 \(a^u\to1\)（\(u\to0\)）即可求出练习极限。`
+  }
+];
 
 window.MIDTERM_REFERENCES['2.2:exercise:3'] = [
   {
