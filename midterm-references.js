@@ -410,6 +410,11 @@ window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
   statement: '设 \\(g\\) 是 \\(\\displaystyle f(t)=\\frac12\\ln\\frac{3+t}{3-t}\\) 的反函数，求曲线 \\(y=g(x)\\) 的渐近线方程。',
   solution: '原函数的实定义域为 \\((-3,3)\\)。由 \\(x=\\frac12\\ln\\frac{3+t}{3-t}\\)，得 \\(e^{2x}=\\frac{3+t}{3-t}\\)，解得\n\\[\ng(x)=3\\frac{e^{2x}-1}{e^{2x}+1}.\n\\]\n当 \\(x\\to+\\infty\\) 时 \\(g(x)\\to3\\)；当 \\(x\\to-\\infty\\) 时 \\(g(x)\\to-3\\)。因此水平渐近线为 \\(y=3\\)、\\(y=-3\\)。反函数在所有实数上有定义且有界，不存在垂直或其他斜渐近线。'
 });
+(window.MIDTERM_REFERENCES['3.5:exercise:4'] ||= []).push({
+  ...window.MIDTERM_REFERENCES['3.total:exercise:2'][0],
+  label:'23-24期中考试T3改编题（选择题；教材第3小问）',
+  solution:window.MIDTERM_REFERENCES['3.total:exercise:2'][0].solution + ' 教材第（3）问要求求有理函数的全部渐近线；试卷更换有理函数，并仅用正无穷处的斜渐近式求系数。'
+});
 
 (window.MIDTERM_REFERENCES['3.4:example:3'] ||= []).push({
   label: '25-26期中考试T11考点练习（计算题）',
