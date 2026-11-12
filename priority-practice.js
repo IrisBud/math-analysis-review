@@ -57,6 +57,21 @@ Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:5'], {
   verification: '已对照华师大第六版印刷第 33 页习题 5 三问，检查子列极限与无界性两种证明。原练习的一支仅改变教材奇偶例的下标模数，已替换为整数部分构造；原数据保留。'
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.3:example:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.3 例 1 的单调有界证明，将正项和改为正因子的有限乘积。',
+  variant:String.raw`用单调有界定理证明数列
+\[p_n=\prod_{k=1}^{n}\left(1+\frac1{k^2}\right)\]
+收敛；不要求求出其极限。`,
+  variantSolution:String.raw`每个因子大于 1，所以 \(p_n\) 严格递增。对 \(k\ge2\)，
+\[1+\frac1{k^2}\le\frac1{1-\frac1{k^2}}
+=\frac{k}{k-1}\cdot\frac{k}{k+1}.\]
+因此对 \(n\ge2\)，有限乘积相消得到
+\[p_n\le2\prod_{k=2}^{n}\frac{k}{k-1}\cdot\frac{k}{k+1}
+=2\cdot n\cdot\frac2{n+1}=\frac{4n}{n+1}<4.\]
+又 \(p_1=2<4\)，故整列以上界 4 控制。由单调有界定理，\(\{p_n\}\) 收敛。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
