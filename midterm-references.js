@@ -131,6 +131,9 @@ window.MIDTERM_REFERENCES['2.2:exercise:6'] = [
 window.MIDTERM_REFERENCES['2.total:exercise:14'] = [
   {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；C项）'}
 ];
+window.MIDTERM_REFERENCES['2.2:exercise:4'] = [
+  {...window.MIDTERM_REFERENCES['2.2:exercise:2'][0], label:'24-25期中考试T4改编题（选择题；A项与积的收敛性）'}
+];
 window.MIDTERM_REFERENCES['2.3:example:4'] = [
   {...window.MIDTERM_REFERENCES['2.3:exercise:1'][0], label:'23-24期中考试T6改编题（底数偏移）'}
 ];
