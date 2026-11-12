@@ -824,3 +824,21 @@ f(x)=\begin{cases}d(x),&x\in\mathbb Q,\\0,&x\notin\mathbb Q.\end{cases}
 在 c 两侧分别取趋于 c 的有理数列和无理数列。由 d 的上述不等式，有理数列上的函数值趋于 \(d(c)>0\)，无理数列上的函数值恒为 0。故左右单侧极限均不存在，c 是第二类间断点。所构造函数恰好在 E 连续，在其余点不连续。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.1:example:7'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.1 例 7 的邻域定义证明，分别构造无界与有界的发散数列。',
+  variant:String.raw`用数列极限的邻域定义证明，以下两个数列都发散：
+\[
+u_n=\sqrt n\,\sin\frac{n\pi}{2},\qquad
+v_n=(-1)^{\lfloor\sqrt n\rfloor}.
+\]
+其中 \(\lfloor t\rfloor\) 表示不超过 t 的最大整数。`,
+  variantSolution:String.raw`对 \(u_n\)，当 \(n=4k+1\) 时，\(u_n=\sqrt{4k+1}\)。任取候选极限 \(A\in\mathbb R\)，充分大的此类下标满足 \(u_n>|A|+1\)，故 \(|u_n-A|>1\)；因此在 \(U(A;1)\) 外有无穷多项，\(A\) 不是极限。
+
+对 \(v_n\)，取 \(n=(2k)^2\) 得 \(v_n=1\)，取 \(n=(2k+1)^2\) 得 \(v_n=-1\)。这两类下标均趋于无穷。任取 \(A\in\mathbb R\)，由
+\[2\le|1-A|+|-1-A|\]
+知其中至少一个距离不小于 1；相应的无穷多项都在 \(U(A;\frac12)\) 外，故 \(A\) 不是极限。
+
+因此两列都发散；\(u_n\) 无界，\(v_n\) 有界。`
+});
+
