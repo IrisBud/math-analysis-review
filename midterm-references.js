@@ -17,6 +17,13 @@ window.MIDTERM_REFERENCES = {
   '3.2:example:1': [
     { label: '25-26期中考试T7原题' }
   ],
+  '3.1:exercise:1': [
+    {
+      label: '25-26期中考试T7改编题（对应举一反三）',
+      statement: String.raw`设 \(\lfloor t\rfloor\) 表示不超过 \(t\) 的最大整数，求 \(\displaystyle\lim_{x\to0}x\lfloor\frac1x\rfloor\)。`,
+      solution: String.raw`当 \(x\ne0\) 时，令 \(r=\frac1x-\lfloor\frac1x\rfloor\)，则 \(0\le r<1\)，且 \(x\lfloor\frac1x\rfloor=1-xr\)。因此无论 x 从哪一侧趋于 0，误差均满足 \(|xr|\le|x|\to0\)，所求极限为 \(\boxed1\)。本页举一反三在试卷式基础上加入 \(x\lfloor-\frac1x\rfloor\)，需要处理取整的对称和。`
+    }
+  ],
   '2.total:exercise:1': [
     { label: '25-26期中考试T12原题（第1小问）' }
   ],
