@@ -239,9 +239,9 @@ window.MIDTERM_REFERENCES['4.1:example:1'] = [
 
 window.MIDTERM_REFERENCES['3.1:exercise:6'] = [
   {
-    label: '24-25期中考试T2考点练习（选择题）',
+    label: '24-25期中考试T2考点练习（选择题；§3.5 指数极限）',
     statement: '设 \\(f(x)=\\dfrac{1-3^{\\frac1x}}{1+3^{\\frac1x}}\\)，则 \\(\\lim_{x\\to0}f(x)\\) 为：A. 1；B. −1；C. 不存在但不是无穷；D. \\(+\\infty\\)。',
-    solution: '当 \\(x\\to0^-\\) 时 \\(3^{\\frac1x}\\to0\\)，故左极限为 1。当 \\(x\\to0^+\\) 时 \\(3^{\\frac1x}\\to+\\infty\\)，分子、分母同除以该正数，得右极限为 −1。左右极限不同，所以双侧有限极限不存在；同时 \\(|f(x)|<1\\)，它也不是无穷大。选 C。'
+    solution: '本题使用华师大 §3.5 的指数函数在正、负无穷远处的极限。当 \\(x\\to0^-\\) 时 \\(3^{\\frac1x}\\to0\\)，故左极限为 1。当 \\(x\\to0^+\\) 时 \\(3^{\\frac1x}\\to+\\infty\\)，分子、分母同除以该正数，得右极限为 −1。左右极限不同，所以双侧有限极限不存在；同时 \\(|f(x)|<1\\)，它也不是无穷大。选 C。'
   }
 ];
 window.MIDTERM_REFERENCES['3.1:exercise:6'].push(
@@ -411,9 +411,9 @@ window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
 });
 
 (window.MIDTERM_REFERENCES['3.5:exercise:4'] ||= []).push({
-  label: '25-26期中考试T10考点练习（填空题）',
+  label: '25-26期中考试T10考点练习（填空题；§4.3 对数与指数）',
   statement: '设 \\(g\\) 是 \\(\\displaystyle f(t)=\\frac12\\ln\\frac{3+t}{3-t}\\) 的反函数，求曲线 \\(y=g(x)\\) 的渐近线方程。',
-  solution: '原函数的实定义域为 \\((-3,3)\\)。由 \\(x=\\frac12\\ln\\frac{3+t}{3-t}\\)，得 \\(e^{2x}=\\frac{3+t}{3-t}\\)，解得\n\\[\ng(x)=3\\frac{e^{2x}-1}{e^{2x}+1}.\n\\]\n当 \\(x\\to+\\infty\\) 时 \\(g(x)\\to3\\)；当 \\(x\\to-\\infty\\) 时 \\(g(x)\\to-3\\)。因此水平渐近线为 \\(y=3\\)、\\(y=-3\\)。反函数在所有实数上有定义且有界，不存在垂直或其他斜渐近线。'
+  solution: '本题使用对数与指数函数（参见华师大 §4.3）及反函数性质。原函数的实定义域为 \\((-3,3)\\)。由 \\(x=\\frac12\\ln\\frac{3+t}{3-t}\\)，得 \\(e^{2x}=\\frac{3+t}{3-t}\\)，解得\n\\[\ng(x)=3\\frac{e^{2x}-1}{e^{2x}+1}.\n\\]\n当 \\(x\\to+\\infty\\) 时 \\(g(x)\\to3\\)；当 \\(x\\to-\\infty\\) 时 \\(g(x)\\to-3\\)。因此水平渐近线为 \\(y=3\\)、\\(y=-3\\)。反函数在所有实数上有定义且有界，不存在垂直或其他斜渐近线。'
 });
 (window.MIDTERM_REFERENCES['3.5:exercise:4'] ||= []).push({
   ...window.MIDTERM_REFERENCES['3.total:exercise:2'][0],
