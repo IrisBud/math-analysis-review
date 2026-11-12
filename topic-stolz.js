@@ -31,6 +31,14 @@ window.REVIEW_TOPICS.stolz = {
     },
     {
       number:3,title:'平方权重的平均值',
+      examVariant:{
+        label:'25-26期中考试T9改编题（平方和尺度）',
+        content:String.raw`试卷题面：求 \(\displaystyle\lim_{n\to\infty}\frac{1^2+2^2+\cdots+n^2}{n^3}\)。
+
+解：令 \(A_n=\sum_{k=1}^n k^2\)、\(B_n=n^3\)。由于 \(B_n\) 严格递增且趋于正无穷，
+\[\frac{A_n-A_{n-1}}{B_n-B_{n-1}}=\frac{n^2}{n^3-(n-1)^3}\longrightarrow\frac13.\]
+由 Stolz 定理，极限为 \(\boxed{\frac13}\)。本专题题取 \(a_k=1\) 后分子同为平方和；试卷把分母改成 \(n^3\)，需要另求平方和的增长尺度。`
+      },
       statement:String.raw`设 \(a_n\to a\in\mathbb R\)，证明
 \[
 \frac{1^2a_1+2^2a_2+\cdots+n^2a_n}{1^2+2^2+\cdots+n^2}\longrightarrow a.
