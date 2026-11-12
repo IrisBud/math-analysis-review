@@ -241,6 +241,15 @@ window.MIDTERM_REFERENCES['2.2:exercise:3'] = [
   }
 ];
 
+window.MIDTERM_REFERENCES['2.1:exercise:9'] = [
+  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][0], label:'23-24期中考试T11改编题（教材第2小问；改变分母）'},
+  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][1], label:'25-26期中考试T9改编题（教材第2小问；改变分子幂次）'}
+];
+window.MIDTERM_REFERENCES['2.3:example:2'].push({
+  ...window.MIDTERM_REFERENCES['2.3:exercise:3'][1],
+  label:'25-26期中考试T14改编题（嵌套根号内由2改为3）'
+});
+
 window.MIDTERM_REFERENCES['2.2:example:2'].push({
   label: '24-25期中考试T11考点练习（计算题）',
   statement: '求 \\(\\displaystyle\\lim_{n\\to\\infty}\\left(1+\\frac13+\\frac15+\\cdots+\\frac1{2n+1}\\right)^{\\frac1n}\\)。',
