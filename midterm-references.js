@@ -108,6 +108,15 @@ window.MIDTERM_REFERENCES['2.2:exercise:2'] = [
 window.MIDTERM_REFERENCES['2.1:exercise:4'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
 ];
+window.MIDTERM_REFERENCES['2.1:example:7'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第①项的反例）'}
+];
+window.MIDTERM_REFERENCES['2.1:example:9'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第③项）'}
+];
+window.MIDTERM_REFERENCES['2.3:exercise:6'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；D项与举一反三）'}
+];
 window.MIDTERM_REFERENCES['2.1:exercise:3'] = [{
   label:'24-25期中考试T1改编题（选择题；教材第2、6小问）',
   statement:String.raw`求数列极限 \(\displaystyle\lim_{n\to\infty}\sqrt[n]n\)：A. \(1\)；B. \(\pi\)；C. \(\frac12\)；D. \(0\)。`,
