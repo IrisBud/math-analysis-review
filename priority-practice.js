@@ -198,6 +198,31 @@ Object.assign(window.REVIEW_SOLUTIONS['3.4:example:5'], {
 由于 \(0\le m_n\le\sqrt n\)，两端均趋于 1；两因子的乘积因而趋于 \(\boxed1\)。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['3.5:example:4'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.5 例 4 的指数无穷大，改为比较正负无穷两个方向。',
+  variant:String.raw`设 \(a>1\)。按无穷远处无穷大极限的定义证明
+\[\lim_{x\to\infty}\bigl(a^x+a^{-x}\bigr)=+\infty.\]`,
+  variantSolution:String.raw`任给 \(M>0\)。由 Bernoulli 不等式，存在正整数 N 使 \(a^N>M\)。当 \(|x|>N\) 时，指数函数单调递增，且两项均为正，因此
+\[a^x+a^{-x}\ge a^{|x|}>a^N>M.\]
+这对正、负无穷远同时成立，故按定义原极限为正无穷。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.5 习题 2 的根式与余弦无穷小，加入双根式差和倍角。',
+  variant:String.raw`求极限
+\[\lim_{x\to0}
+\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}.\]`,
+  variantSolution:String.raw`在 0 的充分小去心邻域，\(\sin x\ne0\)，根号均有定义。由平方差有理化与倍角公式，
+\[\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}
+=\frac{2\sin^2x}{(1-\cos2x)
+\left(\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}\right)}
+=\frac1{\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}}.
+\]
+分母趋于 2，故所求极限为 \(\boxed{\frac12}\)。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
