@@ -138,6 +138,10 @@ window.MIDTERM_REFERENCES['2.1:exercise:3'] = [{
 \[n=(1+u_n)^n\ge1+\frac{n(n-1)}2u_n^2,\]
 从而 \(0\le u_n^2\le\frac2n\to0\)。故 \(u_n\to0\)，所求极限为 1，选 A。教材对应小问的根号内是固定正数，这里改为随 n 增大的 n，不能直接把固定底数结论当成证明。`
 }];
+window.MIDTERM_REFERENCES['2.1:example:5'] = [
+  {...window.MIDTERM_REFERENCES['2.1:exercise:3'][0], label:'24-25期中考试T1改编题（选择题；固定底数改为n）',
+   solution:window.MIDTERM_REFERENCES['2.1:exercise:3'][0].solution.replace('教材对应小问','教材本例')}
+];
 window.MIDTERM_REFERENCES['2.2:exercise:6'] = [
   {...window.MIDTERM_REFERENCES['2.1:example:8'][0], label:'23-24期中考试T1改编题（选择题；第④项）'},
   {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；B项）'}
@@ -163,6 +167,22 @@ window.MIDTERM_REFERENCES['2.3:exercise:4'] = [
 ];
 window.MIDTERM_REFERENCES['2.total:exercise:5'] = [
   {label:'24-25期中考试T1原题（选择题；教材第3小问）'}
+];
+window.MIDTERM_REFERENCES['2.total:exercise:12'] = [
+  {
+    ...window.MIDTERM_REFERENCES['2.1:exercise:3'][0],
+    label:'24-25期中考试T1改编题（选择题；练习取p=1）',
+    solution:String.raw`本题是本页练习 \(x_n=n^p\) 中 \(p=1\) 的 n 次根极限，结果为 1，选 A。也可令 \(u_n=\sqrt[n]n-1\ge0\)，由二项式展开得
+\[n=(1+u_n)^n\ge1+\frac{n(n-1)}2u_n^2,\]
+故 \(0\le u_n^2\le\frac2n\to0\)，从而 \(\sqrt[n]n\to1\)。`
+  },
+  {
+    ...window.MIDTERM_REFERENCES['2.2:exercise:8'][1],
+    label:'25-26期中考试T12改编题（练习取p=3）',
+    solution:String.raw`本页练习取 \(p=3\) 得 \(\sqrt[n]{n^3}\to1\)。充分大 n 时 \(\sqrt[n]{n^3}<3\)，即 \(n^3<3^n\)，故
+\[3\le\sqrt[n]{n^3+3^n}\le3\sqrt[n]2\longrightarrow3.\]
+试卷在练习的 \(n^3\) 外增加 \(3^n\)，需要再比较两项并夹逼。`
+  }
 ];
 window.MIDTERM_REFERENCES['3.1:exercise:2'] = [
   {...window.MIDTERM_REFERENCES['3.3:exercise:6'][0], label:'24-25期中考试T17改编题（证明题；增加对所有候选极限的否定与实例）'}
