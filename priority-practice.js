@@ -72,6 +72,17 @@ Object.assign(window.REVIEW_SOLUTIONS['2.3:example:1'], {
 又 \(p_1=2<4\)，故整列以上界 4 控制。由单调有界定理，\(\{p_n\}\) 收敛。`
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.3:exercise:1'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §2.3 习题 1 的 e 型极限，把指数写成前 n 个奇数的和。',
+  variant:String.raw`利用 \(\displaystyle\lim_{m\to\infty}(1+\frac1m)^m=e\)，求
+\[\lim_{n\to\infty}\prod_{k=1}^{n}\left(1+\frac1{n^2}\right)^{2k-1}.\]`,
+  variantSolution:String.raw`固定 n 时各因子的底数相同，因此相乘时指数相加。由前 n 个正奇数之和为 \(n^2\)，
+\[\prod_{k=1}^{n}\left(1+\frac1{n^2}\right)^{2k-1}
+=\left(1+\frac1{n^2}\right)^{n^2}.\]
+令 \(m=n^2\)。当 \(n\to\infty\) 时 \(m\to\infty\)，所求数列是已知收敛数列沿平方下标的子列，故极限为 \(\boxed e\)。`
+});
+
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
   variantSource: '陈纪修等《数学分析》第三版上册第二章 §2 习题 9(8)，印刷第 38 页（PDF 第 57 页）。原题未改动；使用平方差分解与乘积相消。',
