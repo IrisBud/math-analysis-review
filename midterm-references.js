@@ -183,10 +183,14 @@ window.MIDTERM_REFERENCES['3.1:exercise:6'].push(
 
 window.MIDTERM_REFERENCES['3.5:example:2'] = [
   {
-    label: '25-26期中考试T2考点练习（选择题）',
+    label: '25-26期中考试T2改编题（选择题；D项）',
     statement: '当 \\(x\\to0^+\\) 时，下列无穷小中与 \\(x\\) 等价的是：A. \\(e^{-\\sin x}-1\\)；B. \\(\\sqrt{1+x}-\\cos x\\)；C. \\(1-\\cos\\sqrt{2x}\\)；D. \\(\\tan x-\\sin x\\)。',
     solution: 'A 在充分小的正 \\(x\\) 处为负，而 \\(x>0\\)，不可能等价于 \\(x\\)。B 有\n\\[\\frac{\\sqrt{1+x}-\\cos x}{x}=\\frac1{\\sqrt{1+x}+1}+\\frac{1-\\cos x}{x}\\longrightarrow\\frac12.\\]\n对 C，令 \\(t=\\sqrt{2x}\\)，由 \\(\\frac{1-\\cos t}{t^2}\\to\\frac12\\) 得 \\(\\frac{1-\\cos\\sqrt{2x}}x\\to1\\)。D 用 \\(\\tan x-\\sin x=\\frac{\\sin x(1-\\cos x)}{\\cos x}\\)，除以 \\(x\\) 后趋于 0。故选 C。'
   }
+];
+
+window.MIDTERM_REFERENCES['3.4:exercise:1'] = [
+  {...window.MIDTERM_REFERENCES['3.5:example:2'][0], label:'25-26期中考试T2改编题（选择题；教材第5小问）'}
 ];
 
 window.MIDTERM_REFERENCES['4.1:exercise:2'].push(
