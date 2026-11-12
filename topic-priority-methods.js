@@ -34,19 +34,30 @@ window.REVIEW_TOPICS.oneinf.items.forEach((item, i) => {
   item.exam = priorityOneinf[i].exam;
   item.guidance = priorityOneinfGuidance[i];
 });
+// 原一次式比值与教材习题 3.4 第 2 题（4）仅系数不同，改为根式底数。
+Object.assign(window.REVIEW_TOPICS.oneinf.items[1], {
+  title:'根式底数的二次增量',
+  statement:String.raw`求 \(\displaystyle\lim_{x\to0}\left(\frac{\sqrt{1+2x}}{1+x}\right)^{\frac1{x^2}}\)。`,
+  solution:String.raw`当 \(|x|<\frac14\) 时，根号内与分母均为正，底数也为正且趋于 1。令
+\[u=\frac{\sqrt{1+2x}}{1+x}-1.\]
+将根号差有理化：
+\[
+u=\frac{\sqrt{1+2x}-(1+x)}{1+x}
+=-\frac{x^2}{(1+x)(\sqrt{1+2x}+1+x)}.
+\]
+因此 \(u\to0\)，且
+\[\frac{u}{x^2}\longrightarrow-\frac12.\]
+由第二个基本极限的推广，所求为 \(\boxed{e^{-\frac12}}\)。以上推导同时适用于正、负两侧。`,
+  exam:String.raw`近 0 时底数为正，令 \(u=\frac{\sqrt{1+2x}}{1+x}-1\)。有理化得
+\[\frac{u}{x^2}=-\frac1{(1+x)(\sqrt{1+2x}+1+x)}\to-\frac12.\]
+又 \(u\to0\)，由第二个基本极限的推广，极限为 \(e^{-\frac12}\)。`,
+  guidance:'先对整个底数减 1；分子是根号差，有理化后再与指数相乘。不要把两个一阶等价式相减。'
+});
 window.REVIEW_TOPICS.oneinf.items[0].examVariant = {
   label: '23-24期中考试T6改编题',
   content: String.raw`试卷题面：求 \(\displaystyle\lim_{n\to\infty}\left(\frac{n+2024}{n+2023}\right)^n\)。
 
 解：底数可写为 \(1+\frac1{n+2023}\)。令 \(u_n=\frac1{n+2023}\)，则 \(u_n\to0\)，且 \(nu_n=\frac n{n+2023}\to1\)。由第二个基本极限的推广，原极限为 \(\boxed{e}\)。`
-};
-window.REVIEW_TOPICS.oneinf.items[1].examVariant = {
-  label: '23-24期中考试T6改编题',
-  content: String.raw`试卷题面：求 \(\displaystyle\lim_{n\to\infty}\left(\frac{n+2024}{n+2023}\right)^n\)。
-
-与本专题题对照：令 \(x=\frac1n\)，试卷底数可写成 \(\frac{1+2024x}{1+2023x}\)，指数为 \(\frac1x=n\)。它与本题同为一次式比值的 \(\frac1x\) 次幂，系数与取极限的方式有所改变。
-
-解：将底数写为 \(1+\frac1{n+2023}\)。令 \(u_n=\frac1{n+2023}\)，则 \(u_n\to0\)，且 \(nu_n=\frac n{n+2023}\to1\)。由第二个基本极限的推广，原极限为 \(\boxed{e}\)。`
 };
 window.REVIEW_TOPICS.oneinf.items[2].examVariant = {
   label: '25-26期中考试T11改编题',
