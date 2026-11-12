@@ -210,7 +210,7 @@ window.MIDTERM_REFERENCES['4.1:exercise:2'].push(
 
 window.MIDTERM_REFERENCES['3.3:exercise:5'] = [
   {
-    label: '25-26期中考试T5考点练习（选择题；原卷记号待核实）',
+    label: '25-26期中考试T5改编题（选择题；B项；原卷记号待核实）',
     statement: '下列命题正确的是：A. 若 \\(f\\) 在 \\(U^\\circ(x_0)\\) 单调有界，则 \\(\\lim_{x\\to x_0}f(x)\\) 存在；B. 若 \\(f\\) 在 \\(U_+^\\circ(x_0)\\) 单调递增有界，则 \\(f(x_0+0)=\\sup_{U_+^\\circ(x_0)}f(x)\\)；C. 若 \\(f(x)>0,x\\in D\\)，且有界，则 \\(\\sup\\{f(x)>0,\\ x\\in D\\}>0\\)；D. 若集合 \\(E\\) 有上确界 \\(\\beta\\)，则 \\(\\beta\\in E\\)。其中 C 选项按原卷记号保留。',
     solution: 'A 不对：在 \\(x_0\\) 两侧分别取 −1、1，函数在去心邻域单调有界，但双侧极限不存在。B 不对：递增函数在右侧趋近端点时取的是右侧值集的下确界；例如 \\(f(x)=x\\) 在 \\((0,1)\\) 上，右极限为 0 而上确界为 1。D 不对：\\(E=(0,1)\\) 的上确界 1 不属于 \\(E\\)。\n\n原卷 C 的花括号写作 \\(\\{f(x)>0,\\ x\\in D\\}\\)，它不是规范的函数值集合记法，且未明确 \\(D\\) 非空。如果其意图是“\\(D\\ne\\varnothing\\)，且 \\(f\\) 在 \\(D\\) 上正且有上界，则 \\(\\sup\\{f(x):x\\in D\\}>0\\)”，该命题成立：任选 \\(x_*\\in D\\)，上确界至少为 \\(f(x_*)>0\\)。在这一解释下可选 C；原卷记号的实际意图尚需核实，不将修正后的说法冒充原文。'
   }
@@ -247,10 +247,31 @@ window.MIDTERM_REFERENCES['2.2:example:2'].push({
   solution: '令括号内和为 \\(S_n\\)。它共有 \\(n+1\\) 项，每项正且不超过 1，所以 \\(1\\le S_n\\le n+1\\)。取 \\(n\\) 次根，\\(1\\le S_n^{\\frac1n}\\le(n+1)^{\\frac1n}\\)。而 \\((n+1)^{\\frac1n}=(1+\\frac1n)^{\\frac1n}n^{\\frac1n}\\to1\\)，最后一个因子是本例的结论，第一个因子也由夹逼趋于 1。故原极限为 1。'
 });
 
+window.MIDTERM_REFERENCES['2.1:exercise:5'] = [
+  {...window.MIDTERM_REFERENCES['2.1:example:8'][1], label:'25-26期中考试T1改编题（选择题；A项对应举一反三）'}
+];
+window.MIDTERM_REFERENCES['2.2:exercise:1'] = [
+  {...window.MIDTERM_REFERENCES['2.2:exercise:3'][0], label:'23-24期中考试T11改编题（对应举一反三）'}
+];
+
 (window.MIDTERM_REFERENCES['3.4:example:2'] ||= []).push({
-  label: '24-25期中考试T3考点练习（填空题）',
+  label: '24-25期中考试T3改编题（填空题；余弦极限与参数）',
   statement: '设 \\(a>0\\)，且 \\(\\displaystyle\\lim_{x\\to0}\\frac{x^2}{(b-\\cos x)\\sqrt{a+x^2}}=1\\)，求 \\(a,b\\)。',
   solution: '若 \\(b\\ne1\\)，分母趋于非零数 \\((b-1)\\sqrt a\\)，极限为 0，矛盾。因此 \\(b=1\\)。由 \\(\\frac{1-\\cos x}{x^2}\\to\\frac12\\) 与 \\(\\sqrt{a+x^2}\\to\\sqrt a>0\\)，原极限为 \\(\\frac2{\\sqrt a}\\)。令其等于 1，得 \\(a=4\\)。代回满足题设，故 \\((a,b)=(4,1)\\)。'
+});
+
+window.MIDTERM_REFERENCES['3.5:example:3'] = [
+  {...window.MIDTERM_REFERENCES['3.3:example:1'][0], label:'23-24期中考试T2改编题（选择题；对应举一反三）'}
+];
+window.MIDTERM_REFERENCES['3.1:exercise:8'] = [{
+  label:'25-26期中考试T18改编题（由极限判断连续性）',
+  statement:String.raw`证明黎曼函数 \(R(x)=\frac1q\)（\(x=\frac pq\in(0,1)\) 为既约真分数）、\(R(x)=0\)（\(x=0,1\) 或 \(x\) 为 \((0,1)\) 内无理数），在 \((0,1)\) 内任何无理点连续、任何有理点不连续。`,
+  solution:String.raw`由本题已证的结论，对任意 \(x_0\in(0,1)\)，都有 \(\lim_{x\to x_0}R(x)=0\)。若 \(x_0\) 是无理数，则 \(R(x_0)=0\)，等于其极限，故连续；若 \(x_0=\frac pq\) 为既约真分数，则 \(R(x_0)=\frac1q>0\)，不等于极限，故不连续。`
+}];
+
+window.MIDTERM_REFERENCES['3.4:example:2'].push({
+  ...window.MIDTERM_REFERENCES['3.5:example:2'][0],
+  label:'25-26期中考试T2改编题（选择题；C项）'
 });
 
 window.MIDTERM_REFERENCES['3.total:exercise:2'].push({
