@@ -179,49 +179,11 @@ Object.assign(window.REVIEW_SOLUTIONS['3.2:example:2'], {
 \[-\frac1{2\sqrt2}=\boxed{-\frac{\sqrt2}{4}}.\]`
 });
 
-Object.assign(window.REVIEW_SOLUTIONS['3.4:example:5'], {
-  variantDeferred:false,
-  variantSource:'自编。参照华师大第六版上册 §3.4 例 5 的夹逼方法，将正负增量的幂相乘并比较指数扰动。',
-  variant:String.raw`利用夹逼法求
-\[\lim_{n\to\infty}
-\left(1+\frac1n\right)^{n-\lfloor\sqrt n\rfloor}
-\left(1-\frac1n\right)^{n+\lfloor\sqrt n\rfloor}.\]`,
-  variantSolution:String.raw`对 \(n\ge2\)，记 \(m_n=\lfloor\sqrt n\rfloor\)。将原式拆成
-\[\left(1-\frac1{n^2}\right)^n
-\left(\frac{1-\frac1n}{1+\frac1n}\right)^{m_n}.
-\]
-由 Bernoulli 不等式，第一个因子满足
-\[1-\frac1n\le\left(1-\frac1{n^2}\right)^n\le1,\]
-所以趋于 1。第二个因子的底数是 \(1-\frac2{n+1}\in[0,1]\)，同样有
-\[1-\frac{2m_n}{n+1}\le
-\left(1-\frac2{n+1}\right)^{m_n}\le1.\]
-由于 \(0\le m_n\le\sqrt n\)，两端均趋于 1；两因子的乘积因而趋于 \(\boxed1\)。`
-});
 
-Object.assign(window.REVIEW_SOLUTIONS['3.5:example:4'], {
-  variantDeferred:false,
-  variantSource:'自编。参照华师大第六版上册 §3.5 例 4 的指数无穷大，改为比较正负无穷两个方向。',
-  variant:String.raw`设 \(a>1\)。按无穷远处无穷大极限的定义证明
-\[\lim_{x\to\infty}\bigl(a^x+a^{-x}\bigr)=+\infty.\]`,
-  variantSolution:String.raw`任给 \(M>0\)。由 Bernoulli 不等式，存在正整数 N 使 \(a^N>M\)。当 \(|x|>N\) 时，指数函数单调递增，且两项均为正，因此
-\[a^x+a^{-x}\ge a^{|x|}>a^N>M.\]
-这对正、负无穷远同时成立，故按定义原极限为正无穷。`
-});
 
-Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
-  variantDeferred:false,
-  variantSource:'自编。参照华师大第六版上册 §3.5 习题 2 的根式与余弦无穷小，加入双根式差和倍角。',
-  variant:String.raw`求极限
-\[\lim_{x\to0}
-\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}.\]`,
-  variantSolution:String.raw`在 0 的充分小去心邻域，\(\sin x\ne0\)，根号均有定义。由平方差有理化与倍角公式，
-\[\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}
-=\frac{2\sin^2x}{(1-\cos2x)
-\left(\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}\right)}
-=\frac1{\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}}.
-\]
-分母趋于 2，故所求极限为 \(\boxed{\frac12}\)。`
-});
+
+
+
 
 Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:7'], {
   variantDeferred: false,
@@ -1072,3 +1034,47 @@ Object.assign(window.REVIEW_SOLUTIONS['2.2:exercise:5'], {
 两条子列分别趋于 0 和 \(\frac12\)，所以原数列发散。`
 });
 
+// Recent reviewed exercises must follow earlier legacy assignments.
+Object.assign(window.REVIEW_SOLUTIONS['3.4:example:5'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.4 例 5 的夹逼方法，将正负增量的幂相乘并比较指数扰动。',
+  variant:String.raw`利用夹逼法求
+\[\lim_{n\to\infty}
+\left(1+\frac1n\right)^{n-\lfloor\sqrt n\rfloor}
+\left(1-\frac1n\right)^{n+\lfloor\sqrt n\rfloor}.\]`,
+  variantSolution:String.raw`对 \(n\ge2\)，记 \(m_n=\lfloor\sqrt n\rfloor\)。将原式拆成
+\[\left(1-\frac1{n^2}\right)^n
+\left(\frac{1-\frac1n}{1+\frac1n}\right)^{m_n}.
+\]
+由 Bernoulli 不等式，第一个因子满足
+\[1-\frac1n\le\left(1-\frac1{n^2}\right)^n\le1,\]
+所以趋于 1。第二个因子的底数是 \(1-\frac2{n+1}\in[0,1]\)，同样有
+\[1-\frac{2m_n}{n+1}\le
+\left(1-\frac2{n+1}\right)^{m_n}\le1.\]
+由于 \(0\le m_n\le\sqrt n\)，两端均趋于 1；两因子的乘积因而趋于 \(\boxed1\)。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.5:example:4'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.5 例 4 的指数无穷大，改为比较正负无穷两个方向。',
+  variant:String.raw`设 \(a>1\)。按无穷远处无穷大极限的定义证明
+\[\lim_{x\to\infty}\bigl(a^x+a^{-x}\bigr)=+\infty.\]`,
+  variantSolution:String.raw`任给 \(M>0\)。由 Bernoulli 不等式，存在正整数 N 使 \(a^N>M\)。当 \(|x|>N\) 时，指数函数单调递增，且两项均为正，因此
+\[a^x+a^{-x}\ge a^{|x|}>a^N>M.\]
+这对正、负无穷远同时成立，故按定义原极限为正无穷。`
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
+  variantDeferred:false,
+  variantSource:'自编。参照华师大第六版上册 §3.5 习题 2 的根式与余弦无穷小，加入双根式差和倍角。',
+  variant:String.raw`求极限
+\[\lim_{x\to0}
+\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}.\]`,
+  variantSolution:String.raw`在 0 的充分小去心邻域，\(\sin x\ne0\)，根号均有定义。由平方差有理化与倍角公式，
+\[\frac{\sqrt{1+\sin^2x}-\sqrt{1-\sin^2x}}{1-\cos2x}
+=\frac{2\sin^2x}{(1-\cos2x)
+\left(\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}\right)}
+=\frac1{\sqrt{1+\sin^2x}+\sqrt{1-\sin^2x}}.
+\]
+分母趋于 2，故所求极限为 \(\boxed{\frac12}\)。`
+});
