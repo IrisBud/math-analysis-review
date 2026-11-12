@@ -284,7 +284,16 @@ window.MIDTERM_REFERENCES['3.3:exercise:5'] = [
   solution: '当 \\(x\\) 充分接近 0 时 \\(1+a x^2>0\\)。令 \\(t=(1+a x^2)^{\\frac15}\\)，则 \\(t\\to1\\)，且\n\\[\nt-1=\\frac{a x^2}{t^4+t^3+t^2+t+1}.\n\\]\n因此 \\(\\frac{t-1}{\\cos x-1}\\to\\frac{\\frac{a}{5}}{-\\frac12}=-\\frac{2a}{5}\\)。等价要求该比值为 1，故 \\(a=-\\frac52\\)；代回可验证分母及两函数在充分小的去心邻域内非零。'
 });
 window.MIDTERM_REFERENCES['3.2:exercise:8'] = [
-  {...window.MIDTERM_REFERENCES['3.5:exercise:5'].find(x=>x.label.includes('23-24期中考试T8')), label:'23-24期中考试T8改编题（填空题；教材第4小问）'}
+  {...window.MIDTERM_REFERENCES['3.5:exercise:5'].find(x=>x.label.includes('23-24期中考试T8')), label:'23-24期中考试T8改编题（填空题；教材第4小问）'},
+  {
+    ...window.MIDTERM_REFERENCES['3.1:exercise:1'][0],
+    label:'25-26期中考试T7改编题（教材第5小问；倒数换元）',
+    solution:String.raw`令 \(y=\frac1x\)。当 \(x\to0\) 的两侧趋近时，\(|y|\to\infty\)，且
+\[x\left\lfloor\frac1x\right\rfloor=\frac{\lfloor y\rfloor}{y}.\]
+这正是教材第（5）问在双向无穷远处的函数。也可直接令 \(r=y-\lfloor y\rfloor\in[0,1)\)，得到
+\[\left|\frac{\lfloor y\rfloor}{y}-1\right|=\frac r{|y|}\le\frac1{|y|}\longrightarrow0.\]
+因此试卷极限为 \(\boxed1\)。`
+  }
 ];
 
 window.MIDTERM_REFERENCES['2.2:exercise:3'] = [
