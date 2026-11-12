@@ -786,3 +786,18 @@ f\!\left(\frac1n+0\right)=\frac1{n-1}.
   verification: '已对照华师大 §4.1 习题 6；旧练习只对同类取整函数分类，新题核查单调性、各跳跃点与聚点 0。'
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.3:example:4'], {
+  variantDeferred:false,
+  variantSource:'自编。利用本例补充证明中阶乘倒数部分和的极限，进一步练习有限几何和估计。',
+  variant:String.raw`利用本例已证的 \(e=\lim\limits_{n\to\infty}\sum_{k=0}^n\frac1{k!}\)，证明
+\[\frac52<e<\frac{11}4.\]`,
+  variantSolution:String.raw`记 \(s_n=\sum_{k=0}^n\frac1{k!}\)。各项为正，所以对 \(n\ge3\)，
+\[s_n\ge s_3=1+1+\frac12+\frac16=\frac83>\frac52.\]
+另一方面，当 \(k\ge3\) 时，\(k!\ge6\cdot4^{k-3}\)，因此对每个 \(n\ge3\)，
+\[
+s_n\le\frac52+\frac16\sum_{j=0}^{n-3}\frac1{4^j}
+<\frac52+\frac29=\frac{49}{18}<\frac{11}4.
+\]
+令 \(n\to\infty\)，由本例已证 \(s_n\to e\)，得 \(\frac83\le e\le\frac{49}{18}\)，从而 \(\boxed{\frac52<e<\frac{11}4}\)。使用较紧的上下界保证取极限后仍为严格不等式。`
+});
+
