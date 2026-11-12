@@ -35,6 +35,13 @@ window.MIDTERM_REFERENCES = {
       label: '25-26期中考试T6改编题',
       statement: '求 \\(\\displaystyle\\lim_{n\\to\\infty}\\sqrt[n]{2023^n+2024^n+2025^n}\\)。',
       solution: '每一项均为正，且 \\(2025^n\\le2023^n+2024^n+2025^n\\le3\\cdot2025^n\\)。取 \\(n\\) 次根得 \\(2025\\le\\sqrt[n]{2023^n+2024^n+2025^n}\\le2025\\sqrt[n]3\\)。由于 \\(\\sqrt[n]3\\to1\\)，由迫敛性极限为 \\(2025\\)。'
+    },
+    {
+      label: '25-26期中考试T12改编题（幂和增加多项式项）',
+      statement: String.raw`求 \(\displaystyle\lim_{n\to\infty}\sqrt[n]{n^3+3^n}\)。`,
+      solution: String.raw`记 \(u_n=\frac{n^3}{3^n}\)。因 \(\frac{u_{n+1}}{u_n}=\frac{(1+\frac1n)^3}{3}\to\frac13<1\)，从某一项起其比值小于固定的 \(q\in(0,1)\)，故 \(u_n\to0\)。于是充分大 n 时 \(0<u_n<1\)，从而
+\[3\le\sqrt[n]{n^3+3^n}=3\sqrt[n]{1+u_n}\le3\sqrt[n]2\longrightarrow3.\]
+本题在教材的有限个固定正数幂和中加入随 n 变化的多项式项，先证明它相对 \(3^n\) 可忽略。`
     }
   ],
   '2.3:exercise:3': [
