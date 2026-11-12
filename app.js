@@ -165,7 +165,7 @@
     return '<article class="question is-calculation" id="'+esc(id)+'"><div class="qhead"><div><div class="qnum">考试重点专题 · 自编 · 第 '+item.number+' 题</div><h3>'+esc(item.title)+'</h3><div class="meta"><span class="tag">计算与讨论</span></div></div><div class="controls">'+starButton(id)+'</div></div>'+
       '<div class="statement math-block">'+esc(item.statement)+'</div><p class="source">知识对照：'+esc(topic.boundary)+'</p>'+
       detail('常规解答',item.solution,[topic.id])+detail('考场书写版',item.exam)+detail('思路引导',item.guidance)+
-      '<p class="source">题目来源：自编；数学内容已首轮人工检查，仍待独立复核。</p></article>';
+      '<p class="source">题目来源：自编；'+(new Set(['oneinf','asymptote','continuousParam','stolz']).has(topic.id)?'题目和解答已逐题复核。':'数学内容已首轮人工检查，仍待独立复核。')+'</p></article>';
   }
   function topicPage(key) {
     const info=examFocus[key];
