@@ -740,3 +740,43 @@ Object.assign(window.REVIEW_SOLUTIONS['4.1:example:3'], {
   verification: '已对照华师大 §4.1 例 3 和 §3.1 习题 8；旧练习乘以 x 后连续点不变，现检查因子内部零点及端点。'
 });
 
+Object.assign(window.REVIEW_SOLUTIONS['2.1:example:4'], {
+  variantSource: '自编。参照华师大第六版上册 §2.1 例 4（印刷第 24 页，PDF 第 37 页），将单项几何数列推广为项数随 n 变化的有限尾和。',
+  variant: String.raw`设 \(|q|<1\)。利用本例的结果，按数列极限定义证明
+\[
+\sum_{k=n}^{2n}q^k\longrightarrow0.
+\]`,
+  variantSolution: String.raw`由三角不等式及有限等比和公式，对每个正整数 n，
+\[
+\left|\sum_{k=n}^{2n}q^k\right|
+\le |q|^n\sum_{j=0}^{n}|q|^j
+\le\frac{|q|^n}{1-|q|}.
+\]
+任给 \(\varepsilon>0\)，由本例 \(|q|^n\to0\)，存在 N，使 \(n>N\) 时 \(|q|^n<(1-|q|)\varepsilon\)。于是上式小于 \(\varepsilon\)，按定义得到所求极限。\(q=0\) 也包含在上述估计中。`,
+  verification: '已对照华师大 §2.1 例 4；旧练习是第二章总练习第 2 题中 q=1/3 的特例，现改为有限几何尾和并检查 q=0。'
+});
+
+Object.assign(window.REVIEW_SOLUTIONS['4.1:exercise:6'], {
+  variantSource: '自编。参照华师大第六版上册习题 4.1 第 6 题（印刷第 72 页，PDF 第 85 页），考察单调函数具有向零点聚集的跳跃点。',
+  variant: String.raw`设
+\[
+f(x)=\begin{cases}
+0,&x\le0,\\
+\dfrac1{[\frac1x]},&0<x\le1,\\
+1,&x>1,
+\end{cases}
+\]
+其中方括号表示向下取整。证明 f 递增，并确定全部间断点及其类型。`,
+  variantSolution: String.raw`在 \(0<x\le1\) 上，\([\frac1x]\) 为正整数；随着 x 增大，它不增，因此其倒数不减。再结合其他两段的值，f 在整个实轴递增。
+
+当 \(n\ge2\) 时，\(x=\frac1n\) 附近的左侧有 \([\frac1x]=n\)，右侧有 \([\frac1x]=n-1\)。因此
+\[
+f\!\left(\frac1n-0\right)=\frac1n,\qquad
+f\!\left(\frac1n+0\right)=\frac1{n-1}.
+\]
+两侧有限极限不同，所以这些点都是跳跃间断点。\(x=1\) 附近两侧函数值都为 1，故连续。
+
+当 \(0<x<\frac12\) 时，\([\frac1x]>\frac1x-1>\frac1{2x}\)，故 \(0<f(x)<2x\)。于是右极限为 0，等于点值，左侧也恒为 0，故 f 在 0 连续。其余点在某个小邻域内处于同一分段且函数值不变，均连续。因此全部间断点恰为 \(\{\frac1n:n=2,3,\ldots\}\)，均为第一类跳跃间断点。`,
+  verification: '已对照华师大 §4.1 习题 6；旧练习只对同类取整函数分类，新题核查单调性、各跳跃点与聚点 0。'
+});
+

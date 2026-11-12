@@ -1,10 +1,10 @@
 window.REVIEW_TOPICS.stolz = {
   id:'stolz', title:'Stolz 定理：从差商到适用条件',
-  status:'五题自编，按本章定理及其条件逐题复核；不计入教材原题数。',
+  status:'第1题对应25-26期中考试T9原题，其余四题自编；按本章定理及其条件逐题复核，不计入教材原题数。',
   boundary:'主解使用华师大第六版上册第二章总练习第 3 题 Stolz 定理，印刷第 40—41 页（PDF 第 53—54 页）。每次使用前检查分母严格递增并趋于正无穷。',
   items:[
     {
-      number:1,title:'平方和的增长',
+      number:1,title:'平方和的增长',examLabel:'25-26期中考试T9原题',
       statement:String.raw`求 \(\displaystyle\lim_{n\to\infty}\frac{1^2+2^2+\cdots+n^2}{n^3}\)。`,
       solution:String.raw`令 \(A_n=\sum_{k=1}^n k^2\)、\(B_n=n^3\)。\(B_n\) 严格递增且趋于正无穷，计算差商得
 \[
