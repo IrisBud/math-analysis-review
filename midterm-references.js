@@ -229,7 +229,12 @@ window.MIDTERM_REFERENCES['3.3:exercise:6'].push({
   solution: '它只取 0、1，故有界。每个非退化区间中有理数与无理数都稠密；在任一区间内可以按任意先后次序取到函数值 0、1，因此既不递增也不递减。\\(x\\) 与 \\(-x\\) 同为有理数或同为无理数，所以 \\(D(-x)=D(x)\\)，它是偶函数。任何正有理数 \\(T\\) 都是周期，因为加有理数保留有理性与无理性；若 \\(T\\) 为无理数，则 \\(D(0)=1\\)、\\(D(T)=0\\)，故它不是周期。最后任意去心邻域都有有理数和无理数，函数值分别为 1、0，故在每个 \\(x_0\\) 处有限极限均不存在。'
 });
 window.MIDTERM_REFERENCES['4.1:example:1'] = [
-  {...window.MIDTERM_REFERENCES['3.3:exercise:6'].find(x=>x.label.includes('23-24期中考试T17')), label:'23-24期中考试T17改编题（计算分析题；去掉因子 x）'}
+  {...window.MIDTERM_REFERENCES['3.3:exercise:6'].find(x=>x.label.includes('23-24期中考试T17')), label:'23-24期中考试T17改编题（计算分析题；去掉因子 x）'},
+  {
+    ...window.MIDTERM_REFERENCES['3.3:exercise:6'][0],
+    label:'24-25期中考试T17改编题（证明题；去掉因子x）',
+    solution:window.MIDTERM_REFERENCES['3.3:exercise:6'][0].solution + String.raw` 教材本例研究 \(xD(x)\) 在 0 的连续性；试卷去掉因子 \(x\)，并要求对所有点证明 \(D\) 的极限不存在。`
+  }
 ];
 
 window.MIDTERM_REFERENCES['3.1:exercise:6'] = [
