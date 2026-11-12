@@ -393,9 +393,9 @@ Object.assign(window.REVIEW_SOLUTIONS['3.5:example:5'], {
 Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:1'], {
   variantDeferred: false,
   variantSource: '自编。参照华师大第六版上册习题 3.5 第 1 题（印刷第 65 页，PDF 第 78 页），比较大 O 的局部有界与小 o 的比值趋零。',
-  variant: '证明 \\(x\\sin\\frac1x=O(x)\\)（\\(x\\to0\\)），并判断它是否也是 \\(o(x)\\)。',
-  variantSolution: '当 \\(x\\ne0\\) 时，\\[\\left|\\frac{x\\sin\\frac1x}{x}\\right|=\\left|\\sin\\frac1x\\right|\\le1.\\]所以该比值在去心邻域有界，故 \\(x\\sin\\frac1x=O(x)\\)。另一方面，取 \\(x_n=\\frac1{2n\\pi+\\frac\\pi2}\\to0\\)，比值恒为 1；取 \\(y_n=\\frac1{2n\\pi+\\frac{3\\pi}2}\\to0\\)，比值恒为 −1。由归结原则该比值不趋于 0，因而不是 \\(o(x)\\)。大 O 不要求比值本身有极限。',
-  verification: '已对照华师大第六版印刷第 65 页习题 1 的七问和脚注；检查函数类记号、各比值所在去心定义域及练习的两列取值。'
+  variant: '设 \\(f(x)=\\frac{x^2}{1+|x|}\\)。证明当 \\(x\\to0\\) 时 \\(f(x)=O(x^2)\\)，并分别判断它是否是 \\(o(x^2)\\) 和 \\(o(x)\\)。',
+  variantSolution: '对 \\(x\\ne0\\)，\\[\\left|\\frac{f(x)}{x^2}\\right|=\\frac1{1+|x|}\\le1.\\]所以 \\(f(x)=O(x^2)\\)。又因 \\(\\frac{f(x)}{x^2}=\\frac1{1+|x|}\\to1\\)，该比值不趋于 0，所以 \\(f(x)\\) 不是 \\(o(x^2)\\)。但 \\(\\frac{f(x)}x=\\frac{x}{1+|x|}\\to0\\)，故 \\(f(x)=o(x)\\)。同一函数相对不同基准可以有不同的小 o 判断。',
+  verification: '已对照华师大第六版印刷第 65 页习题 1 的七问和脚注；新练习分别检查相对于 x² 和 x 的比值，分母恒正。'
 });
 
 Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
