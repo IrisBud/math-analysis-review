@@ -79,3 +79,14 @@ window.REVIEW_TOPICS.oneinf.items[2].examVariant = {
 解：令 \(t=\frac1x\)。当 \(x\to\infty\)（即 \(|x|\to\infty\)）时，\(t\to0\)，原式化为 \((\cos t)^{\frac1{t^2}}\)。本专题题目的双侧极限已存在，所以无论 \(x\) 趋于正无穷还是负无穷，原极限均为 \(\boxed{e^{-1/2}}\)。`
 };
 
+
+window.REVIEW_TOPICS.continuousParam.items[3].examVariant = {
+  label:'23-24期中考试T8改编题',
+  content:String.raw`试卷题面：当 \(x\to0\) 时，\((1+ax^2)^{\frac15}-1\) 与 \(\cos x-1\) 是等价无穷小，求常数 \(a\)。
+
+解：本专题题使用平方根增量除以 \(x\)；试卷把平方根改为五次根、增量由 \(ax\) 改为 \(ax^2\)，并改问与 \(\cos x-1\) 等价时的参数。
+
+令 \(t=\sqrt[5]{1+ax^2}\)。充分靠近 0 时根号内为正，\(t\to1\)，且
+\[\frac{t-1}{x^2}=\frac{a}{t^4+t^3+t^2+t+1}\longrightarrow\frac a5.\]
+又 \(\frac{\cos x-1}{x^2}\to-\frac12\)，故两式之比趋于 \(-\frac{2a}5\)。等价要求比值为 1，解得 \(a=-\frac52\)。代回后两式在充分小的去心邻域非零，确实等价。`
+};
