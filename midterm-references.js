@@ -537,3 +537,11 @@ ${context}使用的核心三角差 \(\tan x-\sin x\) 除以 \(x^3\) 的极限为
 ` + original.solution
   });
 }
+
+{
+  const ref = window.MIDTERM_REFERENCES['3.5:exercise:2'].find(x => x.label.includes('23-24期中考试T12'));
+  ref.label = '23-24期中考试T12改编题（对应举一反三；§4.3 对数极限）';
+  ref.solution = String.raw`本页练习的分子是两个根式之差，根号内分别为 \(1+\sin^2x\) 和 \(1-\sin^2x\)，分母为 \(1-\cos2x\)。试卷保留根式差的结构，把两个根号内分别改为 \(1+x\sin x\)、\(\cos x\)，分母改为 \(\ln(1+\tan^2x)\)。
+
+` + ref.solution;
+}
