@@ -555,3 +555,11 @@ window.MIDTERM_REFERENCES['3.2:example:1'].push({
 \[n=(1+u_n)^n\ge1+\frac{n(n-1)}2u_n^2.\]
 因此 \(0\le u_n^2\le\frac2n\to0\)，从而 \(\sqrt[n]n\to1\)，选 \(\boxed{A}\)。`
 });
+
+window.MIDTERM_REFERENCES['2.2:exercise:8'][0].solution += String.raw`
+
+本页举一反三也有直接对应：令 \(a_1=\frac1{2023}\)、\(a_2=\frac1{2024}\)、\(a_3=\frac1{2025}\)，练习中的
+\[\left(a_1^{-n}+a_2^{-n}+a_3^{-n}\right)^{-\frac1n}
+=\frac1{\sqrt[n]{2023^n+2024^n+2025^n}}
+\longrightarrow\min\{a_1,a_2,a_3\}=\frac1{2025}.\]
+取倒数也得到试卷极限 \(2025\)。`;
