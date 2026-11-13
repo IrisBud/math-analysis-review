@@ -32,9 +32,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "引入性例题与补充定义证明、陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "引入性例题与补充定义证明、陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:2",
@@ -46,9 +47,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:3",
@@ -60,9 +62,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "定义证明、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:4",
@@ -74,9 +77,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "几何数列定义证明和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "几何数列定义证明和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:5",
@@ -88,9 +92,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "正数 n 次根分情况证明和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "正数 n 次根分情况证明和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:6",
@@ -102,9 +107,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "阶乘比值证明和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "阶乘比值证明和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:7",
@@ -116,9 +122,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "两类发散证明及陈教材正文改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "两类发散证明及陈教材正文改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:8",
@@ -130,9 +137,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "交错数列充要条件及陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "交错数列充要条件及陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:example:9",
@@ -144,9 +152,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "有限项变化及陈教材正文改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "有限项变化及陈教材正文改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:1",
@@ -161,10 +170,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -177,7 +186,8 @@
             19,
             19
           ],
-          "site_note": "题面、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "题面、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:2",
@@ -194,10 +204,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -210,7 +220,8 @@
             19,
             20
           ],
-          "site_note": "五个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "五个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:3",
@@ -229,10 +240,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -245,7 +256,8 @@
             20,
             20
           ],
-          "site_note": "七个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "七个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:4",
@@ -256,10 +268,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -272,7 +284,8 @@
             20,
             20
           ],
-          "site_note": "常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:5",
@@ -286,10 +299,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -302,7 +315,8 @@
             20,
             21
           ],
-          "site_note": "两个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "两个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:6",
@@ -313,10 +327,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -329,7 +343,8 @@
             21,
             21
           ],
-          "site_note": "定理证明、应用和陈教材改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "定理证明、应用和陈教材改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:7",
@@ -345,10 +360,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -361,7 +376,8 @@
             21,
             21
           ],
-          "site_note": "四个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "四个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:8",
@@ -372,10 +388,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -388,7 +404,8 @@
             21,
             21
           ],
-          "site_note": "正向与逆向命题、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "正向与逆向命题、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:9",
@@ -403,10 +420,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -420,7 +437,8 @@
             22
           ],
           "reference_note": "参考答案(1)将任意 ε > 0 误印为 ε < 0；应改正并保留差异说明。",
-          "site_note": "三个小问、参考答案误印、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三个小问、参考答案误印、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.1:exercise:10",
@@ -431,10 +449,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
@@ -447,7 +465,8 @@
             22,
             22
           ],
-          "site_note": "双向证明、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "双向证明、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         }
       ]
     },
@@ -477,9 +496,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "根式极限的分情况证明和陈教材改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根式极限的分情况证明和陈教材改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:example:2",
@@ -491,9 +511,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "二项式估计及夹逼证明和陈教材推广练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "二项式估计及夹逼证明和陈教材推广练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:example:3",
@@ -505,9 +526,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "根号阶乘的定义证明和陈教材改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根号阶乘的定义证明和陈教材改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:example:4",
@@ -519,9 +541,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "多项式商极限和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "多项式商极限和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:example:5",
@@ -533,9 +556,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "参数分类极限和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "参数分类极限和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:example:6",
@@ -547,9 +571,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "根式有理化极限和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根式有理化极限和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:1",
@@ -567,10 +592,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -583,7 +608,8 @@
             22,
             23
           ],
-          "site_note": "六个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "六个小问、常规解、考场版、思路和陈教材练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:2",
@@ -594,10 +620,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -610,7 +636,8 @@
             23,
             23
           ],
-          "site_note": "答案错号对应、常规解、考场版、思路和陈教材改编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "答案错号对应、常规解、考场版、思路和陈教材改编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:3",
@@ -628,10 +655,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -644,7 +671,8 @@
             23,
             25
           ],
-          "site_note": "六个小问、答案错号对应、思路及陈教材夹逼练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "六个小问、答案错号对应、思路及陈教材夹逼练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:4",
@@ -655,10 +683,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -671,7 +699,8 @@
             25,
             25
           ],
-          "site_note": "和差反证、积商反例、答案错号对应及自编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "和差反证、积商反例、答案错号对应及自编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:5",
@@ -686,10 +715,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -702,7 +731,8 @@
             25,
             25
           ],
-          "site_note": "三个发散证明、答案错号对应及自编练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三个发散证明、答案错号对应及自编练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:6",
@@ -716,10 +746,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "question_type": "judgement",
           "answer_match_type": "exact",
@@ -733,7 +763,8 @@
             25,
             26
           ],
-          "site_note": "两个判断、答案错号对应及判断题练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "两个判断、答案错号对应及判断题练习已首轮整理并人工核查。"
         },
         {
           "id": "2.2:exercise:7",
@@ -749,10 +780,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -765,7 +796,8 @@
             26,
             26
           ],
-          "site_note": "四个极限、答案错号对应、陈教材练习及补充方法已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "四个极限、答案错号对应、陈教材练习及补充方法已首轮整理。"
         },
         {
           "id": "2.2:exercise:8",
@@ -776,10 +808,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -792,7 +824,8 @@
             26,
             27
           ],
-          "site_note": "最大值幂和证明、陈教材对应讲解和改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "最大值幂和证明、陈教材对应讲解和改编练习已首轮整理。"
         },
         {
           "id": "2.2:exercise:9",
@@ -806,10 +839,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
@@ -822,7 +855,8 @@
             27,
             27
           ],
-          "site_note": "取整与变底数根式两问、答案错号及边界练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "取整与变底数根式两问、答案错号及边界练习已首轮整理。"
         }
       ]
     },
@@ -852,9 +886,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "单调有界与陈教材分组证明、练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "单调有界与陈教材分组证明、练习已首轮整理。"
         },
         {
           "id": "2.3:example:2",
@@ -866,9 +901,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "嵌套根式单调有界证明、陈教材对照与练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "嵌套根式单调有界证明、陈教材对照与练习已首轮整理。"
         },
         {
           "id": "2.3:example:3",
@@ -880,9 +916,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "上确界严格递增构造、陈教材定理对照与边界练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "上确界严格递增构造、陈教材定理对照与边界练习已首轮整理。"
         },
         {
           "id": "2.3:example:4",
@@ -894,9 +931,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "二项式单调有界、陈教材均值证明及阶乘部分和练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "二项式单调有界、陈教材均值证明及阶乘部分和练习已首轮整理。"
         },
         {
           "id": "2.3:example:5",
@@ -908,9 +946,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "峰点分类的单调子列构造与陈教材习题改编已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "峰点分类的单调子列构造与陈教材习题改编已首轮整理。"
         },
         {
           "id": "2.3:example:6",
@@ -922,9 +961,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "无上界子列构造及陈教材无穷大量定理与练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "无上界子列构造及陈教材无穷大量定理与练习已首轮整理。"
         },
         {
           "id": "2.3:example:7",
@@ -936,9 +976,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "十进小数截断的柯西证明、陈教材对应及差值练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "十进小数截断的柯西证明、陈教材对应及差值练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:1",
@@ -955,10 +996,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -971,7 +1012,8 @@
             27,
             27
           ],
-          "site_note": "五个小问、陈教材练习和参考答案边界已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "五个小问、陈教材练习和参考答案边界已首轮整理。"
         },
         {
           "id": "2.3:exercise:2",
@@ -982,10 +1024,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -998,7 +1040,8 @@
             27,
             28
           ],
-          "site_note": "判断题、极限存在性漏洞与陈教材判断练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "判断题、极限存在性漏洞与陈教材判断练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:3",
@@ -1013,10 +1056,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -1029,7 +1072,8 @@
             28,
             28
           ],
-          "site_note": "三个小问、单调有界及陈教材二次递推练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三个小问、单调有界及陈教材二次递推练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:4",
@@ -1040,10 +1084,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -1056,7 +1100,8 @@
             29,
             29
           ],
-          "site_note": "错位指数的单调性及陈教材例题改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "错位指数的单调性及陈教材例题改编练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:5",
@@ -1070,10 +1115,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -1086,7 +1131,8 @@
             29,
             29
           ],
-          "site_note": "两小问柯西准则与陈教材有界系数等比尾和练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "两小问柯西准则与陈教材有界系数等比尾和练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:6",
@@ -1097,10 +1143,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -1113,7 +1159,8 @@
             29,
             30
           ],
-          "site_note": "单调数列的收敛子列与有界子列改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "单调数列的收敛子列与有界子列改编练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:7",
@@ -1124,10 +1171,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -1140,7 +1187,8 @@
             30,
             30
           ],
-          "site_note": "相邻项比值与几何放缩、陈教材连乘练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "相邻项比值与几何放缩、陈教材连乘练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:8",
@@ -1151,10 +1199,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -1167,7 +1215,8 @@
             30,
             30
           ],
-          "site_note": "确界极限、逆命题反例及改编前缀最大值练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "确界极限、逆命题反例及改编前缀最大值练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:9",
@@ -1178,10 +1227,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -1194,7 +1243,8 @@
             30,
             31
           ],
-          "site_note": "指定幂差不等式、单调有界及参数练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "指定幂差不等式、单调有界及参数练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:10",
@@ -1205,10 +1255,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
@@ -1221,7 +1271,8 @@
             31,
             31
           ],
-          "site_note": "e 的夹逼误差与陈教材调和对数改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "e 的夹逼误差与陈教材调和对数改编练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:11",
@@ -1232,10 +1283,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 11,
@@ -1248,7 +1299,8 @@
             31,
             31
           ],
-          "site_note": "算术几何平均迭代及陈教材双步递推练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "算术几何平均迭代及陈教材双步递推练习已首轮整理。"
         },
         {
           "id": "2.3:exercise:12",
@@ -1264,10 +1316,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 12,
@@ -1280,7 +1332,8 @@
             31,
             32
           ],
-          "site_note": "尾部上下确界四小问与子列极限改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "尾部上下确界四小问与子列极限改编练习已首轮整理。"
         }
       ]
     },
@@ -1313,10 +1366,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -1329,7 +1382,8 @@
             32,
             32
           ],
-          "site_note": "三小问根式夹逼、相邻比值和根式差、陈教材练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三小问根式夹逼、相邻比值和根式差、陈教材练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:2",
@@ -1343,10 +1397,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -1359,7 +1413,8 @@
             32,
             33
           ],
-          "site_note": "指数与对数增长比较两小问、陈教材参数改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "指数与对数增长比较两小问、陈教材参数改编练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:3",
@@ -1373,11 +1428,12 @@
           "reference_match": "本组未见完全对应，须继续查找或独立解答",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "not_found",
           "reference_note": "答案资料第二章总练习未见此 Stolz 定理题；第六版题须独立解答。",
-          "site_note": "Stolz 定理有限与正负无穷证明、陈教材对照与逆向练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "Stolz 定理有限与正负无穷证明、陈教材对照与逆向练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:4",
@@ -1394,7 +1450,7 @@
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 3,
@@ -1409,7 +1465,8 @@
           ],
           "reference_note": "答案资料第3题只讨论有限极限，且未要求使用 Stolz 定理；第六版另有正负无穷并要求用 Stolz。",
           "cross_section_reference": "另见答案资料第三章总练习第9题，印刷页162–163 / PDF第55–56页，覆盖正无穷的平均值，但并非题目指定的Stolz证明。",
-          "site_note": "Stolz 算术与几何平均、扩展实极限及陈教材加权练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "Stolz 算术与几何平均、扩展实极限及陈教材加权练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:5",
@@ -1433,7 +1490,7 @@
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 4,
@@ -1448,7 +1505,8 @@
           ],
           "reference_note": "答案资料第4题与第六版第5题的(1)–(8)对应；第六版新增(9)，需另解。",
           "cross_section_reference": "另见答案资料第三章总练习第10题(2)，印刷页163 / PDF第56页，对应第六版第(9)小问。",
-          "site_note": "平均值结论的九个小问、五版新增题差异与陈教材练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "平均值结论的九个小问、五版新增题差异与陈教材练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:6",
@@ -1459,10 +1517,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -1475,7 +1533,8 @@
             35,
             35
           ],
-          "site_note": "相向单调数列的共同界及陈教材开区间套练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "相向单调数列的共同界及陈教材开区间套练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:7",
@@ -1489,7 +1548,7 @@
           "reference_match": "相关题，题面有差异，须说明改编",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 6,
@@ -1503,7 +1562,8 @@
             35
           ],
           "reference_note": "答案资料第6题的 A_n 末项为 |a_n-a_{n-1}|，第六版末项为 |a_{n+1}-a_n|；重新编号后相关，不能标为题面完全相同。",
-          "site_note": "相邻差绝对值部分和与五版下标区别、交错调和练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "相邻差绝对值部分和与五版下标区别、交错调和练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:8",
@@ -1514,10 +1574,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -1530,7 +1590,8 @@
             35,
             35
           ],
-          "site_note": "平方根递推及陈教材改编立方根递推已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "平方根递推及陈教材改编立方根递推已首轮整理。"
         },
         {
           "id": "2.total:exercise:9",
@@ -1541,10 +1602,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -1557,7 +1618,8 @@
             35,
             36
           ],
-          "site_note": "算术调和平均迭代、乘积不变量及陈教材交错递推已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "算术调和平均迭代、乘积不变量及陈教材交错递推已首轮整理。"
         },
         {
           "id": "2.total:exercise:10",
@@ -1572,10 +1634,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -1588,7 +1650,8 @@
             36,
             36
           ],
-          "site_note": "柯西否定条件及三小问发散证明、参数练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "柯西否定条件及三小问发散证明、参数练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:11",
@@ -1602,10 +1665,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
@@ -1618,7 +1681,8 @@
             36,
             36
           ],
-          "site_note": "最大最小值极限与陈教材平方根改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "最大最小值极限与陈教材平方根改编练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:12",
@@ -1637,7 +1701,7 @@
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 7,
@@ -1652,7 +1716,8 @@
           ],
           "reference_note": "答案资料第二章总练习未见本题；需组合第三章总练习第7、8题的结果。",
           "cross_section_reference": "在答案资料第三章总练习第7、8题找到对应条件与两个极限，印刷页162 / PDF第55页；本章总练习中未见。",
-          "site_note": "根式比值无穷大量判别与两道应用、临界练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根式比值无穷大量判别与两道应用、临界练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:13",
@@ -1663,10 +1728,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 11,
@@ -1679,7 +1744,8 @@
             37,
             37
           ],
-          "site_note": "无界列与无穷大量乘积及陈教材乘商练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "无界列与无穷大量乘积及陈教材乘商练习已首轮整理。"
         },
         {
           "id": "2.total:exercise:14",
@@ -1690,10 +1756,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 12,
@@ -1706,7 +1772,8 @@
             37,
             37
           ],
-          "site_note": "两个无界列的乘积判断与共同子列判断练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "两个无界列的乘积判断与共同子列判断练习已首轮整理。"
         }
       ]
     },
@@ -1736,9 +1803,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "无穷远倒数定义证明、陈教材相关例及自编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "无穷远倒数定义证明、陈教材相关例及自编练习已首轮整理。"
         },
         {
           "id": "3.1:example:2",
@@ -1753,9 +1821,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "反正切两侧无穷极限、陈教材相关例及自编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "反正切两侧无穷极限、陈教材相关例及自编练习已首轮整理。"
         },
         {
           "id": "3.1:example:3",
@@ -1767,9 +1836,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "ε–δ 定义证明、陈教材对应例题及习题已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "ε–δ 定义证明、陈教材对应例题及习题已首轮整理。"
         },
         {
           "id": "3.1:example:4",
@@ -1784,9 +1854,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "正弦、余弦 ε–δ 定义证明与陈教材正弦例题对应讲解已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "正弦、余弦 ε–δ 定义证明与陈教材正弦例题对应讲解已首轮整理。"
         },
         {
           "id": "3.1:example:5",
@@ -1798,9 +1869,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "有理函数 ε–δ 证明、陈教材对应例题及改编习题已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "有理函数 ε–δ 证明、陈教材对应例题及改编习题已首轮整理。"
         },
         {
           "id": "3.1:example:6",
@@ -1812,9 +1884,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "根式极限 ε–δ 证明、陈教材同类证明及改编习题已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根式极限 ε–δ 证明、陈教材同类证明及改编习题已首轮整理。"
         },
         {
           "id": "3.1:example:7",
@@ -1826,9 +1899,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "根式两端点单侧极限、陈教材相关证明及自编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "根式两端点单侧极限、陈教材相关证明及自编练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:1",
@@ -1845,10 +1919,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -1861,7 +1935,8 @@
             37,
             38
           ],
-          "site_note": "函数极限定义五小问及陈教材定义练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "函数极限定义五小问及陈教材定义练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:2",
@@ -1872,10 +1947,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -1888,7 +1963,8 @@
             38,
             38
           ],
-          "site_note": "有限点极限定义的否定、陈教材证明对照和改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "有限点极限定义的否定、陈教材证明对照和改编练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:3",
@@ -1899,10 +1975,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -1915,7 +1991,8 @@
             38,
             38
           ],
-          "site_note": "去心邻域变量平移证明及局部有界练习已整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "去心邻域变量平移证明及局部有界练习已整理。"
         },
         {
           "id": "3.1:exercise:4",
@@ -1926,10 +2003,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -1942,7 +2019,8 @@
             38,
             38
           ],
-          "site_note": "绝对值极限与逆命题边界、平方练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "绝对值极限与逆命题边界、平方练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:5",
@@ -1953,10 +2031,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -1969,7 +2047,8 @@
             38,
             39
           ],
-          "site_note": "左右极限定理双向证明及陈教材分段练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "左右极限定理双向证明及陈教材分段练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:6",
@@ -1984,10 +2063,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -2000,7 +2079,8 @@
             39,
             39
           ],
-          "site_note": "左右极限三小问及陈教材取整练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "左右极限三小问及陈教材取整练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:7",
@@ -2011,10 +2091,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -2027,7 +2107,8 @@
             39,
             39
           ],
-          "site_note": "正无穷和右邻域倒数变换、陈教材负无穷练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "正无穷和右邻域倒数变换、陈教材负无穷练习已首轮整理。"
         },
         {
           "id": "3.1:exercise:8",
@@ -2038,10 +2119,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -2054,7 +2135,8 @@
             39,
             40
           ],
-          "site_note": "黎曼函数有限例外点证明已首轮整理；原练习与 §3.3 习题 6 重复，暂缓替换。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "黎曼函数有限例外点证明已首轮整理；原练习与 §3.3 习题 6 重复，暂缓替换。"
         }
       ]
     },
@@ -2084,9 +2166,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "取整函数迫敛、陈教材对应习题及改编练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "取整函数迫敛、陈教材对应习题及改编练习已首轮整理。"
         },
         {
           "id": "3.2:example:2",
@@ -2098,9 +2181,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "三角函数四则极限、陈教材商法则证明及练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三角函数四则极限、陈教材商法则证明及练习已首轮整理。"
         },
         {
           "id": "3.2:example:3",
@@ -2112,9 +2196,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "有限幂差求和及陈教材二项式练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "有限幂差求和及陈教材二项式练习已首轮整理。"
         },
         {
           "id": "3.2:example:4",
@@ -2126,9 +2211,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "指数极限及陈教材对数证明、自编复合指数练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "指数极限及陈教材对数证明、自编复合指数练习已首轮整理。"
         },
         {
           "id": "3.2:exercise:1",
@@ -2148,10 +2234,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -2164,7 +2250,8 @@
             40,
             40
           ],
-          "site_note": "八小问四则运算、幂差、根式及五版答案对照已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "八小问四则运算、幂差、根式及五版答案对照已首轮整理。"
         },
         {
           "id": "3.2:exercise:2",
@@ -2178,10 +2265,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -2194,7 +2281,8 @@
             40,
             41
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:3",
@@ -2209,10 +2297,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -2225,7 +2313,8 @@
             41,
             42
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:4",
@@ -2239,7 +2328,7 @@
           "reference_match": "相关题，题面有差异，须说明改编",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 4,
@@ -2253,7 +2342,8 @@
             42
           ],
           "reference_note": "答案资料以 a_0、b_0 标记首项系数；第六版使用 a_m、b_n，需作符号对应。",
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:5",
@@ -2264,10 +2354,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -2280,7 +2370,8 @@
             42,
             42
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:6",
@@ -2291,10 +2382,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -2307,7 +2398,8 @@
             42,
             42
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:7",
@@ -2321,10 +2413,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -2337,7 +2429,8 @@
             42,
             42
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:8",
@@ -2354,10 +2447,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -2370,7 +2463,8 @@
             43,
             43
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:9",
@@ -2384,10 +2478,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -2400,7 +2494,8 @@
             43,
             43
           ],
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         },
         {
           "id": "3.2:exercise:10",
@@ -2414,7 +2509,7 @@
           "reference_match": "仅部分对应，条件或小问不同，不能直接套用",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "partial",
           "answer_question_number": 5,
@@ -2428,7 +2523,8 @@
             54
           ],
           "reference_note": "答案资料习题3.2未见此题；第三章总练习第5题（印刷页161，PDF第54页）的复合极限条件可作相关参考。",
-          "site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面和主解已首轮整理；举一反三暂缓补充。"
         }
       ]
     },
@@ -2458,9 +2554,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "归结原则与陈教材同题证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "归结原则与陈教材同题证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:1",
@@ -2471,10 +2568,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -2487,7 +2584,8 @@
             43,
             44
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:2",
@@ -2498,10 +2596,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -2514,7 +2612,8 @@
             44,
             44
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:3",
@@ -2528,10 +2627,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -2544,7 +2643,8 @@
             44,
             44
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:4",
@@ -2555,10 +2655,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -2571,7 +2671,8 @@
             44,
             44
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:5",
@@ -2582,10 +2683,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -2598,7 +2699,8 @@
             44,
             45
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:6",
@@ -2609,10 +2711,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -2625,7 +2727,8 @@
             45,
             45
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:7",
@@ -2636,10 +2739,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -2652,7 +2755,8 @@
             45,
             45
           ],
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.3:exercise:8",
@@ -2666,7 +2770,7 @@
           "reference_match": "相关题，题面有差异，须说明改编",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 8,
@@ -2680,7 +2784,8 @@
             45
           ],
           "reference_note": "第六版为定理3.10，答案资料对应的同一单侧归结原理编号为定理3.9。",
-          "site_note": "教材题面与主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题面与主解已首轮整理；练习暂缓。"
         }
       ]
     },
@@ -2710,9 +2815,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:2",
@@ -2724,9 +2830,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:3",
@@ -2738,9 +2845,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:4",
@@ -2752,9 +2860,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:example:5",
@@ -2766,9 +2875,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "重要极限例题与陈教材基础证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:1",
@@ -2790,10 +2900,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -2806,7 +2916,8 @@
             45,
             46
           ],
-          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:2",
@@ -2824,10 +2935,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -2840,7 +2951,8 @@
             47,
             47
           ],
-          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:3",
@@ -2851,10 +2963,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -2867,7 +2979,8 @@
             47,
             47
           ],
-          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.4:exercise:4",
@@ -2881,10 +2994,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -2897,7 +3010,8 @@
             47,
             48
           ],
-          "site_note": "书本题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本题及小问主解已首轮整理；练习暂缓。"
         }
       ]
     },
@@ -2927,9 +3041,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:example:2",
@@ -2941,9 +3056,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:example:3",
@@ -2955,9 +3071,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:example:4",
@@ -2969,9 +3086,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:example:5",
@@ -2983,9 +3101,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材例题与陈教材相关证明已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:example:6",
@@ -2997,9 +3116,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "渐近线、陈教材对应例题及代数法练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "渐近线、陈教材对应例题及代数法练习已首轮整理。"
         },
         {
           "id": "3.5:exercise:1",
@@ -3018,10 +3138,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -3034,7 +3154,8 @@
             48,
             49
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:2",
@@ -3051,7 +3172,7 @@
           "reference_match": "相关题，题面有差异，须说明改编",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 2,
@@ -3065,7 +3186,8 @@
             49
           ],
           "reference_note": "第六版引用定理3.13，答案资料对应定理编号3.12；题目表达式相同。",
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:3",
@@ -3079,7 +3201,7 @@
           "reference_match": "相关题，题面有差异，须说明改编",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "adapted",
           "answer_question_number": 3,
@@ -3093,7 +3215,8 @@
             49
           ],
           "reference_note": "第六版要求证明定理3.14，答案资料将同一倒数关系称为定理3.13。",
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:4",
@@ -3108,10 +3231,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -3124,7 +3247,8 @@
             50,
             50
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:5",
@@ -3140,10 +3264,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -3156,7 +3280,8 @@
             50,
             51
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:6",
@@ -3171,10 +3296,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -3187,7 +3312,8 @@
             51,
             51
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:7",
@@ -3198,10 +3324,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -3214,7 +3340,8 @@
             51,
             51
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:8",
@@ -3225,10 +3352,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -3241,7 +3368,8 @@
             51,
             51
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:9",
@@ -3252,10 +3380,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -3268,7 +3396,8 @@
             52,
             52
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.5:exercise:10",
@@ -3279,10 +3408,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 10,
@@ -3295,7 +3424,8 @@
             52,
             52
           ],
-          "site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题与全部小问主解已首轮整理；练习暂缓。"
         }
       ]
     },
@@ -3332,10 +3462,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -3348,7 +3478,8 @@
             52,
             53
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:2",
@@ -3363,10 +3494,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -3379,7 +3510,8 @@
             53,
             54
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:3",
@@ -3393,10 +3525,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -3409,7 +3541,8 @@
             54,
             54
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:4",
@@ -3420,10 +3553,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -3436,7 +3569,8 @@
             54,
             54
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:5",
@@ -3447,10 +3581,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -3463,7 +3597,8 @@
             54,
             54
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:6",
@@ -3478,10 +3613,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -3494,7 +3629,8 @@
             54,
             54
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:7",
@@ -3505,10 +3641,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 11,
@@ -3521,7 +3657,8 @@
             56,
             56
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:8",
@@ -3532,10 +3669,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 12,
@@ -3548,7 +3685,8 @@
             56,
             56
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:9",
@@ -3559,10 +3697,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 13,
@@ -3575,7 +3713,8 @@
             56,
             57
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         },
         {
           "id": "3.total:exercise:10",
@@ -3586,10 +3725,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 14,
@@ -3602,7 +3741,8 @@
             57,
             57
           ],
-          "site_note": "教材题及小问主解已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "教材题及小问主解已首轮整理；练习暂缓。"
         }
       ]
     },
@@ -3632,9 +3772,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "狄利克雷函数乘积连续性、陈教材证明及间断点练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "狄利克雷函数乘积连续性、陈教材证明及间断点练习已首轮整理。"
         },
         {
           "id": "4.1:example:2",
@@ -3646,9 +3787,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "分段函数单侧连续、陈教材对应例题及习题已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "分段函数单侧连续、陈教材对应例题及习题已首轮整理。"
         },
         {
           "id": "4.1:example:3",
@@ -3660,9 +3802,10 @@
           "reference_match": "教材原书有示范解；第五版答案资料是否覆盖例题尚未确认",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
-          "site_note": "黎曼函数连续性与陈教材相关原证已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "黎曼函数连续性与陈教材相关原证已首轮整理；练习暂缓。"
         },
         {
           "id": "4.1:exercise:1",
@@ -3676,10 +3819,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 1,
@@ -3692,7 +3835,8 @@
             57,
             57
           ],
-          "site_note": "倒数与绝对值的定义证明、陈教材闭区间练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "倒数与绝对值的定义证明、陈教材闭区间练习已首轮整理。"
         },
         {
           "id": "4.1:exercise:2",
@@ -3711,10 +3855,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 2,
@@ -3727,7 +3871,8 @@
             57,
             58
           ],
-          "site_note": "七个间断点小问、陈教材取整练习及答案资料已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "七个间断点小问、陈教材取整练习及答案资料已首轮整理。"
         },
         {
           "id": "4.1:exercise:3",
@@ -3742,10 +3887,10 @@
           ],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 3,
@@ -3758,7 +3903,8 @@
             58,
             59
           ],
-          "site_note": "三个连续延拓小问、陈教材根式补点练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "三个连续延拓小问、陈教材根式补点练习已首轮整理。"
         },
         {
           "id": "4.1:exercise:4",
@@ -3769,10 +3915,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 4,
@@ -3785,7 +3931,8 @@
             59,
             59
           ],
-          "site_note": "绝对值与平方连续性、逆命题反例及陈教材练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "绝对值与平方连续性、逆命题反例及陈教材练习已首轮整理。"
         },
         {
           "id": "4.1:exercise:5",
@@ -3796,10 +3943,10 @@
           "numbered_parts": [],
           "after_printed_divider": false,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 5,
@@ -3812,7 +3959,8 @@
             59,
             59
           ],
-          "site_note": "去心邻域相同、点值不同的连续性证明与自编数列练习已首轮整理。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "去心邻域相同、点值不同的连续性证明与自编数列练习已首轮整理。"
         },
         {
           "id": "4.1:exercise:6",
@@ -3823,10 +3971,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 6,
@@ -3839,7 +3987,8 @@
             59,
             59
           ],
-          "site_note": "书本证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本证明已首轮整理；练习暂缓。"
         },
         {
           "id": "4.1:exercise:7",
@@ -3850,10 +3999,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 7,
@@ -3866,7 +4015,8 @@
             59,
             60
           ],
-          "site_note": "书本证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本证明已首轮整理；练习暂缓。"
         },
         {
           "id": "4.1:exercise:8",
@@ -3877,10 +4027,10 @@
           "numbered_parts": [],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 8,
@@ -3893,7 +4043,8 @@
             60,
             60
           ],
-          "site_note": "书本证明已首轮整理；练习暂缓。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "书本证明已首轮整理；练习暂缓。"
         },
         {
           "id": "4.1:exercise:9",
@@ -3909,10 +4060,10 @@
           ],
           "after_printed_divider": true,
           "star": "未发现明确星号；仍需复核原题",
-          "reference_match": "题面及编号小问首轮对照一致；参考解尚需逐步核验",
+          "reference_match": "资料题面及编号小问已对照；解答逐题复核记录见项目进度。",
           "statement": "已录入",
           "solution": "首轮已整理",
-          "review": "已人工核查，仍可复核",
+          "review": "已逐题复核；跨题对应仍在检查",
           "implicit_demands": "已按原题检查",
           "answer_match_type": "exact",
           "answer_question_number": 9,
@@ -3926,7 +4077,8 @@
             60
           ],
           "reference_note": "答案资料(1)、(3)给出的分式在指定间断点无定义，违反题目“定义在[0,1]上”；须补定义或另行构造并证明。",
-          "site_note": "四个小问、参考答案定义域差异和陈教材练习已首轮整理并人工核查。"
+          "site_note": "题面、解答和练习已有逐题复核记录；跨题语义及试卷对应仍在检查。",
+          "legacy_site_note": "四个小问、参考答案定义域差异和陈教材练习已首轮整理并人工核查。"
         }
       ]
     },
