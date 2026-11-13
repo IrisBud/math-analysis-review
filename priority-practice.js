@@ -1102,3 +1102,19 @@ Object.assign(window.REVIEW_SOLUTIONS['3.5:exercise:2'], {
 for (const id of ['2.2:example:2', '2.3:exercise:10', '3.1:exercise:7', '3.total:exercise:8']) {
   window.REVIEW_SOLUTIONS[id].variantSource += ' 本练习涉及对数函数的性质，可参见华师大后续 §4.3。';
 }
+
+Object.assign(window.REVIEW_SOLUTIONS['3.4:exercise:1'], {
+  variantDeferred:false,
+  variantSource:'自编。以华师大第六版 §3.4 习题 1 的正弦基本极限为基础，考查参数随 x 任意变化时的统一控制。',
+  variant:String.raw`设 \(n(x)\) 在 0 的某去心邻域内取正整数值，不要求它有极限。证明
+\[\lim_{x\to0}\frac{n(x)\sin\!\left(\frac{x}{n(x)}\right)}{\sin x}=1.\]`,
+  variantSolution:String.raw`令 \(t(x)=\frac{x}{n(x)}\)。因为 \(n(x)\ge1\)，对所有足够接近 0 的 \(x\ne0\)，
+\[0<|t(x)|\le|x|\longrightarrow0.\]
+由正弦基本极限及复合极限，\(\frac{\sin t(x)}{t(x)}\to1\)。这一结论只用到上面的统一不等式，不要求 \(n(x)\) 收敛，也不要求它趋于无穷。
+
+当 \(0<|x|<\pi\) 时 \(\sin x\ne0\)，因此原式有定义，并可写成
+\[\frac{n(x)\sin\!\left(\frac{x}{n(x)}\right)}{\sin x}
+=\frac{\dfrac{\sin t(x)}{t(x)}}{\dfrac{\sin x}{x}}.\]
+分子和分母均趋于 1，且分母在该去心邻域非零。由商的极限法则，所求极限为 \(\boxed1\)。`,
+  verification:'教材十个小问及答案已有逐项复核；自编练习另检查任意正整数值参数、去心邻域分母和复合极限。'
+});
