@@ -520,3 +520,20 @@ window.MIDTERM_REFERENCES['4.1:exercise:1'].push(
 
 // Add the page-specific comparison after shared exam entries have been copied.
 window.MIDTERM_REFERENCES['2.2:exercise:3'][0].solution += String.raw` 教材第（6）问的第 \(k\) 项为 \(\frac1{\sqrt{n^2+k}}\)；试卷将分子改为 \(k\)，并将分母改为 \(n^2+n+k\)。`;
+
+// Same exam question at two textbook positions; retain each page's comparison.
+for (const [id, context] of [
+  ['3.4:exercise:1', '教材第（5）问'],
+  ['3.5:example:2', '教材例 2']
+]) {
+  const original = window.MIDTERM_REFERENCES['3.5:exercise:5'][0];
+  window.MIDTERM_REFERENCES[id].push({
+    ...original,
+    label:`25-26期中考试T13改编题（${context}；改变三角差并求等价系数）`,
+    solution:String.raw`在 0 的充分小邻域内，
+\[\sin2x-2\sin x=-2\cos x\,(\tan x-\sin x).\]
+${context}使用的核心三角差 \(\tan x-\sin x\) 除以 \(x^3\) 的极限为 \(\frac12\)，所以试卷中的三角差除以 \(x^3\) 的极限为 \(-1\)。试卷进一步要求确定等价无穷小的幂次和系数。
+
+` + original.solution
+  });
+}
