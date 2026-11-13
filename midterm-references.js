@@ -545,3 +545,13 @@ ${context}使用的核心三角差 \(\tan x-\sin x\) 除以 \(x^3\) 的极限为
 
 ` + ref.solution;
 }
+
+window.MIDTERM_REFERENCES['3.2:example:1'].push({
+  ...window.MIDTERM_REFERENCES['2.1:exercise:3'][0],
+  label:'24-25期中考试T1改编题（选择题；练习取正整数）',
+  solution:String.raw`本页练习为 \([x]^{\frac1x}\) 在 \(x\to+\infty\) 时的极限。取正整数 \(x=n\)，有 \([n]^{\frac1n}=\sqrt[n]n\)，即试卷的数列。注意本页练习的夹逼证明本身先用了 \(\sqrt[n]n\to1\)，因此不能把它倒过来当作这道数列题的独立证明。
+
+独立证明：令 \(u_n=\sqrt[n]n-1\ge0\)。当 \(n\ge2\) 时，二项式展开得
+\[n=(1+u_n)^n\ge1+\frac{n(n-1)}2u_n^2.\]
+因此 \(0\le u_n^2\le\frac2n\to0\)，从而 \(\sqrt[n]n\to1\)，选 \(\boxed{A}\)。`
+});
